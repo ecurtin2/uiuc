@@ -1,0 +1,13 @@
+[0] Config.pm:354> INFO - This is Biber 2.6
+[0] Config.pm:357> INFO - Logfile is 'GeneticAlgs.blg'
+[35] biber-MSWIN32:302> INFO - === 
+[56] Biber.pm:359> INFO - Reading 'GeneticAlgs.bcf'
+[149] Biber.pm:823> INFO - Found 1 citekeys in bib section 0
+[161] Biber.pm:3658> INFO - Processing section 0
+[178] Biber.pm:3828> INFO - Looking for bibtex format file 'GeneticAlgorithms.bib' for section 0
+[186] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[192] bibtex.pm:1282> INFO - Found BibTeX data source 'GeneticAlgorithms.bib'
+[194] Utils.pm:164> WARN - Invalid or undefined BibTeX entry key in file 'C:\Users\Evan\AppData\Local\Temp\O9Lb8KB1tx\GeneticAlgorithms.bib_4612.utf8', skipping ...
+[204] Utils.pm:180> ERROR - BibTeX subsystem: C:\Users\Evan\AppData\Local\Temp\O9Lb8KB1tx\GeneticAlgorithms.bib_4612.utf8, line 120, syntax error: found ",", expected one of: number, name (entry type, key, field, or macro name), end of entry ("}" or ")") or quoted string ({...} or "...")
+[204] Biber.pm:109> INFO - WARNINGS: 1
+[204] Biber.pm:113> INFO - ERRORS: 1
