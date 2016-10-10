@@ -1,2 +1,7 @@
-\frametitle{Backup slides}
-a
+\frametitle{Genetic Algorithm Parameters}
+Geometry Optimization: DFT PBE + VdW, \emph{tier1} basis in FHI-aims$^1$.
+	Convergence at 0.005 eV / \AA
+	\begin{figure}
+		\includegraphics[width=\linewidth, trim={0 0 0 1.2cm},clip]{images/Params.png}
+		\caption*{GA Parameters for Isoleucine Dipeptide$^2$}
+	\end{figure}

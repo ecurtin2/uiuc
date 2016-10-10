@@ -6,4 +6,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{The Genetic Algorithm}{17}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Conclusion}{23}{0}{3}
+\beamer@sectionintoc {3}{Finding Low Energy Conformers of Dipeptides}{42}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Concluding Remarks}{52}{0}{4}
