@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  10 OCT 2016 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  12 OCT 2016 13:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -859,212 +859,6 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count170
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/03/03 v3.3 programmable bibliographies (PK/JW/AB)
-
-
-Package biblatex Warning: No "backend" specified, using Biber backend.
-(biblatex)                To use BibTeX, load biblatex with 
-(biblatex)                the "backend=bibtex" option.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.sty
-Package: biblatex_ 2016/03/03 v3.3 programmable bibliographies (biber) (PK/JW/A
-B)
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count171
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count172
-\c@listtotal=\count173
-\c@listcount=\count174
-\c@liststart=\count175
-\c@liststop=\count176
-\c@citecount=\count177
-\c@citetotal=\count178
-\c@multicitecount=\count179
-\c@multicitetotal=\count180
-\c@instcount=\count181
-\c@maxnames=\count182
-\c@minnames=\count183
-\c@maxitems=\count184
-\c@minitems=\count185
-\c@citecounter=\count186
-\c@savedcitecounter=\count187
-\c@uniquelist=\count188
-\c@uniquename=\count189
-\c@refsection=\count190
-\c@refsegment=\count191
-\c@maxextratitle=\count192
-\c@maxextratitleyear=\count193
-\c@maxextrayear=\count194
-\c@maxextraalpha=\count195
-\c@abbrvpenalty=\count196
-\c@highnamepenalty=\count197
-\c@lownamepenalty=\count198
-\c@maxparens=\count199
-\c@parenlevel=\count266
-\blx@tempcnta=\count267
-\blx@tempcntb=\count268
-\blx@tempcntc=\count269
-\blx@maxsection=\count270
-\blx@maxsegment@0=\count271
-\blx@notetype=\count272
-\blx@parenlevel@text=\count273
-\blx@parenlevel@foot=\count274
-\blx@sectionciteorder@0=\count275
-\labelnumberwidth=\skip66
-\labelalphawidth=\skip67
-\biblabelsep=\skip68
-\bibitemsep=\skip69
-\bibnamesep=\skip70
-\bibinitsep=\skip71
-\bibparsep=\skip72
-\bibhang=\skip73
-\blx@bcfin=\read2
-\blx@bcfout=\write5
-\c@mincomprange=\count276
-\c@maxcomprange=\count277
-\c@mincompwidth=\count278
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count279
-\c@savedafterword=\count280
-\c@annotator=\count281
-\c@savedannotator=\count282
-\c@author=\count283
-\c@savedauthor=\count284
-\c@bookauthor=\count285
-\c@savedbookauthor=\count286
-\c@commentator=\count287
-\c@savedcommentator=\count288
-\c@editor=\count289
-\c@savededitor=\count290
-\c@editora=\count291
-\c@savededitora=\count292
-\c@editorb=\count293
-\c@savededitorb=\count294
-\c@editorc=\count295
-\c@savededitorc=\count296
-\c@foreword=\count297
-\c@savedforeword=\count298
-\c@holder=\count299
-\c@savedholder=\count300
-\c@introduction=\count301
-\c@savedintroduction=\count302
-\c@namea=\count303
-\c@savednamea=\count304
-\c@nameb=\count305
-\c@savednameb=\count306
-\c@namec=\count307
-\c@savednamec=\count308
-\c@translator=\count309
-\c@savedtranslator=\count310
-\c@shortauthor=\count311
-\c@savedshortauthor=\count312
-\c@shorteditor=\count313
-\c@savedshorteditor=\count314
-\c@labelname=\count315
-\c@savedlabelname=\count316
-\c@institution=\count317
-\c@savedinstitution=\count318
-\c@lista=\count319
-\c@savedlista=\count320
-\c@listb=\count321
-\c@savedlistb=\count322
-\c@listc=\count323
-\c@savedlistc=\count324
-\c@listd=\count325
-\c@savedlistd=\count326
-\c@liste=\count327
-\c@savedliste=\count328
-\c@listf=\count329
-\c@savedlistf=\count330
-\c@location=\count331
-\c@savedlocation=\count332
-\c@organization=\count333
-\c@savedorganization=\count334
-\c@origlocation=\count335
-\c@savedoriglocation=\count336
-\c@origpublisher=\count337
-\c@savedorigpublisher=\count338
-\c@publisher=\count339
-\c@savedpublisher=\count340
-\c@language=\count341
-\c@savedlanguage=\count342
-\c@pageref=\count343
-\c@savedpageref=\count344
-\shorthandwidth=\skip74
-\shortjournalwidth=\skip75
-\shortserieswidth=\skip76
-\shorttitlewidth=\skip77
-\shortauthorwidth=\skip78
-\shorteditorwidth=\skip79
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/03/03 v3.3 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex_.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.def
-File: biblatex_.def 
-\c@textcitecount=\count345
-\c@textcitetotal=\count346
-\c@textcitemaxnames=\count347
-\c@biburlnumpenalty=\count348
-\c@biburlucpenalty=\count349
-\c@biburllcpenalty=\count350
-\c@smartand=\count351
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count352
-\c@bbx:relatedtotal=\count353
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2016/03/03 v3.3 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
@@ -1082,47 +876,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen275
 \caption@hangindent=\dimen276
 )
-\c@ContinuedFloat=\count354
+\c@ContinuedFloat=\count171
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count355
-\float@exts=\toks49
-\float@box=\box58
-\@float@everytoks=\toks50
-\@floatcapt=\box59
-)
-\@float@every@algorithm=\toks51
-\c@algorithm=\count356
-)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Package: algpseudocode 
-
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count357
-\c@ALG@rem=\count358
-\c@ALG@nested=\count359
-\ALG@tlm=\skip80
-\ALG@thistlm=\skip81
-\c@ALG@Lnr=\count360
-\c@ALG@blocknr=\count361
-\c@ALG@storecount=\count362
-\c@ALG@tmpcounter=\count363
-\ALG@tmplength=\skip82
-)
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2016/02/07 v4.04 for typesetting chemical formulae
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -1138,24 +898,24 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count364
-\l_tmpa_int=\count365
-\l_tmpb_int=\count366
-\g_tmpa_int=\count367
-\g_tmpb_int=\count368
+\c_max_int=\count172
+\l_tmpa_int=\count173
+\l_tmpb_int=\count174
+\g_tmpa_int=\count175
+\g_tmpb_int=\count176
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count369
+\g__prg_map_int=\count177
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count370
-\l__iow_target_count_int=\count371
-\l__iow_current_line_int=\count372
-\l__iow_current_word_int=\count373
-\l__iow_current_indentation_int=\count374
+\l_iow_line_count_int=\count178
+\l__iow_target_count_int=\count179
+\l__iow_current_line_int=\count180
+\l__iow_current_word_int=\count181
+\l__iow_current_indentation_int=\count182
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen277
 \c_max_dim=\dimen278
@@ -1163,12 +923,12 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \l_tmpb_dim=\dimen280
 \g_tmpa_dim=\dimen281
 \g_tmpb_dim=\dimen282
-\c_zero_skip=\skip83
-\c_max_skip=\skip84
-\l_tmpa_skip=\skip85
-\l_tmpb_skip=\skip86
-\g_tmpa_skip=\skip87
-\g_tmpb_skip=\skip88
+\c_zero_skip=\skip66
+\c_max_skip=\skip67
+\l_tmpa_skip=\skip68
+\l_tmpb_skip=\skip69
+\g_tmpa_skip=\skip70
+\g_tmpb_skip=\skip71
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -1176,26 +936,26 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count375
-\l_keys_choice_int=\count376
+\g__keyval_level_int=\count183
+\l_keys_choice_int=\count184
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count377
-\c__fp_middle_shift_int=\count378
-\c__fp_trailing_shift_int=\count379
-\c__fp_big_leading_shift_int=\count380
-\c__fp_big_middle_shift_int=\count381
-\c__fp_big_trailing_shift_int=\count382
-\c__fp_Bigg_leading_shift_int=\count383
-\c__fp_Bigg_middle_shift_int=\count384
-\c__fp_Bigg_trailing_shift_int=\count385
+\c__fp_leading_shift_int=\count185
+\c__fp_middle_shift_int=\count186
+\c__fp_trailing_shift_int=\count187
+\c__fp_big_leading_shift_int=\count188
+\c__fp_big_middle_shift_int=\count189
+\c__fp_big_trailing_shift_int=\count190
+\c__fp_Bigg_leading_shift_int=\count191
+\c__fp_Bigg_middle_shift_int=\count192
+\c__fp_Bigg_trailing_shift_int=\count193
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
-\c_empty_box=\box60
-\l_tmpa_box=\box61
-\l_tmpb_box=\box62
-\g_tmpa_box=\box63
-\g_tmpb_box=\box64
+\c_empty_box=\box58
+\l_tmpa_box=\box59
+\l_tmpb_box=\box60
+\g_tmpa_box=\box61
+\g_tmpb_box=\box62
 L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
-\l__coffin_internal_box=\box65
+\l__coffin_internal_box=\box63
 \l__coffin_internal_dim=\dimen283
 \l__coffin_offset_x_dim=\dimen284
 \l__coffin_offset_y_dim=\dimen285
@@ -1203,14 +963,14 @@ L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_y_dim=\dimen287
 \l__coffin_x_prime_dim=\dimen288
 \l__coffin_y_prime_dim=\dimen289
-\c_empty_coffin=\box66
-\l__coffin_aligned_coffin=\box67
-\l__coffin_aligned_internal_coffin=\box68
-\l_tmpa_coffin=\box69
-\l_tmpb_coffin=\box70
-\l__coffin_display_coffin=\box71
-\l__coffin_display_coord_coffin=\box72
-\l__coffin_display_pole_coffin=\box73
+\c_empty_coffin=\box64
+\l__coffin_aligned_coffin=\box65
+\l__coffin_aligned_internal_coffin=\box66
+\l_tmpa_coffin=\box67
+\l_tmpb_coffin=\box68
+\l__coffin_display_coffin=\box69
+\l__coffin_display_coord_coffin=\box70
+\l__coffin_display_pole_coffin=\box71
 \l__coffin_display_offset_dim=\dimen290
 \l__coffin_display_x_dim=\dimen291
 \l__coffin_display_y_dim=\dimen292
@@ -1225,7 +985,7 @@ L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
 \l__box_bottom_new_dim=\dimen298
 \l__box_left_new_dim=\dimen299
 \l__box_right_new_dim=\dimen300
-\l__box_internal_box=\box74
+\l__box_internal_box=\box72
 \l__coffin_bounding_shift_dim=\dimen301
 \l__coffin_left_corner_dim=\dimen302
 \l__coffin_right_corner_dim=\dimen303
@@ -1237,7 +997,7 @@ L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count386
+\l__driver_color_stack_int=\count194
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
@@ -1247,74 +1007,74 @@ Package: l3regex 2016/01/19 v6377 L3 Experimental regular expressions
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
 Package: l3tl-build 2016/01/19 v6377 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count387
-\l__tl_build_index_int=\count388
+\l__tl_build_start_index_int=\count195
+\l__tl_build_index_int=\count196
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 Package: l3tl-analysis 2015/11/09 v6244 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count389
-\l__tl_analysis_index_int=\count390
-\l__tl_analysis_nesting_int=\count391
-\l__tl_analysis_type_int=\count392
+\l__tl_analysis_normal_int=\count197
+\l__tl_analysis_index_int=\count198
+\l__tl_analysis_nesting_int=\count199
+\l__tl_analysis_type_int=\count266
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2016/01/19 v6377 L3 Experimental flags
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
 Package: l3str-convert 2015/09/26 v6106 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count393
-\c__str_replacement_char_int=\count394
+\l__str_internal_int=\count267
+\c__str_replacement_char_int=\count268
 )
-\l__regex_internal_a_int=\count395
-\l__regex_internal_b_int=\count396
-\l__regex_internal_c_int=\count397
-\l__regex_balance_int=\count398
-\l__regex_group_level_int=\count399
-\l__regex_mode_int=\count400
-\l__regex_catcodes_int=\count401
-\l__regex_default_catcodes_int=\count402
-\c__regex_catcode_D_int=\count403
-\c__regex_catcode_S_int=\count404
-\c__regex_catcode_L_int=\count405
-\c__regex_catcode_O_int=\count406
-\c__regex_catcode_A_int=\count407
-\c__regex_all_catcodes_int=\count408
-\l__regex_show_lines_int=\count409
-\l__regex_min_state_int=\count410
-\l__regex_max_state_int=\count411
-\l__regex_left_state_int=\count412
-\l__regex_right_state_int=\count413
-\l__regex_capturing_group_int=\count414
-\l__regex_min_pos_int=\count415
-\l__regex_max_pos_int=\count416
-\l__regex_current_pos_int=\count417
-\l__regex_start_pos_int=\count418
-\l__regex_success_pos_int=\count419
-\l__regex_current_char_int=\count420
-\l__regex_current_catcode_int=\count421
-\l__regex_last_char_int=\count422
-\l__regex_case_changed_char_int=\count423
-\l__regex_current_state_int=\count424
-\l__regex_step_int=\count425
-\l__regex_min_active_int=\count426
-\l__regex_max_active_int=\count427
-\l__regex_replacement_csnames_int=\count428
-\l__regex_match_count_int=\count429
-\l__regex_submatch_int=\count430
-\l__regex_zeroth_submatch_int=\count431
+\l__regex_internal_a_int=\count269
+\l__regex_internal_b_int=\count270
+\l__regex_internal_c_int=\count271
+\l__regex_balance_int=\count272
+\l__regex_group_level_int=\count273
+\l__regex_mode_int=\count274
+\l__regex_catcodes_int=\count275
+\l__regex_default_catcodes_int=\count276
+\c__regex_catcode_D_int=\count277
+\c__regex_catcode_S_int=\count278
+\c__regex_catcode_L_int=\count279
+\c__regex_catcode_O_int=\count280
+\c__regex_catcode_A_int=\count281
+\c__regex_all_catcodes_int=\count282
+\l__regex_show_lines_int=\count283
+\l__regex_min_state_int=\count284
+\l__regex_max_state_int=\count285
+\l__regex_left_state_int=\count286
+\l__regex_right_state_int=\count287
+\l__regex_capturing_group_int=\count288
+\l__regex_min_pos_int=\count289
+\l__regex_max_pos_int=\count290
+\l__regex_current_pos_int=\count291
+\l__regex_start_pos_int=\count292
+\l__regex_success_pos_int=\count293
+\l__regex_current_char_int=\count294
+\l__regex_current_catcode_int=\count295
+\l__regex_last_char_int=\count296
+\l__regex_case_changed_char_int=\count297
+\l__regex_current_state_int=\count298
+\l__regex_step_int=\count299
+\l__regex_min_active_int=\count300
+\l__regex_max_active_int=\count301
+\l__regex_replacement_csnames_int=\count302
+\l__regex_match_count_int=\count303
+\l__regex_submatch_int=\count304
+\l__regex_zeroth_submatch_int=\count305
 ) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count432
-\l__xparse_m_args_int=\count433
-\l__xparse_mandatory_args_int=\count434
-\l__xparse_processor_int=\count435
-\l__xparse_v_nesting_int=\count436
+\l__xparse_current_arg_int=\count306
+\l__xparse_m_args_int=\count307
+\l__xparse_mandatory_args_int=\count308
+\l__xparse_processor_int=\count309
+\l__xparse_v_nesting_int=\count310
 )
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
 istry (CN)
-\l__chemgreek_tmpa_int=\count437
-\g__chemgreek_tmpa_int=\count438
+\l__chemgreek_tmpa_int=\count311
+\g__chemgreek_tmpa_int=\count312
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1366,52 +1126,40 @@ istry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count439
-\__mhchem_arrow_extPgfLength_skip=\skip89
-\mhchem@minispace@tmp=\skip90
-\mhchem@minibackspace@tmp=\skip91
-\mhchem@bondwidth=\skip92
-\mhchem@bondheight=\skip93
-\mhchem@smallbondwidth@tmpA=\skip94
-\mhchem@smallbondwidth@tmpB=\skip95
-\mhchem@smallbondwidth=\skip96
-\mhchem@bondtmp@minussidebearingleft=\skip97
-\mhchem@bondtmp@minussidebearingright=\skip98
-\l__mhchem_option_version_int=\count440
+\l__mhchem_ce_distanceFromLastComma_int=\count313
+\__mhchem_arrow_extPgfLength_skip=\skip72
+\mhchem@minispace@tmp=\skip73
+\mhchem@minibackspace@tmp=\skip74
+\mhchem@bondwidth=\skip75
+\mhchem@bondheight=\skip76
+\mhchem@smallbondwidth@tmpA=\skip77
+\mhchem@smallbondwidth@tmpB=\skip78
+\mhchem@smallbondwidth=\skip79
+\mhchem@bondtmp@minussidebearingleft=\skip80
+\mhchem@bondtmp@minussidebearingright=\skip81
+\l__mhchem_option_version_int=\count314
 \mhchem@option@minusmathsidebearingleft=\dimen308
 \mhchem@option@minusmathsidebearingright=\dimen309
 \mhchem@option@minustextsidebearingleft=\dimen310
 \mhchem@option@minustextsidebearingright=\dimen311
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
-)
-
-Package biblatex Warning: Patching footnotes failed.
-(biblatex)                Footnote detection will not work.
-
-\@quotelevel=\count441
-\@quotereset=\count442
 (./GeneticAlgs.aux)
 \openout1 = `GeneticAlgs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1449,17 +1197,17 @@ LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count443
+\scratchcounter=\count315
 \scratchdimen=\dimen312
-\scratchbox=\box75
-\nofMPsegments=\count444
-\nofMParguments=\count445
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count446
+\scratchbox=\box73
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count318
 \MPscratchDim=\dimen313
-\MPnumerator=\count447
-\makeMPintoPDFobject=\count448
-\everyMPtoPDFconversion=\toks53
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1476,8 +1224,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 27.
+\AtBeginShipoutBox=\box74
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1485,68 +1233,68 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count449
+\c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./GeneticAlgs.out) (./GeneticAlgs.out)
-\@outlinefile=\write6
-\openout6 = `GeneticAlgs.out'.
+\@outlinefile=\write5
+\openout5 = `GeneticAlgs.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 27.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 27.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 27.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 27.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 27.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 27.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 27.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 27.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 27.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 27.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 27.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 27.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 27.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 27.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 27.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
-7.
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-27.
+28.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 27.
+ut line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1572,28 +1320,16 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 27.
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'ascii'.
-\openout5 = `GeneticAlgs.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'GeneticAlgs.bbl' found.
- (./GeneticAlgs.bbl)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+LaTeX Info: Redefining \includegraphics on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 27.
+. Activating mapping `default' on line 28.
 .................................................
-(./GeneticAlgs.nav)
-Overfull \vbox (13.79993pt too high) detected at line 29
+ (./GeneticAlgs.nav)
+Overfull \vbox (13.79993pt too high) detected at line 30
  []
 
 [1
@@ -1601,22 +1337,22 @@ Overfull \vbox (13.79993pt too high) detected at line 29
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./GeneticAlgs.toc)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 34.
+(Font)              size <5> substituted on input line 35.
 
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 36.
+line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1645,40 +1381,27 @@ thkerncmss.
 \openout4 = `GeneticAlgs.vrb'.
 
  (./GeneticAlgs.vrb
-<images/ImplementationTables.PNG, id=94, 1382.16376pt x 292.09125pt>
-File: images/ImplementationTables.PNG Graphic file (type png)
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 5.
+LaTeX Font Info:    No file OMScmss.fd. on input line 5.
 
-<use images/ImplementationTables.PNG>
-Package pdftex.def Info: images/ImplementationTables.PNG used on input line 7.
-(pdftex.def)             Requested size: 307.28987pt x 64.93771pt.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 5.
+
 )
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [10
 
- <./images/ImplementationTables.PNG>] (./GeneticAlgs.vrb
-File: images/ImplementationTables.PNG Graphic file (type png)
- <use images/ImplementationTables.PNG>
-Package pdftex.def Info: images/ImplementationTables.PNG used on input line 7.
-(pdftex.def)             Requested size: 307.28987pt x 64.93771pt.
-)
+] (./GeneticAlgs.vrb)
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [11
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 76.
-
-LaTeX Font Info:    No file OMScmss.fd. on input line 76.
-
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 76.
-
-[12
+] [12
 
 ] [13
 
@@ -1691,11 +1414,11 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ] [17
 
 ]
-<images/GA_outline_Carwright.PNG, id=140, 268.75406pt x 351.56343pt>
+<images/GA_outline_Carwright.PNG, id=137, 268.75406pt x 351.56343pt>
 File: images/GA_outline_Carwright.PNG Graphic file (type png)
 
 <use images/GA_outline_Carwright.PNG>
-Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 109
+Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 128
 .
 (pdftex.def)             Requested size: 117.9987pt x 154.35579pt.
 Missing character: There is no â in font cmss8!
@@ -1704,11 +1427,11 @@ Missing character: There is no “ in font cmss8!
  [18
 
  <./images/GA_outline_Carwright.PNG>]
-<images/Supady1.jpeg, id=151, 207.4149pt x 93.4692pt>
+<images/Supady1.jpeg, id=149, 207.4149pt x 93.4692pt>
 File: images/Supady1.jpeg Graphic file (type jpg)
 
 <use images/Supady1.jpeg>
-Package pdftex.def Info: images/Supady1.jpeg used on input line 140.
+Package pdftex.def Info: images/Supady1.jpeg used on input line 159.
 (pdftex.def)             Requested size: 140.12247pt x 63.14603pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -1719,7 +1442,7 @@ Missing character: There is no “ in font cmss8!
 File: images/Supady1.jpeg Graphic file (type jpg)
 
 <use images/Supady1.jpeg>
-Package pdftex.def Info: images/Supady1.jpeg used on input line 140.
+Package pdftex.def Info: images/Supady1.jpeg used on input line 159.
 (pdftex.def)             Requested size: 140.12247pt x 63.14603pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -1729,7 +1452,7 @@ Missing character: There is no “ in font cmss8!
 ]
 File: images/Supady1.jpeg Graphic file (type jpg)
  <use images/Supady1.jpeg>
-Package pdftex.def Info: images/Supady1.jpeg used on input line 140.
+Package pdftex.def Info: images/Supady1.jpeg used on input line 159.
 (pdftex.def)             Requested size: 140.12247pt x 63.14603pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -1740,148 +1463,209 @@ Missing character: There is no “ in font cmss8!
 File: images/Supady1.jpeg Graphic file (type jpg)
 
 <use images/Supady1.jpeg>
-Package pdftex.def Info: images/Supady1.jpeg used on input line 140.
+Package pdftex.def Info: images/Supady1.jpeg used on input line 159.
 (pdftex.def)             Requested size: 140.12247pt x 63.14603pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [22
 
-] <images/pie1.PNG, id=174, 289.08pt x 289.08pt>
-File: images/pie1.PNG Graphic file (type png)
-
-<use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- <images/pie2.png, id=175, 289.08pt x 289.08pt>
-File: images/pie2.png Graphic file (type png)
-
-<use images/pie2.png>
-Package pdftex.def Info: images/pie2.png used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- [23
-
 ]
+<images/pie0.PNG, id=172, 198.38115pt x 198.38115pt>
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+
+<images/pie1.PNG, id=173, 263.24347pt x 263.42415pt>
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
-File: images/pie2.png Graphic file (type png)
- <use images/pie2.png>
-Package pdftex.def Info: images/pie2.png used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- [24
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+
+<images/pie2.PNG, id=174, 289.08pt x 289.08pt>
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[23
 
 ]
-File: images/pie1.PNG Graphic file (type png)
-
-<use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
-File: images/pie2.png Graphic file (type png)
- <use images/pie2.png>
-Package pdftex.def Info: images/pie2.png used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- [25
-
-]
-File: images/pie1.PNG Graphic file (type png)
- <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
-File: images/pie2.png Graphic file (type png)
-
-<use images/pie2.png>
-Package pdftex.def Info: images/pie2.png used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- [26
-
-]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
-File: images/pie2.png Graphic file (type png)
- <use images/pie2.png>
-Package pdftex.def Info: images/pie2.png used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- [27
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[24
+
+]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[25
+
+]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[26
+
+]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[27
+
+ <./images/pie0.PNG>]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+
+<use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[28
 
  <./images/pie1.PNG>]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
-File: images/pie2.png Graphic file (type png)
- <use images/pie2.png>
-Package pdftex.def Info: images/pie2.png used on input line 163.
-(pdftex.def)             Requested size: 147.49782pt x 147.49501pt.
- [28
+Package pdftex.def Info: images/pie1.PNG used on input line 183.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
 
- <./images/pie2.png>] <images/Genes_turingFinance.png, id=209, 964.60374pt x 51
-3.92pt>
+<use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 183.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 183--183
+[][] 
+ []
+
+[29
+
+ <./images/pie2.PNG>]
+<images/Genes_turingFinance.png, id=214, 964.60374pt x 513.92pt>
 File: images/Genes_turingFinance.png Graphic file (type png)
 
 <use images/Genes_turingFinance.png>
-Package pdftex.def Info: images/Genes_turingFinance.png used on input line 177.
-
-(pdftex.def)             Requested size: 258.5591pt x 137.74866pt.
- [29
-
- <./images/Genes_turingFinance.png (PNG copy)>]
-File: images/Genes_turingFinance.png Graphic file (type png)
- <use images/Genes_turingFinance.png>
-Package pdftex.def Info: images/Genes_turingFinance.png used on input line 177.
+Package pdftex.def Info: images/Genes_turingFinance.png used on input line 197.
 
 (pdftex.def)             Requested size: 258.5591pt x 137.74866pt.
  [30
 
+ <./images/Genes_turingFinance.png (PNG copy)>]
+File: images/Genes_turingFinance.png Graphic file (type png)
+ <use images/Genes_turingFinance.png>
+Package pdftex.def Info: images/Genes_turingFinance.png used on input line 197.
+
+(pdftex.def)             Requested size: 258.5591pt x 137.74866pt.
+ [31
+
 ]
-<images/sense.png, id=220, 648.92438pt x 645.91313pt>
+<images/sense.png, id=226, 446.41782pt x 307.1475pt>
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 
-<images/nonsense.png, id=221, 648.92438pt x 645.91313pt>
+<images/nonsense.png, id=227, 475.02469pt x 645.91313pt>
 File: images/nonsense.png Graphic file (type png)
 
 <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
- []
-
-[31
-
- <./images/sense.png> <./images/nonsense.png>]
-File: images/sense.png Graphic file (type png)
- <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
-File: images/nonsense.png Graphic file (type png)
-
-<use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
-
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [32
 
-]
+ <./images/sense.png (PNG copy)> <./images/nonsense.png>]
 File: images/sense.png Graphic file (type png)
- <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+
+<use images/sense.png>
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [33
@@ -1889,14 +1673,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [34
@@ -1904,14 +1688,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [35
@@ -1919,14 +1703,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [36
@@ -1934,14 +1718,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [37
@@ -1949,14 +1733,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [38
@@ -1964,14 +1748,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [39
@@ -1979,14 +1763,14 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [40
@@ -1994,82 +1778,87 @@ Overfull \vbox (16.79688pt too high) detected at line 220
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 220.
-(pdftex.def)             Requested size: 89.24806pt x 88.83057pt.
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-Overfull \vbox (16.79688pt too high) detected at line 220
+Overfull \vbox (19.32791pt too high) detected at line 241
  []
 
 [41
 
-] [42
+]
+File: images/sense.png Graphic file (type png)
+ <use images/sense.png>
+Package pdftex.def Info: images/sense.png used on input line 241.
+(pdftex.def)             Requested size: 101.99861pt x 70.17377pt.
+File: images/nonsense.png Graphic file (type png)
+ <use images/nonsense.png>
+Package pdftex.def Info: images/nonsense.png used on input line 241.
+(pdftex.def)             Requested size: 76.49944pt x 104.0184pt.
 
-] <images/Supady2.jpeg, id=285, 427.8384pt x 141.1674pt>
+Overfull \vbox (19.32791pt too high) detected at line 241
+ []
+
+[42
+
+] [43
+
+] <images/Supady2.jpeg, id=291, 427.8384pt x 141.1674pt>
 File: images/Supady2.jpeg Graphic file (type jpg)
 
 <use images/Supady2.jpeg>
-Package pdftex.def Info: images/Supady2.jpeg used on input line 233.
+Package pdftex.def Info: images/Supady2.jpeg used on input line 254.
 (pdftex.def)             Requested size: 307.28987pt x 101.39702pt.
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [43
-
- <./images/Supady2.jpeg>]
-<images/Confnums.png, id=293, 976.64874pt x 435.6275pt>
-File: images/Confnums.png Graphic file (type png)
-
-<use images/Confnums.png>
-Package pdftex.def Info: images/Confnums.png used on input line 255.
-(pdftex.def)             Requested size: 184.3758pt x 82.23831pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [44
 
- <./images/Confnums.png>]
-<images/Supady4.jpeg, id=299, 179.4705pt x 117.5592pt>
-File: images/Supady4.jpeg Graphic file (type jpg)
+ <./images/Supady2.jpeg>]
+<images/Confnums.png, id=298, 976.64874pt x 435.6275pt>
+File: images/Confnums.png Graphic file (type png)
 
-<use images/Supady4.jpeg>
-Package pdftex.def Info: images/Supady4.jpeg used on input line 278.
-(pdftex.def)             Requested size: 184.3758pt x 120.77159pt.
+<use images/Confnums.png>
+Package pdftex.def Info: images/Confnums.png used on input line 276.
+(pdftex.def)             Requested size: 184.3758pt x 82.23831pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [45
 
- <./images/Supady4.jpeg>]
-<images/Supady5.jpeg, id=306, 213.6783pt x 196.8153pt>
-File: images/Supady5.jpeg Graphic file (type jpg)
+ <./images/Confnums.png>]
+<images/Supady4.jpeg, id=305, 179.4705pt x 117.5592pt>
+File: images/Supady4.jpeg Graphic file (type jpg)
 
-<use images/Supady5.jpeg>
-Package pdftex.def Info: images/Supady5.jpeg used on input line 303.
-(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
+<use images/Supady4.jpeg>
+Package pdftex.def Info: images/Supady4.jpeg used on input line 299.
+(pdftex.def)             Requested size: 184.3758pt x 120.77159pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [46
 
- <./images/Supady5.jpeg>]
+ <./images/Supady4.jpeg>]
+<images/Supady5.jpeg, id=311, 213.6783pt x 196.8153pt>
 File: images/Supady5.jpeg Graphic file (type jpg)
 
 <use images/Supady5.jpeg>
-Package pdftex.def Info: images/Supady5.jpeg used on input line 303.
+Package pdftex.def Info: images/Supady5.jpeg used on input line 324.
 (pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [47
 
-]
+ <./images/Supady5.jpeg>]
 File: images/Supady5.jpeg Graphic file (type jpg)
- <use images/Supady5.jpeg>
-Package pdftex.def Info: images/Supady5.jpeg used on input line 303.
+
+<use images/Supady5.jpeg>
+Package pdftex.def Info: images/Supady5.jpeg used on input line 324.
 (pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2077,61 +1866,65 @@ Missing character: There is no “ in font cmss8!
  [48
 
 ]
-<images/Supady3.jpeg, id=322, 135.3858pt x 59.5023pt>
-File: images/Supady3.jpeg Graphic file (type jpg)
-
-<use images/Supady3.jpeg>
-Package pdftex.def Info: images/Supady3.jpeg used on input line 330.
-(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
-
-<images/Supady6.jpeg, id=323, 210.7875pt x 282.5757pt>
-File: images/Supady6.jpeg Graphic file (type jpg)
-
-<use images/Supady6.jpeg>
-Package pdftex.def Info: images/Supady6.jpeg used on input line 330.
-(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
+File: images/Supady5.jpeg Graphic file (type jpg)
+ <use images/Supady5.jpeg>
+Package pdftex.def Info: images/Supady5.jpeg used on input line 324.
+(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [49
 
- <./images/Supady3.jpeg> <./images/Supady6.jpeg>]
+]
+<images/Supady3.jpeg, id=328, 135.3858pt x 59.5023pt>
 File: images/Supady3.jpeg Graphic file (type jpg)
 
 <use images/Supady3.jpeg>
-Package pdftex.def Info: images/Supady3.jpeg used on input line 330.
+Package pdftex.def Info: images/Supady3.jpeg used on input line 351.
 (pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
+
+<images/Supady6.jpeg, id=329, 210.7875pt x 282.5757pt>
 File: images/Supady6.jpeg Graphic file (type jpg)
- <use images/Supady6.jpeg>
-Package pdftex.def Info: images/Supady6.jpeg used on input line 330.
+
+<use images/Supady6.jpeg>
+Package pdftex.def Info: images/Supady6.jpeg used on input line 351.
 (pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [50
 
-]
+ <./images/Supady3.jpeg> <./images/Supady6.jpeg>]
 File: images/Supady3.jpeg Graphic file (type jpg)
 
 <use images/Supady3.jpeg>
-Package pdftex.def Info: images/Supady3.jpeg used on input line 330.
+Package pdftex.def Info: images/Supady3.jpeg used on input line 351.
 (pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
 File: images/Supady6.jpeg Graphic file (type jpg)
  <use images/Supady6.jpeg>
-Package pdftex.def Info: images/Supady6.jpeg used on input line 330.
+Package pdftex.def Info: images/Supady6.jpeg used on input line 351.
 (pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [51
 
-] [52
-
 ]
+File: images/Supady3.jpeg Graphic file (type jpg)
+
+<use images/Supady3.jpeg>
+Package pdftex.def Info: images/Supady3.jpeg used on input line 351.
+(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
+File: images/Supady6.jpeg Graphic file (type jpg)
+ <use images/Supady6.jpeg>
+Package pdftex.def Info: images/Supady6.jpeg used on input line 351.
+(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [53
+ [52
+
+] [53
 
 ]
 Missing character: There is no â in font cmss8!
@@ -2143,14 +1936,14 @@ Missing character: There is no “ in font cmss8!
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
-
-[55
+ [55
 
 ]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [56
+
+[56
 
 ]
 Missing character: There is no â in font cmss8!
@@ -2164,22 +1957,28 @@ Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [58
 
-] [59
+]
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [59
+
+] [60
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 355.
+(hyperref)                removing `\translate ' on input line 376.
 
 \openout4 = `GeneticAlgs.vrb'.
 
-(./GeneticAlgs.vrb) [60
+(./GeneticAlgs.vrb) [61
 
 ]
 \openout4 = `GeneticAlgs.vrb'.
 
  (./GeneticAlgs.vrb
-<images/Params.png, id=393, 1275.76625pt x 601.24625pt>
+<images/Params.png, id=399, 1275.76625pt x 601.24625pt>
 File: images/Params.png Graphic file (type png)
 
 <use images/Params.png>
@@ -2192,32 +1991,26 @@ Missing character: There is no “ in font cmss8!
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [61
+ [62
 
  <./images/Params.png>]
-\tf@nav=\write7
-\openout7 = `GeneticAlgs.nav'.
+\tf@nav=\write6
+\openout6 = `GeneticAlgs.nav'.
 
-\tf@toc=\write8
-\openout8 = `GeneticAlgs.toc'.
+\tf@toc=\write7
+\openout7 = `GeneticAlgs.toc'.
 
-\tf@snm=\write9
-\openout9 = `GeneticAlgs.snm'.
+\tf@snm=\write8
+\openout8 = `GeneticAlgs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
  (./GeneticAlgs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
+Package rerunfilecheck Info: File `GeneticAlgs.out' has not changed.
+(rerunfilecheck)             Checksum: 1C2F6DA367383564A3708C8103297CEC;285.
 
-
-Package rerunfilecheck Warning: File `GeneticAlgs.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `GeneticAlgs.out':
-(rerunfilecheck)             Before: 8BE562A6D0691FA8D5845B08FBD4DECE;312
-(rerunfilecheck)             After:  1C2F6DA367383564A3708C8103297CEC;285.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -2225,19 +2018,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'GeneticAlgs.run.xml'.
-\openout1 = `GeneticAlgs.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 36110 strings out of 493029
- 715641 string characters out of 6136235
- 1105363 words of memory out of 5000000
- 38866 multiletter control sequences out of 15000+600000
- 13652 words of font info for 50 fonts, out of 8000000 for 9000
+ 30605 strings out of 493029
+ 616103 string characters out of 6136235
+ 671180 words of memory out of 5000000
+ 33421 multiletter control sequences out of 15000+600000
+ 15885 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,19n,96p,10413b,1039s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,19n,96p,10394b,1037s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texliv
@@ -2251,10 +2041,10 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on GeneticAlgs.pdf (61 pages, 1547406 bytes).
+Output written on GeneticAlgs.pdf (62 pages, 1395256 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 128 named destinations out of 1000 (max. 500000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 130 named destinations out of 1000 (max. 500000)
  164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

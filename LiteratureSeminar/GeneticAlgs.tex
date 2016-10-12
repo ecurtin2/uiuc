@@ -1,21 +1,22 @@
 \documentclass[10pt]{beamer}
 
 \usetheme{metropolis}
+\useoutertheme{metropolis}
+\useinnertheme{metropolis}
+\usefonttheme{metropolis}
+%\usecolortheme{seahorse}   % or your preferred color theme
 \usepackage{appendixnumberbeamer}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
-\usepackage{biblatex}
-%\usepackage{pgfplots}
-%\usepgfplotslibrary{dateplot}
-\addbibresource{GeneticAlgorithms.bib}
 \usepackage{xspace}
 \usepackage[justification=centering]{caption}
-\usepackage{algorithm}
-\usepackage[noend]{algpseudocode}
+
 \usepackage[version=3]{mhchem}
-\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 \definecolor{darkgreen}{RGB}{30, 133, 12}
+\definecolor{lightgray}{gray}{0.9}
+\renewcommand{\arraystretch}{1.2}
+
 
 
 \title{Finding Many Stable Molecular Arrangements}
@@ -55,24 +56,42 @@
 {%
 \setbeamertemplate{frame footer}{Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.}
 \begin{frame}[fragile]{Possible Solutions}
-	\begin{itemize}[<+->]
-		\item[] {Many techniques are well established}
-		\item[] {None are perfect}
-	\end{itemize}
-	\begin{figure}
-		\includegraphics[width=\linewidth]{images/ImplementationTables.PNG}
-	\end{figure}
+	\begin{columns}[c] % align columns
+		\begin{column}{.4\textwidth}
+			\begin{itemize}[<+->]
+				\item {Many techniques are well established}
+				\item {None are perfect}
+			\end{itemize}
+		\end{column}
+		\hfill
+		\begin{column}{.65\textwidth}
+			\footnotesize
+			\begin{tabular}{ l  l}
+				Method & Implented in 
+				\\ \midrule	
+				grid-based & CEASAR, \textbf{Open Babel, Confab,} \\ 
+				           & MacroModel, MOE  \\
+				rule-based & \textbf{ALFA, CONFECT,} CORINA, \\
+				           & ROTATE, \textbf{COSMOS}, OMEGA \\
+				population-based & \textbf{Balloon, Cyndi} \\ 
+				basin-hopping & \textbf{ASE, GMIN, TINKER SCAN} \\ 		
+			\end{tabular}
+		\end{column}
+	\end{columns}		
 \end{frame}
 }
 
 \begin{frame}{Desirables}
-	\begin{itemize}[<+->]
-		\item Accurate energies \& Structures, \emph{ab initio} or DFT
-		\item {Minimize number of geometry optimizations}
-		\item {Find the entire low energy population of conformations}
-		\item {Minimal human input}
-		\item {Parallel-Scalable}
-	\end{itemize}	
+	\metroset{block=fill}
+	\begin{block}{What Algorithm Properties do we want for conformer search?}
+		\begin{itemize}[<+->]
+			\item[1.] Accurate energies \& Structures, \emph{ab initio} or DFT
+			\item[2.] {Minimize number of geometry optimizations}
+			\item[3.] {Find the entire low energy population of conformations}
+			\item[4.] {Minimal human input}
+			\item[5.] {Parallel-Scalable}
+		\end{itemize}
+	\end{block}	
 \end{frame}
 
 \section{The Genetic Algorithm}
@@ -155,8 +174,9 @@
 		\hfill
 		\begin{column}{0.48\textwidth}
 		    \begin{overprint}
-				\onslide<5>\includegraphics[width=\linewidth]{images/pie1.PNG}
-				\onslide<6>\includegraphics[width=\linewidth]{images/pie2.png}
+			    \onslide<5>\includegraphics[width=\linewidth]{images/pie0.PNG}
+				\onslide<6>\includegraphics[width=\linewidth]{images/pie1.PNG}
+				\onslide<7>\includegraphics[width=1.1\linewidth]{images/pie2.PNG}
 			\end{overprint}
 		\end{column}	
 	\end{columns}
@@ -202,15 +222,16 @@
 		\hfill
 		\begin{column}{0.48\textwidth}
 			\onslide<11>\begin{itemize}
+				\medskip
 				\item[]{
 					\begin{figure}
-						\includegraphics[width=0.7\linewidth]{images/sense.png}
+						\includegraphics[width=0.8\linewidth]{images/sense.png}
 						\caption*{sensible}
 					\end{figure}
 				}
 			    \item[]{
 			    	\begin{figure}
-					    \includegraphics[width=0.7\linewidth]{images/nonsense.png}
+					    \includegraphics[width=0.6\linewidth]{images/nonsense.png}
 					    \caption*{utter nonsense}
 					\end{figure}
 				}

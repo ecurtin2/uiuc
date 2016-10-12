@@ -1,11 +1,5 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \beamer@endinputifotherversion {3.36pt}
-\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Background Information}{3}{0}{1}
-\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{The Genetic Algorithm}{17}{0}{2}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Finding Low Energy Conformers of Dipeptides}{42}{0}{3}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Concluding Remarks}{52}{0}{4}
+\beamer@sectionintoc {3}{Finding Low Energy Conformers of Dipeptides}{43}{0}{3}
+\beamer@sectionintoc {4}{Concluding Remarks}{53}{0}{4}
