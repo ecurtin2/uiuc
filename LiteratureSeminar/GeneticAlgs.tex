@@ -11,13 +11,18 @@
 \usepackage[scale=2]{ccicons}
 \usepackage{xspace}
 \usepackage[justification=centering]{caption}
+\usepackage{tabularx}
 
 \usepackage[version=3]{mhchem}
 \definecolor{darkgreen}{RGB}{30, 133, 12}
 \definecolor{lightgray}{gray}{0.9}
 \renewcommand{\arraystretch}{1.2}
 
+%dash length
+%chktex-file 8
 
+%space before/after ()
+%chktex-file 36
 
 \title{Finding Many Stable Molecular Arrangements}
 \subtitle{Conformational Searching with Genetic Algorithms}
@@ -49,7 +54,7 @@
 		\item[] {We may need information about one or more low-energy conformations}
 		\begin{itemize}
 			\item[$\Rightarrow$] {Ok, let's find them all!}
-		\end{itemize}	
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
@@ -67,23 +72,23 @@
 		\begin{column}{.65\textwidth}
 			\footnotesize
 			\begin{tabular}{ l  l}
-				Method & Implented in 
-				\\ \midrule	
-				grid-based & CEASAR, \textbf{Open Babel, Confab,} \\ 
+				Method & Implented in
+				\\ \midrule
+				grid-based & CEASAR, \textbf{Open Babel, Confab,} \\
 				           & MacroModel, MOE  \\
 				rule-based & \textbf{ALFA, CONFECT,} CORINA, \\
 				           & ROTATE, \textbf{COSMOS}, OMEGA \\
-				population-based & \textbf{Balloon, Cyndi} \\ 
-				basin-hopping & \textbf{ASE, GMIN, TINKER SCAN} \\ 		
+				population-based & \textbf{Balloon, Cyndi} \\
+				basin-hopping & \textbf{ASE, GMIN, TINKER SCAN} \\
 			\end{tabular}
 		\end{column}
-	\end{columns}		
+	\end{columns}
 \end{frame}
 }
 
 \begin{frame}{Desirables}
 	\metroset{block=fill}
-	\begin{block}{What Algorithm Properties do we want for conformer search?}
+	\begin{block}{What Algorithmic Properties do we want for conformer search?}
 		\begin{itemize}[<+->]
 			\item[1.] Accurate energies \& Structures, \emph{ab initio} or DFT
 			\item[2.] {Minimize number of geometry optimizations}
@@ -91,7 +96,7 @@
 			\item[4.] {Minimal human input}
 			\item[5.] {Parallel-Scalable}
 		\end{itemize}
-	\end{block}	
+	\end{block}
 \end{frame}
 
 \section{The Genetic Algorithm}
@@ -112,9 +117,9 @@
 				\end{itemize}
 				\item{$v = \left(\begin{smallmatrix}
 					x_1 & y_1 & z_1 & x_2 &  y_2 & z_2 &
-					... & x_N & y_N & z_N
+					\cdots & x_N & y_N & z_N
 					\end{smallmatrix}\right)$}
-				\item{$F = \frac{E_{max} - E}{E_{max} - E_{min}}$}
+				\item{$F = \frac{E_{\max} - E}{E_{\max} - E_{\min}}$}
 			\end{itemize}
 
 		\end{column}
@@ -123,42 +128,66 @@
 			\begin{figure}
 			\includegraphics[width=0.8\linewidth]{images/GA_outline_Carwright.PNG}
 			\end{figure}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 }
 
 {%
 \setbeamertemplate{frame footer}{1. Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
-		
-2. http://www.chemspider.com/Chemical-Structure.2298795.html}
-\begin{frame}{From Structure to Vector}
-	\begin{columns}[c] % align columns
-		\begin{column}{.48\textwidth}
-			\begin{itemize}
-				\item<1-> {Several Ways to Define Structure
-					\begin{itemize}
-						\item[] {Cartesian}
-						\item[] {Internal Coordinates (bond length, angle ...)}
-						\item[] {SMILES, InChI}
-					\end{itemize}
-				}
-				\item<2-> {InChI$^2$= 1S/C8H16/c1-5-7(3)8(4)6-2/h5-6H2,1-4H3/b8-7-}
-				\item<only@3> {Equivalent in theory}
-				\item<only@4> {Equivalent \alert{\textbf{in theory}}}
-			\end{itemize}			
-		\end{column}
-		\hfill
-		\begin{column}{0.48\textwidth}
-			\begin{figure}
-				\includegraphics[width=0.95\linewidth]{images/Supady1.jpeg}
-				\caption*{Representations of (3Z)-3,4-Dimethyl-3-hexene$^1$}
-			\end{figure}
-		\end{column}	
-	\end{columns}
+
+2.~http://www.chemspider.com/Chemical-Structure.2298795.html}
+\begin{frame}{The Many Representations of a Molecule}
+  \begin{columns}[c] % align columns
+    \begin{column}{.33\textwidth}
+      \begin{itemize}
+        \item[] {\alert{2D Image}}
+        \item[] {\includegraphics[width=0.95\linewidth]{images/2dRepr.PNG}}
+        \item[] {\alert{3D Image}}
+        \item[] {\includegraphics[width=0.95\linewidth]{images/3dRepr.PNG}}
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.3\textwidth}
+      \item[] {\alert{Name}}
+      \item[] {(3Z)-3,4- \newline Dimethyl-3-hexene}
+      \item[] {\alert{SMILES}}
+      \item[] {CCC(C)=C(C)CC}
+      \item[] {\alert{InChI}}
+      \item[] {1S/C8H16/c1-5-7(3)8(4)6-2/h5-6H2,1-4H3/b8-7-}
+    \end{column}
+
+    \begin{column}{0.33\textwidth}
+      \item[] {\alert{Cartesian Coords}}
+      \item[] {
+        \vspace*{-\baselineskip}
+        \begin{tabular}{l c c c}
+              &         x    &       y     &      z  \\
+          C   &       0.90   &    -0.25    &    0.02 \\
+          C   &       2.35   &     0.15    &   -0.17 \\
+          C   &       2.91   &     1.30    &   -0.67 \\
+        \end{tabular}
+
+      }
+      \item[]{}
+      \item[] {\alert{Internal Coords}}
+      \item[] {
+        \vspace*{-\baselineskip}
+        \begin{tabular}{l c c c c}
+          &   &   r  &   &  $\theta$ \\
+        C &   &      &   &           \\
+        C & 1 & 1.51 &   &           \\
+        C & 2 & 1.38 & 1 & 131       \\
+        \end{tabular}
+      }
+    \end{column}
+  \end{columns}
+  \begin{itemize}
+    \item[]<only@2> {Equivalent in theory}
+    \item[]<only@3> {Equivalent \alert{\textbf{in theory}}}
+  \end{itemize}
 \end{frame}
 }
-
 
 \begin{frame}{Selecting Parents}
 	\begin{columns}[c] % align columns
@@ -169,7 +198,7 @@
 				\item {Still give losers a chance}
 				\item {'Breed' pairs of winners}
 				\item {'Roulette Wheel' Method}
-			\end{itemize}				
+			\end{itemize}
 		\end{column}
 		\hfill
 		\begin{column}{0.48\textwidth}
@@ -178,13 +207,13 @@
 				\onslide<6>\includegraphics[width=\linewidth]{images/pie1.PNG}
 				\onslide<7>\includegraphics[width=1.1\linewidth]{images/pie2.PNG}
 			\end{overprint}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 
 {%
 \setbeamertemplate{frame footer}{http://www.turingfinance.com/computational-finance
-	
+
 -updates-ieee-world-congress-computational-intelligence}
 \begin{frame}{The Next Generation}
 	\begin{itemize}[<+->]
@@ -236,7 +265,7 @@
 					\end{figure}
 				}
 			\end{itemize}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 
@@ -263,7 +292,7 @@
 			\begin{itemize}
 				\item {GA beats other methods if space is large}
 				\item {Space gets large \textbf{\alert{fast}}}
-			\end{itemize}		
+			\end{itemize}
 		\end{column}
 		\hfill
 		\begin{column}{0.6\textwidth}
@@ -271,7 +300,7 @@
 				\includegraphics[width=\linewidth]{images/Confnums.png}
 				% \caption*{\# of Conformers per dipeptide}
 			\end{figure}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 }
@@ -286,7 +315,7 @@
 				\item {Smaller systems are reliably sampled}
 				\item {As \# of conformers increases, miss more and more}
 				\item {Is there a pattern to what is missed?}
-			\end{itemize}		
+			\end{itemize}
 		\end{column}
 		\hfill
 		\begin{column}{0.6\textwidth}
@@ -294,7 +323,7 @@
 				\includegraphics[width=\linewidth]{images/Supady4.jpeg}
 				\caption*{Proportion of conformers found with incrasing runs of the GA}
 			\end{figure}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 }
@@ -309,7 +338,7 @@
 				\item {Most misses are very high energy}
 				\item {Algorithm favors low energy areas of the space}
 				\item {Features low in energy are favored and recombined}
-			\end{itemize}		
+			\end{itemize}
 		\end{column}
 		\hfill
 		\begin{column}{0.6\textwidth}
@@ -319,7 +348,7 @@
 				  \textcolor{darkgreen}{---} New Found by GA \\
 				  \textcolor{gray}{---} In Reference \& GA}
 			\end{figure}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 }
@@ -338,7 +367,7 @@
 				}
 				\item {GA is more sensitive to energy cutoff}
 				\item {For finding low energy ensemble, GA outperforms purely stochastic/deterministic method}
-			\end{itemize}		
+			\end{itemize}
 		\end{column}
 		\hfill
 		\begin{column}{0.6\textwidth}
@@ -346,7 +375,7 @@
 				\includegraphics[width=0.75\linewidth]{images/Supady6.jpeg}
 				%\caption*{\textcolor{red}{a}}
 			\end{figure}
-		\end{column}	
+		\end{column}
 	\end{columns}
 \end{frame}
 }
@@ -363,7 +392,7 @@
 		\item {The Genetic Algorithm provides a framework for a refined global search}
 		\item {It shines when asked to find a host of low energy solutions}
 		\item {GA wrapper can be interfaced with a variety of electronic structure packages(NWChem, ORCA) and is available under the GNU Lesser General Public License at \url{https://github.com/adrianasupady/fafoom}}
-		
+
 	\end{itemize}
 \end{frame}
 }
@@ -382,14 +411,14 @@
 \end{frame}
 
 {%
-\setbeamertemplate{frame footer}{(1) Blum, V. et. al., M. Comput. Phys. Commun. 2009, 180 (11), 2175–2196.
-	
+\setbeamertemplate{frame footer}{(1) Blum, V. et.`\' al., M. Comput. Phys. Commun. 2009, 180 (11), 2175–2196.
+
 (2) Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
 
 	}
 \begin{frame}[fragile]{Genetic Algorithm Parameters}
 	Geometry Optimization: DFT PBE + VdW, \emph{tier1} basis in FHI-aims$^1$.
-	Convergence at 0.005 eV / \AA
+	Convergence at 0.005 eV /\AA{}
 	\begin{figure}
 		\includegraphics[width=\linewidth, trim={0 0 0 1.2cm},clip]{images/Params.png}
 		\caption*{GA Parameters for Isoleucine Dipeptide$^2$}
