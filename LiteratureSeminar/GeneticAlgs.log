@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  2 DEC 2016 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  2 DEC 2016 13:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1751,7 +1751,7 @@ Missing character: There is no “ in font cmss9!
 File: images/GA_outline_Carwright.PNG Graphic file (type png)
 
 <use images/GA_outline_Carwright.PNG>
-Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 216
+Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 217
 .
 (pdftex.def)             Requested size: 117.9987pt x 154.35579pt.
  [22
@@ -1760,21 +1760,21 @@ Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 216
 <images/2dRepr.PNG, id=182, 53.5995pt x 46.54224pt>
 File: images/2dRepr.PNG Graphic file (type png)
  <use images/2dRepr.PNG>
-Package pdftex.def Info: images/2dRepr.PNG used on input line 271.
+Package pdftex.def Info: images/2dRepr.PNG used on input line 272.
 (pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
 
 <images/3dRepr.PNG, id=183, 514.92375pt x 487.06969pt>
 File: images/3dRepr.PNG Graphic file (type png)
  <use images/3dRepr.PNG>
-Package pdftex.def Info: images/3dRepr.PNG used on input line 271.
+Package pdftex.def Info: images/3dRepr.PNG used on input line 272.
 (pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
 
-Overfull \hbox (7.25671pt too wide) in paragraph at lines 271--271
+Overfull \hbox (7.25671pt too wide) in paragraph at lines 272--272
 []\OT1/cmss/m/n/10 - 
  []
 
 
-Overfull \hbox (2.25674pt too wide) in paragraph at lines 271--271
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 272--272
 \OT1/cmss/m/n/10 CCC(C)=C(C)CC  
  []
 
@@ -1787,19 +1787,19 @@ Missing character: There is no “ in font cmss8!
 File: images/2dRepr.PNG Graphic file (type png)
 
 <use images/2dRepr.PNG>
-Package pdftex.def Info: images/2dRepr.PNG used on input line 271.
+Package pdftex.def Info: images/2dRepr.PNG used on input line 272.
 (pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
 File: images/3dRepr.PNG Graphic file (type png)
  <use images/3dRepr.PNG>
-Package pdftex.def Info: images/3dRepr.PNG used on input line 271.
+Package pdftex.def Info: images/3dRepr.PNG used on input line 272.
 (pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
 
-Overfull \hbox (7.25671pt too wide) in paragraph at lines 271--271
+Overfull \hbox (7.25671pt too wide) in paragraph at lines 272--272
 []\OT1/cmss/m/n/10 - 
  []
 
 
-Overfull \hbox (2.25674pt too wide) in paragraph at lines 271--271
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 272--272
 \OT1/cmss/m/n/10 CCC(C)=C(C)CC  
  []
 
@@ -1811,19 +1811,19 @@ Missing character: There is no “ in font cmss8!
 ]
 File: images/2dRepr.PNG Graphic file (type png)
  <use images/2dRepr.PNG>
-Package pdftex.def Info: images/2dRepr.PNG used on input line 271.
+Package pdftex.def Info: images/2dRepr.PNG used on input line 272.
 (pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
 File: images/3dRepr.PNG Graphic file (type png)
  <use images/3dRepr.PNG>
-Package pdftex.def Info: images/3dRepr.PNG used on input line 271.
+Package pdftex.def Info: images/3dRepr.PNG used on input line 272.
 (pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
 
-Overfull \hbox (7.25671pt too wide) in paragraph at lines 271--271
+Overfull \hbox (7.25671pt too wide) in paragraph at lines 272--272
 []\OT1/cmss/m/n/10 - 
  []
 
 
-Overfull \hbox (2.25674pt too wide) in paragraph at lines 271--271
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 272--272
 \OT1/cmss/m/n/10 CCC(C)=C(C)CC  
  []
 
@@ -1836,22 +1836,22 @@ Missing character: There is no “ in font cmss8!
 File: images/pie0.PNG Graphic file (type png)
 
 <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 296.
+Package pdftex.def Info: images/pie0.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
  <images/pie1.PNG, id=203, 263.24347pt x 263.42415pt>
 File: images/pie1.PNG Graphic file (type png)
 
 <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 296.
+Package pdftex.def Info: images/pie1.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
  <images/pie2.PNG, id=204, 289.08pt x 289.08pt>
 File: images/pie2.PNG Graphic file (type png)
 
 <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 296.
+Package pdftex.def Info: images/pie2.PNG used on input line 297.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 297--297
 [][] 
  []
 
@@ -1860,18 +1860,18 @@ Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
 ]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 296.
+Package pdftex.def Info: images/pie0.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 296.
+Package pdftex.def Info: images/pie1.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
  <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 296.
+Package pdftex.def Info: images/pie2.PNG used on input line 297.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 297--297
 [][] 
  []
 
@@ -1880,18 +1880,18 @@ Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
 ]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 296.
+Package pdftex.def Info: images/pie0.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 296.
+Package pdftex.def Info: images/pie1.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
  <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 296.
+Package pdftex.def Info: images/pie2.PNG used on input line 297.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 297--297
 [][] 
  []
 
@@ -1900,18 +1900,18 @@ Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
 ]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 296.
+Package pdftex.def Info: images/pie0.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 296.
+Package pdftex.def Info: images/pie1.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
  <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 296.
+Package pdftex.def Info: images/pie2.PNG used on input line 297.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 297--297
 [][] 
  []
 
@@ -1920,19 +1920,19 @@ Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
  <./images/pie0.PNG>]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 296.
+Package pdftex.def Info: images/pie0.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 296.
+Package pdftex.def Info: images/pie1.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
 
 <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 296.
+Package pdftex.def Info: images/pie2.PNG used on input line 297.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 297--297
 [][] 
  []
 
@@ -1941,19 +1941,19 @@ Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
  <./images/pie1.PNG>]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 296.
+Package pdftex.def Info: images/pie0.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 296.
+Package pdftex.def Info: images/pie1.PNG used on input line 297.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
 
 <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 296.
+Package pdftex.def Info: images/pie2.PNG used on input line 297.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 297--297
 [][] 
  []
 
@@ -1963,7 +1963,7 @@ Overfull \hbox (14.75067pt too wide) in paragraph at lines 296--296
 File: images/nextgen.png Graphic file (type png)
 
 <use images/nextgen.png>
-Package pdftex.def Info: images/nextgen.png used on input line 302.
+Package pdftex.def Info: images/nextgen.png used on input line 303.
 (pdftex.def)             Requested size: 307.28987pt x 196.65707pt.
  [32
 
@@ -1971,17 +1971,17 @@ Package pdftex.def Info: images/nextgen.png used on input line 302.
 <images/sense.png, id=246, 446.41782pt x 307.1475pt>
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 
 <images/nonsense.png, id=247, 475.02469pt x 645.91313pt>
 File: images/nonsense.png Graphic file (type png)
 
 <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [33
@@ -1990,14 +1990,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 File: images/sense.png Graphic file (type png)
 
 <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [34
@@ -2005,14 +2005,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [35
@@ -2020,14 +2020,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [36
@@ -2035,14 +2035,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [37
@@ -2050,14 +2050,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [38
@@ -2065,14 +2065,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [39
@@ -2080,14 +2080,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [40
@@ -2095,14 +2095,14 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 350.
+Package pdftex.def Info: images/sense.png used on input line 351.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 350.
+Package pdftex.def Info: images/nonsense.png used on input line 351.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 350
+Overfull \vbox (8.3918pt too high) detected at line 351
  []
 
 [41
@@ -2113,7 +2113,7 @@ Overfull \vbox (8.3918pt too high) detected at line 350
 File: images/Supady2.png Graphic file (type png)
 
 <use images/Supady2.png>
-Package pdftex.def Info: images/Supady2.png used on input line 367.
+Package pdftex.def Info: images/Supady2.png used on input line 368.
 (pdftex.def)             Requested size: 307.28987pt x 101.39702pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2130,7 +2130,7 @@ Missing character: There is no “ in font cmss8!
 <images/Supady4.png, id=315, 179.4705pt x 117.5592pt>
 File: images/Supady4.png Graphic file (type png)
  <use images/Supady4.png>
-Package pdftex.def Info: images/Supady4.png used on input line 425.
+Package pdftex.def Info: images/Supady4.png used on input line 426.
 (pdftex.def)             Requested size: 184.3758pt x 120.77159pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2142,7 +2142,7 @@ Missing character: There is no “ in font cmss8!
 <images/Supady5.png, id=322, 213.6783pt x 196.8153pt>
 File: images/Supady5.png Graphic file (type png)
  <use images/Supady5.png>
-Package pdftex.def Info: images/Supady5.png used on input line 450.
+Package pdftex.def Info: images/Supady5.png used on input line 451.
 (pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2153,7 +2153,7 @@ Missing character: There is no “ in font cmss8!
  <./images/Supady5.png>]
 File: images/Supady5.png Graphic file (type png)
  <use images/Supady5.png>
-Package pdftex.def Info: images/Supady5.png used on input line 450.
+Package pdftex.def Info: images/Supady5.png used on input line 451.
 (pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2164,7 +2164,7 @@ Missing character: There is no “ in font cmss8!
 File: images/Supady5.png Graphic file (type png)
 
 <use images/Supady5.png>
-Package pdftex.def Info: images/Supady5.png used on input line 450.
+Package pdftex.def Info: images/Supady5.png used on input line 451.
 (pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2175,13 +2175,13 @@ Missing character: There is no “ in font cmss8!
 <images/Supady3.png, id=339, 135.3858pt x 59.5023pt>
 File: images/Supady3.png Graphic file (type png)
  <use images/Supady3.png>
-Package pdftex.def Info: images/Supady3.png used on input line 477.
+Package pdftex.def Info: images/Supady3.png used on input line 478.
 (pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
 
 <images/Supady6.png, id=340, 210.7875pt x 282.5757pt>
 File: images/Supady6.png Graphic file (type png)
  <use images/Supady6.png>
-Package pdftex.def Info: images/Supady6.png used on input line 477.
+Package pdftex.def Info: images/Supady6.png used on input line 478.
 (pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2192,12 +2192,12 @@ Missing character: There is no “ in font cmss8!
  <./images/Supady3.png> <./images/Supady6.png>]
 File: images/Supady3.png Graphic file (type png)
  <use images/Supady3.png>
-Package pdftex.def Info: images/Supady3.png used on input line 477.
+Package pdftex.def Info: images/Supady3.png used on input line 478.
 (pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
 File: images/Supady6.png Graphic file (type png)
 
 <use images/Supady6.png>
-Package pdftex.def Info: images/Supady6.png used on input line 477.
+Package pdftex.def Info: images/Supady6.png used on input line 478.
 (pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2207,12 +2207,12 @@ Missing character: There is no “ in font cmss8!
 ]
 File: images/Supady3.png Graphic file (type png)
  <use images/Supady3.png>
-Package pdftex.def Info: images/Supady3.png used on input line 477.
+Package pdftex.def Info: images/Supady3.png used on input line 478.
 (pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
 File: images/Supady6.png Graphic file (type png)
 
 <use images/Supady6.png>
-Package pdftex.def Info: images/Supady6.png used on input line 477.
+Package pdftex.def Info: images/Supady6.png used on input line 478.
 (pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -2256,7 +2256,7 @@ Missing character: There is no “ in font cmss8!
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 504.
+(hyperref)                removing `\translate ' on input line 505.
 
 \openout4 = `GeneticAlgs.vrb'.
 
@@ -2291,11 +2291,11 @@ Missing character: There is no “ in font cmss8!
 \tf@snm=\write8
 \openout8 = `GeneticAlgs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
  (./GeneticAlgs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
 Package rerunfilecheck Info: File `GeneticAlgs.out' has not changed.
 (rerunfilecheck)             Checksum: 1C2F6DA367383564A3708C8103297CEC;285.
 
@@ -2306,17 +2306,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 527.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
  )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 273 ({)
-### simple group (level 1) entered at line 219 ({)
+### simple group (level 2) entered at line 274 ({)
+### simple group (level 1) entered at line 220 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  30742 strings out of 493029
  618247 string characters out of 6136235
- 674391 words of memory out of 5000000
+ 675391 words of memory out of 5000000
  33547 multiletter control sequences out of 15000+600000
  15885 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2335,7 +2335,7 @@ blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb>
-Output written on GeneticAlgs.pdf (60 pages, 2797719 bytes).
+Output written on GeneticAlgs.pdf (60 pages, 2797747 bytes).
 PDF statistics:
  491 PDF objects out of 1000 (max. 8388607)
  373 compressed objects within 4 object streams
