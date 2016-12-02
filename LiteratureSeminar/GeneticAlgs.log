@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  1 DEC 2016 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  2 DEC 2016 11:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1393,15 +1393,98 @@ Missing character: There is no “ in font cmss10!
 \openout4 = `GeneticAlgs.vrb'.
 
  (./GeneticAlgs.vrb
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 23.
-
-LaTeX Font Info:    No file OMScmss.fd. on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 5.
+LaTeX Font Info:    No file OMScmss.fd. on input line 5.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 23.
+(Font)              for symbol `textbullet' on input line 5.
 
+<images/ProteinFolding.png, id=70, 101.178pt x 70.68005pt>
+File: images/ProteinFolding.png Graphic file (type png)
+
+<use images/ProteinFolding.png>
+Package pdftex.def Info: images/ProteinFolding.png used on input line 13.
+(pdftex.def)             Requested size: 184.3758pt x 128.80612pt.
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+)
+Missing character: There is no Å in font cmss8!
+Missing character: There is no „ in font cmss8!
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [5
+
+ <./images/ProteinFolding.png>]
+(./GeneticAlgs.vrb
+File: images/ProteinFolding.png Graphic file (type png)
+ <use images/ProteinFolding.png>
+Package pdftex.def Info: images/ProteinFolding.png used on input line 13.
+(pdftex.def)             Requested size: 184.3758pt x 128.80612pt.
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+)
+Missing character: There is no Å in font cmss8!
+Missing character: There is no „ in font cmss8!
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [6
+
+] (./GeneticAlgs.vrb
+File: images/ProteinFolding.png Graphic file (type png)
+
+<use images/ProteinFolding.png>
+Package pdftex.def Info: images/ProteinFolding.png used on input line 13.
+(pdftex.def)             Requested size: 184.3758pt x 128.80612pt.
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+)
+Missing character: There is no Å in font cmss8!
+Missing character: There is no „ in font cmss8!
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [7
+
+] (./GeneticAlgs.vrb
+File: images/ProteinFolding.png Graphic file (type png)
+
+<use images/ProteinFolding.png>
+Package pdftex.def Info: images/ProteinFolding.png used on input line 13.
+(pdftex.def)             Requested size: 184.3758pt x 128.80612pt.
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+Missing character: There is no â in font cmss9!
+Missing character: There is no € in font cmss9!
+Missing character: There is no “ in font cmss9!
+)
+Missing character: There is no Å in font cmss8!
+Missing character: There is no „ in font cmss8!
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [8
+
+]
+\openout4 = `GeneticAlgs.vrb'.
+
+ (./GeneticAlgs.vrb
 Package epstopdf Info: Source file: <images/globalmin.eps>
 (epstopdf)                    date: 2016-12-01 14:26:43
 (epstopdf)                    size: 5776 bytes
@@ -1412,7 +1495,8 @@ Package epstopdf Info: Source file: <images/globalmin.eps>
 ted-to.pdf images/globalmin.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
-<images/globalmin-eps-converted-to.pdf, id=70, 268.00125pt x 480.79625pt>
+
+<images/globalmin-eps-converted-to.pdf, id=95, 268.00125pt x 480.79625pt>
 File: images/globalmin-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/globalmin-eps-converted-to.pdf>
@@ -1430,7 +1514,7 @@ ed-to.pdf images/manymins.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/manymins-eps-converted-to.pdf, id=71, 268.00125pt x 480.79625pt>
+<images/manymins-eps-converted-to.pdf, id=96, 268.00125pt x 480.79625pt>
 File: images/manymins-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/manymins-eps-converted-to.pdf>
@@ -1448,7 +1532,7 @@ Package epstopdf Info: Source file: <images/cutoff.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/cutoff-eps-converted-to.pdf, id=72, 268.00125pt x 480.79625pt>
+<images/cutoff-eps-converted-to.pdf, id=97, 268.00125pt x 480.79625pt>
 File: images/cutoff-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/cutoff-eps-converted-to.pdf>
@@ -1456,10 +1540,10 @@ Package pdftex.def Info: images/cutoff-eps-converted-to.pdf used on input line
 34.
 (pdftex.def)             Requested size: 124.4507pt x 223.25981pt.
 )
-Overfull \vbox (13.16861pt too high) detected at line 94
+Overfull \vbox (13.16861pt too high) detected at line 118
  []
 
-[5
+[9
 
 ] (./GeneticAlgs.vrb
 Package epstopdf Info: Source file: <images/globalmin.eps>
@@ -1510,10 +1594,10 @@ Package pdftex.def Info: images/cutoff-eps-converted-to.pdf used on input line
 34.
 (pdftex.def)             Requested size: 124.4507pt x 223.25981pt.
 )
-Overfull \vbox (13.16861pt too high) detected at line 94
+Overfull \vbox (13.16861pt too high) detected at line 118
  []
 
-[6
+[10
 
  <./images/globalmin-eps-converted-to.pdf>] (./GeneticAlgs.vrb
 Package epstopdf Info: Source file: <images/globalmin.eps>
@@ -1565,10 +1649,10 @@ Package pdftex.def Info: images/cutoff-eps-converted-to.pdf used on input line
 34.
 (pdftex.def)             Requested size: 124.4507pt x 223.25981pt.
 )
-Overfull \vbox (13.16861pt too high) detected at line 94
+Overfull \vbox (13.16861pt too high) detected at line 118
  []
 
-[7
+[11
 
  <./images/manymins-eps-converted-to.pdf>] (./GeneticAlgs.vrb
 Package epstopdf Info: Source file: <images/globalmin.eps>
@@ -1620,10 +1704,10 @@ Package pdftex.def Info: images/cutoff-eps-converted-to.pdf used on input line
 34.
 (pdftex.def)             Requested size: 124.4507pt x 223.25981pt.
 )
-Overfull \vbox (13.16861pt too high) detected at line 94
+Overfull \vbox (13.16861pt too high) detected at line 118
  []
 
-[8
+[12
 
  <./images/cutoff-eps-converted-to.pdf>]
 \openout4 = `GeneticAlgs.vrb'.
@@ -1632,160 +1716,63 @@ Overfull \vbox (13.16861pt too high) detected at line 94
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [9
+ [13
 
 ]
 (./GeneticAlgs.vrb)
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [10
-
-] [11
-
-] [12
-
-] [13
-
-] [14
+ [14
 
 ] [15
 
 ] [16
 
+] [17
+
+] [18
+
+] [19
+
+] [20
+
 ]
-<images/GA_outline_Carwright.PNG, id=143, 268.75406pt x 351.56343pt>
+<images/GA_outline_Carwright.PNG, id=168, 268.75406pt x 351.56343pt>
 File: images/GA_outline_Carwright.PNG Graphic file (type png)
 
 <use images/GA_outline_Carwright.PNG>
-Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 168
+Package pdftex.def Info: images/GA_outline_Carwright.PNG used on input line 196
 .
 (pdftex.def)             Requested size: 117.9987pt x 154.35579pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [17
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [21
 
  <./images/GA_outline_Carwright.PNG>]
-<images/2dRepr.PNG, id=153, 53.5995pt x 46.54224pt>
+<images/2dRepr.PNG, id=177, 53.5995pt x 46.54224pt>
 File: images/2dRepr.PNG Graphic file (type png)
  <use images/2dRepr.PNG>
-Package pdftex.def Info: images/2dRepr.PNG used on input line 223.
+Package pdftex.def Info: images/2dRepr.PNG used on input line 251.
 (pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
 
-<images/3dRepr.PNG, id=154, 514.92375pt x 487.06969pt>
+<images/3dRepr.PNG, id=178, 514.92375pt x 487.06969pt>
 File: images/3dRepr.PNG Graphic file (type png)
  <use images/3dRepr.PNG>
-Package pdftex.def Info: images/3dRepr.PNG used on input line 223.
+Package pdftex.def Info: images/3dRepr.PNG used on input line 251.
 (pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
 
-Overfull \hbox (7.25671pt too wide) in paragraph at lines 223--223
+Overfull \hbox (7.25671pt too wide) in paragraph at lines 251--251
 []\OT1/cmss/m/n/10 - 
  []
 
 
-Overfull \hbox (2.25674pt too wide) in paragraph at lines 223--223
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 251--251
 \OT1/cmss/m/n/10 CCC(C)=C(C)CC  
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[18
-
- <./images/2dRepr.PNG> <./images/3dRepr.PNG (PNG copy)>]
-File: images/2dRepr.PNG Graphic file (type png)
-
-<use images/2dRepr.PNG>
-Package pdftex.def Info: images/2dRepr.PNG used on input line 223.
-(pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
-File: images/3dRepr.PNG Graphic file (type png)
- <use images/3dRepr.PNG>
-Package pdftex.def Info: images/3dRepr.PNG used on input line 223.
-(pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
-
-Overfull \hbox (7.25671pt too wide) in paragraph at lines 223--223
-[]\OT1/cmss/m/n/10 - 
- []
-
-
-Overfull \hbox (2.25674pt too wide) in paragraph at lines 223--223
-\OT1/cmss/m/n/10 CCC(C)=C(C)CC  
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[19
-
-]
-File: images/2dRepr.PNG Graphic file (type png)
- <use images/2dRepr.PNG>
-Package pdftex.def Info: images/2dRepr.PNG used on input line 223.
-(pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
-File: images/3dRepr.PNG Graphic file (type png)
- <use images/3dRepr.PNG>
-Package pdftex.def Info: images/3dRepr.PNG used on input line 223.
-(pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
-
-Overfull \hbox (7.25671pt too wide) in paragraph at lines 223--223
-[]\OT1/cmss/m/n/10 - 
- []
-
-
-Overfull \hbox (2.25674pt too wide) in paragraph at lines 223--223
-\OT1/cmss/m/n/10 CCC(C)=C(C)CC  
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[20
-
-] <images/pie0.PNG, id=174, 198.38115pt x 198.38115pt>
-File: images/pie0.PNG Graphic file (type png)
-
-<use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
- <images/pie1.PNG, id=175, 263.24347pt x 263.42415pt>
-File: images/pie1.PNG Graphic file (type png)
-
-<use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
- <images/pie2.PNG, id=176, 289.08pt x 289.08pt>
-File: images/pie2.PNG Graphic file (type png)
-
-<use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 247.
-(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
-
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 247--247
-[][] 
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[21
-
-]
-File: images/pie0.PNG Graphic file (type png)
- <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
-File: images/pie1.PNG Graphic file (type png)
- <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
-File: images/pie2.PNG Graphic file (type png)
- <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 247.
-(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
-
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 247--247
-[][] 
  []
 
 Missing character: There is no â in font cmss8!
@@ -1793,22 +1780,24 @@ Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
 [22
 
-]
-File: images/pie0.PNG Graphic file (type png)
- <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
-File: images/pie1.PNG Graphic file (type png)
- <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
-File: images/pie2.PNG Graphic file (type png)
- <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 247.
-(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+ <./images/2dRepr.PNG> <./images/3dRepr.PNG (PNG copy)>]
+File: images/2dRepr.PNG Graphic file (type png)
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 247--247
-[][] 
+<use images/2dRepr.PNG>
+Package pdftex.def Info: images/2dRepr.PNG used on input line 251.
+(pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
+File: images/3dRepr.PNG Graphic file (type png)
+ <use images/3dRepr.PNG>
+Package pdftex.def Info: images/3dRepr.PNG used on input line 251.
+(pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
+
+Overfull \hbox (7.25671pt too wide) in paragraph at lines 251--251
+[]\OT1/cmss/m/n/10 - 
+ []
+
+
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 251--251
+\OT1/cmss/m/n/10 CCC(C)=C(C)CC  
  []
 
 Missing character: There is no â in font cmss8!
@@ -1817,21 +1806,22 @@ Missing character: There is no “ in font cmss8!
 [23
 
 ]
-File: images/pie0.PNG Graphic file (type png)
- <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
-File: images/pie1.PNG Graphic file (type png)
- <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 247.
-(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
-File: images/pie2.PNG Graphic file (type png)
- <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 247.
-(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+File: images/2dRepr.PNG Graphic file (type png)
+ <use images/2dRepr.PNG>
+Package pdftex.def Info: images/2dRepr.PNG used on input line 251.
+(pdftex.def)             Requested size: 68.57825pt x 59.55467pt.
+File: images/3dRepr.PNG Graphic file (type png)
+ <use images/3dRepr.PNG>
+Package pdftex.def Info: images/3dRepr.PNG used on input line 251.
+(pdftex.def)             Requested size: 68.57825pt x 64.86714pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 247--247
-[][] 
+Overfull \hbox (7.25671pt too wide) in paragraph at lines 251--251
+[]\OT1/cmss/m/n/10 - 
+ []
+
+
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 251--251
+\OT1/cmss/m/n/10 CCC(C)=C(C)CC  
  []
 
 Missing character: There is no â in font cmss8!
@@ -1839,366 +1829,394 @@ Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
 [24
 
- <./images/pie0.PNG>]
+] <images/pie0.PNG, id=196, 198.38115pt x 198.38115pt>
+File: images/pie0.PNG Graphic file (type png)
+
+<use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+ <images/pie1.PNG, id=197, 263.24347pt x 263.42415pt>
+File: images/pie1.PNG Graphic file (type png)
+
+<use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+ <images/pie2.PNG, id=198, 289.08pt x 289.08pt>
+File: images/pie2.PNG Graphic file (type png)
+
+<use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 276.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 276--276
+[][] 
+ []
+
+[25
+
+]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 247.
+Package pdftex.def Info: images/pie0.PNG used on input line 276.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 247.
+Package pdftex.def Info: images/pie1.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 276.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 276--276
+[][] 
+ []
+
+[26
+
+]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 276.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 276--276
+[][] 
+ []
+
+[27
+
+]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
+File: images/pie2.PNG Graphic file (type png)
+ <use images/pie2.PNG>
+Package pdftex.def Info: images/pie2.PNG used on input line 276.
+(pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
+
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 276--276
+[][] 
+ []
+
+[28
+
+ <./images/pie0.PNG>]
+File: images/pie0.PNG Graphic file (type png)
+ <use images/pie0.PNG>
+Package pdftex.def Info: images/pie0.PNG used on input line 276.
+(pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
+File: images/pie1.PNG Graphic file (type png)
+ <use images/pie1.PNG>
+Package pdftex.def Info: images/pie1.PNG used on input line 276.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
 
 <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 247.
+Package pdftex.def Info: images/pie2.PNG used on input line 276.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 247--247
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 276--276
 [][] 
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[25
+[29
 
  <./images/pie1.PNG>]
 File: images/pie0.PNG Graphic file (type png)
  <use images/pie0.PNG>
-Package pdftex.def Info: images/pie0.PNG used on input line 247.
+Package pdftex.def Info: images/pie0.PNG used on input line 276.
 (pdftex.def)             Requested size: 147.49782pt x 147.50201pt.
 File: images/pie1.PNG Graphic file (type png)
  <use images/pie1.PNG>
-Package pdftex.def Info: images/pie1.PNG used on input line 247.
+Package pdftex.def Info: images/pie1.PNG used on input line 276.
 (pdftex.def)             Requested size: 147.49782pt x 147.60092pt.
 File: images/pie2.PNG Graphic file (type png)
 
 <use images/pie2.PNG>
-Package pdftex.def Info: images/pie2.PNG used on input line 247.
+Package pdftex.def Info: images/pie2.PNG used on input line 276.
 (pdftex.def)             Requested size: 162.24849pt x 162.24539pt.
 
-Overfull \hbox (14.75067pt too wide) in paragraph at lines 247--247
+Overfull \hbox (14.75067pt too wide) in paragraph at lines 276--276
 [][] 
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[26
+[30
 
- <./images/pie2.PNG>] <images/nextgen.png, id=211, 2509.375pt x 1606.0pt>
+ <./images/pie2.PNG>] <images/nextgen.png, id=233, 2509.375pt x 1606.0pt>
 File: images/nextgen.png Graphic file (type png)
 
 <use images/nextgen.png>
-Package pdftex.def Info: images/nextgen.png used on input line 253.
+Package pdftex.def Info: images/nextgen.png used on input line 282.
 (pdftex.def)             Requested size: 307.28987pt x 196.65707pt.
- [27
+ [31
 
  <./images/nextgen.png>]
-<images/sense.png, id=218, 446.41782pt x 307.1475pt>
+<images/sense.png, id=241, 446.41782pt x 307.1475pt>
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
+Package pdftex.def Info: images/sense.png used on input line 330.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 
-<images/nonsense.png, id=219, 475.02469pt x 645.91313pt>
+<images/nonsense.png, id=242, 475.02469pt x 645.91313pt>
 File: images/nonsense.png Graphic file (type png)
 
 <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
+Package pdftex.def Info: images/nonsense.png used on input line 330.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 301
+Overfull \vbox (8.3918pt too high) detected at line 330
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[28
+[32
 
  <./images/sense.png (PNG copy)> <./images/nonsense.png>]
 File: images/sense.png Graphic file (type png)
 
 <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
+Package pdftex.def Info: images/sense.png used on input line 330.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
+Package pdftex.def Info: images/nonsense.png used on input line 330.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 301
+Overfull \vbox (8.3918pt too high) detected at line 330
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[29
-
-]
-File: images/sense.png Graphic file (type png)
- <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
-(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
-File: images/nonsense.png Graphic file (type png)
- <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
-(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
-
-Overfull \vbox (8.3918pt too high) detected at line 301
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[30
-
-]
-File: images/sense.png Graphic file (type png)
- <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
-(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
-File: images/nonsense.png Graphic file (type png)
- <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
-(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
-
-Overfull \vbox (8.3918pt too high) detected at line 301
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[31
-
-]
-File: images/sense.png Graphic file (type png)
- <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
-(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
-File: images/nonsense.png Graphic file (type png)
- <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
-(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
-
-Overfull \vbox (8.3918pt too high) detected at line 301
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-[32
-
-]
-File: images/sense.png Graphic file (type png)
- <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
-(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
-File: images/nonsense.png Graphic file (type png)
- <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
-(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
-
-Overfull \vbox (8.3918pt too high) detected at line 301
- []
-
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
 [33
 
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
+Package pdftex.def Info: images/sense.png used on input line 330.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
+Package pdftex.def Info: images/nonsense.png used on input line 330.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 301
+Overfull \vbox (8.3918pt too high) detected at line 330
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
 [34
 
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
+Package pdftex.def Info: images/sense.png used on input line 330.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
+Package pdftex.def Info: images/nonsense.png used on input line 330.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 301
+Overfull \vbox (8.3918pt too high) detected at line 330
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
 [35
 
 ]
 File: images/sense.png Graphic file (type png)
  <use images/sense.png>
-Package pdftex.def Info: images/sense.png used on input line 301.
+Package pdftex.def Info: images/sense.png used on input line 330.
 (pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
 File: images/nonsense.png Graphic file (type png)
  <use images/nonsense.png>
-Package pdftex.def Info: images/nonsense.png used on input line 301.
+Package pdftex.def Info: images/nonsense.png used on input line 330.
 (pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-Overfull \vbox (8.3918pt too high) detected at line 301
+Overfull \vbox (8.3918pt too high) detected at line 330
  []
 
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
 [36
 
-] [37
+]
+File: images/sense.png Graphic file (type png)
+ <use images/sense.png>
+Package pdftex.def Info: images/sense.png used on input line 330.
+(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
+File: images/nonsense.png Graphic file (type png)
+ <use images/nonsense.png>
+Package pdftex.def Info: images/nonsense.png used on input line 330.
+(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
 
-] <images/Supady2.png, id=273, 427.8384pt x 141.1674pt>
-File: images/Supady2.png Graphic file (type png)
+Overfull \vbox (8.3918pt too high) detected at line 330
+ []
 
-<use images/Supady2.png>
-Package pdftex.def Info: images/Supady2.png used on input line 318.
-(pdftex.def)             Requested size: 307.28987pt x 101.39702pt.
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [38
-
- <./images/Supady2.png>]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [39
+[37
 
 ]
-<images/Supady4.png, id=286, 179.4705pt x 117.5592pt>
-File: images/Supady4.png Graphic file (type png)
- <use images/Supady4.png>
-Package pdftex.def Info: images/Supady4.png used on input line 374.
-(pdftex.def)             Requested size: 184.3758pt x 120.77159pt.
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
+File: images/sense.png Graphic file (type png)
+ <use images/sense.png>
+Package pdftex.def Info: images/sense.png used on input line 330.
+(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
+File: images/nonsense.png Graphic file (type png)
+ <use images/nonsense.png>
+Package pdftex.def Info: images/nonsense.png used on input line 330.
+(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
+
+Overfull \vbox (8.3918pt too high) detected at line 330
+ []
+
+[38
+
+]
+File: images/sense.png Graphic file (type png)
+ <use images/sense.png>
+Package pdftex.def Info: images/sense.png used on input line 330.
+(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
+File: images/nonsense.png Graphic file (type png)
+ <use images/nonsense.png>
+Package pdftex.def Info: images/nonsense.png used on input line 330.
+(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
+
+Overfull \vbox (8.3918pt too high) detected at line 330
+ []
+
+[39
+
+]
+File: images/sense.png Graphic file (type png)
+ <use images/sense.png>
+Package pdftex.def Info: images/sense.png used on input line 330.
+(pdftex.def)             Requested size: 98.62645pt x 67.85385pt.
+File: images/nonsense.png Graphic file (type png)
+ <use images/nonsense.png>
+Package pdftex.def Info: images/nonsense.png used on input line 330.
+(pdftex.def)             Requested size: 65.7493pt x 89.4022pt.
+
+Overfull \vbox (8.3918pt too high) detected at line 330
+ []
 
 [40
 
- <./images/Supady4.png>]
-<images/Supady5.png, id=293, 213.6783pt x 196.8153pt>
-File: images/Supady5.png Graphic file (type png)
- <use images/Supady5.png>
-Package pdftex.def Info: images/Supady5.png used on input line 399.
-(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
+] [41
 
-[41
+] <images/Supady2.png, id=295, 427.8384pt x 141.1674pt>
+File: images/Supady2.png Graphic file (type png)
 
- <./images/Supady5.png>]
-File: images/Supady5.png Graphic file (type png)
- <use images/Supady5.png>
-Package pdftex.def Info: images/Supady5.png used on input line 399.
-(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
+<use images/Supady2.png>
+Package pdftex.def Info: images/Supady2.png used on input line 347.
+(pdftex.def)             Requested size: 307.28987pt x 101.39702pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [42
 
-]
-File: images/Supady5.png Graphic file (type png)
-
-<use images/Supady5.png>
-Package pdftex.def Info: images/Supady5.png used on input line 399.
-(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
+ <./images/Supady2.png>]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [43
 
 ]
-<images/Supady3.png, id=312, 135.3858pt x 59.5023pt>
-File: images/Supady3.png Graphic file (type png)
- <use images/Supady3.png>
-Package pdftex.def Info: images/Supady3.png used on input line 426.
-(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
-
-<images/Supady6.png, id=313, 210.7875pt x 282.5757pt>
-File: images/Supady6.png Graphic file (type png)
- <use images/Supady6.png>
-Package pdftex.def Info: images/Supady6.png used on input line 426.
-(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
+<images/Supady4.png, id=310, 179.4705pt x 117.5592pt>
+File: images/Supady4.png Graphic file (type png)
+ <use images/Supady4.png>
+Package pdftex.def Info: images/Supady4.png used on input line 405.
+(pdftex.def)             Requested size: 184.3758pt x 120.77159pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
 
 [44
 
- <./images/Supady3.png> <./images/Supady6.png>]
-File: images/Supady3.png Graphic file (type png)
- <use images/Supady3.png>
-Package pdftex.def Info: images/Supady3.png used on input line 426.
-(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
-File: images/Supady6.png Graphic file (type png)
-
-<use images/Supady6.png>
-Package pdftex.def Info: images/Supady6.png used on input line 426.
-(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
+ <./images/Supady4.png>]
+<images/Supady5.png, id=317, 213.6783pt x 196.8153pt>
+File: images/Supady5.png Graphic file (type png)
+ <use images/Supady5.png>
+Package pdftex.def Info: images/Supady5.png used on input line 430.
+(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [45
 
-]
-File: images/Supady3.png Graphic file (type png)
- <use images/Supady3.png>
-Package pdftex.def Info: images/Supady3.png used on input line 426.
-(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
-File: images/Supady6.png Graphic file (type png)
+[45
 
-<use images/Supady6.png>
-Package pdftex.def Info: images/Supady6.png used on input line 426.
-(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
+ <./images/Supady5.png>]
+File: images/Supady5.png Graphic file (type png)
+ <use images/Supady5.png>
+Package pdftex.def Info: images/Supady5.png used on input line 430.
+(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [46
 
-] [47
-
 ]
+File: images/Supady5.png Graphic file (type png)
+
+<use images/Supady5.png>
+Package pdftex.def Info: images/Supady5.png used on input line 430.
+(pdftex.def)             Requested size: 138.28185pt x 127.36984pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [48
+ [47
 
 ]
+<images/Supady3.png, id=334, 135.3858pt x 59.5023pt>
+File: images/Supady3.png Graphic file (type png)
+ <use images/Supady3.png>
+Package pdftex.def Info: images/Supady3.png used on input line 457.
+(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
+
+<images/Supady6.png, id=335, 210.7875pt x 282.5757pt>
+File: images/Supady6.png Graphic file (type png)
+ <use images/Supady6.png>
+Package pdftex.def Info: images/Supady6.png used on input line 457.
+(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+
+[48
+
+ <./images/Supady3.png> <./images/Supady6.png>]
+File: images/Supady3.png Graphic file (type png)
+ <use images/Supady3.png>
+Package pdftex.def Info: images/Supady3.png used on input line 457.
+(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
+File: images/Supady6.png Graphic file (type png)
+
+<use images/Supady6.png>
+Package pdftex.def Info: images/Supady6.png used on input line 457.
+(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [49
 
 ]
+File: images/Supady3.png Graphic file (type png)
+ <use images/Supady3.png>
+Package pdftex.def Info: images/Supady3.png used on input line 457.
+(pdftex.def)             Requested size: 102.91403pt x 45.23128pt.
+File: images/Supady6.png Graphic file (type png)
+
+<use images/Supady6.png>
+Package pdftex.def Info: images/Supady6.png used on input line 457.
+(pdftex.def)             Requested size: 138.28185pt x 185.37947pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [50
 
-]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [51
+] [51
 
 ]
 Missing character: There is no â in font cmss8!
@@ -2213,23 +2231,39 @@ Missing character: There is no “ in font cmss8!
  [53
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 453.
-
-\openout4 = `GeneticAlgs.vrb'.
-
-(./GeneticAlgs.vrb)
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [54
 
 ]
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [55
+
+]
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [56
+
+] [57
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 484.
+
+\openout4 = `GeneticAlgs.vrb'.
+
+(./GeneticAlgs.vrb) [58
+
+]
 \openout4 = `GeneticAlgs.vrb'.
 
  (./GeneticAlgs.vrb
-<images/Params.png, id=378, 1275.76625pt x 601.24625pt>
+<images/Params.png, id=401, 1275.76625pt x 601.24625pt>
 File: images/Params.png Graphic file (type png)
 
 <use images/Params.png>
@@ -2242,7 +2276,7 @@ Missing character: There is no “ in font cmss8!
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [55
+ [59
 
  <./images/Params.png>]
 \tf@nav=\write6
@@ -2254,11 +2288,11 @@ Missing character: There is no “ in font cmss8!
 \tf@snm=\write8
 \openout8 = `GeneticAlgs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 476.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 476.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 507.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 507.
  (./GeneticAlgs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 476.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 476.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 507.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 507.
 Package rerunfilecheck Info: File `GeneticAlgs.out' has not changed.
 (rerunfilecheck)             Checksum: 1C2F6DA367383564A3708C8103297CEC;285.
 
@@ -2269,20 +2303,21 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 476.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 507.
  )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 2)
 
-### simple group (level 1) entered at line 171 ({)
+### simple group (level 2) entered at line 253 ({)
+### simple group (level 1) entered at line 199 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30715 strings out of 493029
- 617855 string characters out of 6136235
- 675179 words of memory out of 5000000
- 33539 multiletter control sequences out of 15000+600000
+ 30738 strings out of 493029
+ 618212 string characters out of 6136235
+ 675344 words of memory out of 5000000
+ 33545 multiletter control sequences out of 15000+600000
  15885 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,19n,98p,10394b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,19n,98p,10394b,1383s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
@@ -2297,10 +2332,10 @@ blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb>
-Output written on GeneticAlgs.pdf (55 pages, 2457673 bytes).
+Output written on GeneticAlgs.pdf (59 pages, 2796063 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 116 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

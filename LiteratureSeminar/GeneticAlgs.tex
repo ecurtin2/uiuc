@@ -54,6 +54,30 @@
 
 \section{Background Information}
 
+{%
+\setbeamertemplate{frame footer}{Bierzyński, A. Acta Biochim. Pol. 2001, 48 (4), 1091–1099.}
+\begin{frame}[fragile]{The Problem}
+    \begin{columns}{}
+        \begin{column}{0.45\textwidth}
+            \begin{itemize}[<+->]
+                \item{Protein folding is important}
+                \item{Peptides are building blocks of protein}
+                \item{Peptide conformations $\rightarrow$ protein folding}
+                \item{How do we understand peptide conformations?}
+            \end{itemize}
+           \end{column}
+           \begin{column}{0.6\textwidth}
+               \begin{figure}
+			       \includegraphics[width=1.0\linewidth]{images/ProteinFolding.png}
+			       \caption*{Reddy, G.; Liu, Z.; Thirumalai, D. Proc. Natl. Acad. Sci. 2012, 109 (44), 17832–17838.}
+			   \end{figure}
+           \end{column}
+       \end{columns}     
+\end{frame}
+}
+
+{%
+\setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{The Problem}
     \begin{columns}{}
         \begin{column}{0.6\textwidth}
@@ -92,7 +116,7 @@
            \end{column}
        \end{columns}     
 \end{frame}
-
+}
 {%
 \setbeamertemplate{frame footer}{Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.}
 \begin{frame}[fragile]{Possible Solutions}
@@ -137,7 +161,11 @@
 \section{The Genetic Algorithm}
 
 {%
-	\setbeamertemplate{frame footer}{Carwright, H. Reviews in Computational Chemistry 2007 (25), pp 349–389.}
+	\setbeamertemplate{frame footer}{1. Carwright, H. Reviews in Computational Chemistry 2007 (25), pp 349$-$389.
+	
+2. (7428 Citations) Morris, G. et al. J. Comput. Chem. 1998, 19 (14), 1639$–$1662.
+
+3. Ru, X.; Song, C.; Lin, Z. J. Comput. Chem. 2016, 37 (13), 1214–1222.}
 \begin{frame}{Outline}
 	\begin{columns}[c] % align columns
 		\begin{column}{.48\textwidth}
@@ -222,7 +250,8 @@
   \end{itemize}
 \end{frame}
 
-
+{%
+\setbeamertemplate{frame footer}{}
 \begin{frame}{Selecting Parents}
 	\begin{columns}[c] % align columns
 		\begin{column}{.48\textwidth}
@@ -352,7 +381,9 @@
 }
 
 {%
-\setbeamertemplate{frame footer}{Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
+\setbeamertemplate{frame footer}{1) Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
+
+2) Ropo, M.; Schneider, M.; Baldauf, C.; Blum, V. Sci. Data 2016, 3, 160009.
 }
 \begin{frame}{Coverage}
 	\begin{columns}[c] % align columns
@@ -367,7 +398,7 @@
 		\begin{column}{0.6\textwidth}
 			\begin{figure}
 				\includegraphics[width=\linewidth]{images/Supady4.png}
-				\caption*{Proportion of conformers found with incrasing runs of the GA}
+				\caption*{Proportion of conformers found with increasing runs of the GA}
 			\end{figure}
 		\end{column}
 	\end{columns}
