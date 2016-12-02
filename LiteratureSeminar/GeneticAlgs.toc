@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Background Information}{4}{0}{1}
 \beamer@sectionintoc {2}{The Genetic Algorithm}{20}{0}{2}
-\beamer@sectionintoc {3}{Finding Low Energy Conformers of Dipeptides}{49}{0}{3}
-\beamer@sectionintoc {4}{Concluding Remarks}{59}{0}{4}
+\beamer@sectionintoc {3}{Finding Low Energy Conformers of Dipeptides}{47}{0}{3}
+\beamer@sectionintoc {4}{Concluding Remarks}{57}{0}{4}
