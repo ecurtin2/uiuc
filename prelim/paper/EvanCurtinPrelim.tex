@@ -10,12 +10,69 @@
 \usepackage{color}
 
 \begin{document}
-\title{Summary of Hartree-Fock Stability of HEG}
+\title{Hartree-Fock Stability Theory and its Relation to Correlation Theories}
 \author{Evan Curtin}
 \maketitle
 
 
 \section{Background}
+
+    The goal of electronic structure theory is to solve the electronic Schr{\"o}dinger equation
+    for a molecule or solid state system. The prevailing approach in \emph{ab initio} quantum 
+    chemistry is to first compute a self-consistent single-determinant Hartree-Fock (HF) solution 
+    which will serve as a reference for many-body perturbative (MP) or coupled-cluster (CC) 
+    approaches.  
+    Implicit in these methods is the assumption that the reference wave function will be 
+    sufficiently close to the exact solution of the Schr{\"o}dinger equation to converge to the 
+    correct 
+    answer in a computationally feasible manner. Both the MP and CC approaches have the attractive 
+    quality that they are systematically improvable, i.e. more computational power can be used on a 
+    problem to increase the accuracy of the resulting solution. These so-called post-Hartree-Fock 
+    methods are able to recover more of the total electronic energy by accounting for the 
+    \emph{correlation energy} in the system. Traditionally, the correlation energy is defined by 
+    the difference between the exact energy and the Hartree-Fock energy \cite{Shavitt2009}
+    \begin{equation}\label{correlation_energy}
+      E_{corr} = E_{exact} -  E_{HF}
+    \end{equation}
+    In many cases the correlation energy is relatively small and the Hartree-Fock reference 
+    captures a significant portion of the exact total energy. In such cases, the prevailing 
+    approach is usually successful and has only implementation issues for larger systems. On the 
+    other hand there are systems which are not well treated by this approach, which are often 
+    called "strongly correlated". Examples of such systems are those with degenerate or 
+    near-degenerate HOMO-LUMO gaps, metallic solids or molecules close to breaking bonds. 
+    Oftentimes for such systems the traditional Hartree-Fock solutions are not even qualitatively 
+    correct, implying inadequacies in either the single-reference or mean-field approach. 
+      
+      It is often neglected, however, that the usual way for computing a Hartree-Fock solution in 
+      practice
+    is to use a restricted form of the single determinantal wavefunction. In the Restricted 
+    Hartree-Fock (RHF), the wave function is restricted to be an eigenfunction of the $\hat{S^2}$ 
+    and $\hat{S_z}$ 
+    operators, while in the Unrestricted variant (UHF), the wave function need only be an 
+    eigenfunction 
+    of the $\hat{S_z}$. There is yet another lesser-known variation of the theory, known as General 
+    Hartree-Fock (GHF), which assumes no spin-symmetries in the wave function. This allows for 
+    greater
+    variational flexibility at the cost of "broken symmetry". Together these three levels of 
+    Hartree-Fock theory form a heirarchy of increasing parameter space within which to minimize the 
+    total energy. Thus the term "Hartree-Fock Energy" is inherently ambigious; this fact calling 
+    into question commonly held ideas about correlation and Hartree-Fock theory. Take for example 
+    the dissociation curve of H$_2$ in the RHF and UHF approximations, compared with the exact 
+    solution obtained by full configuration-interaction in the complete basis set limit. 
+    
+    \textcolor{red}{H2 curve pic}
+    
+    The correlation energy for the RHF reference case is dramatically larger than that for the UHF 
+    reference. In other words, \emph{the correlation energy is, by definition, inherently coupled 
+    to the 
+    Hartree-Fock reference}. The given example is well understood, but it brings to mind a more 
+    general idea that there may be more cases where apparently large correlation energies are due 
+    to simply 
+    using and inadequate level of Hartree-Fock theory.  
+    
+    
+    
+ 
     The Hartree-Fock procedure has been implemented the quantum many-body problem since its inception and remains the basis for many more advanced techniques even today. In general, the eigenstates of the Hartree-Fock Hamiltonian are solved self-consistently. However, this procedure ensures only that the solution is stationary with respect to the determined orbitals. A method for determining the stability of a Hartree-Fock solution was proposed by Thouless in 1960\cite{Thouless1960}. The condition for stability of a Hartree-Fock solution is equivalent to the conditions for unstable (complex frequency) many-body oscillations within the Random Phase Approximation (RPA). The condition was rederived into the expression familiar to quantum chemists by Čížek and Paldus in 1967\cite{Cizek1967}. Furthermore, the stability equations factorize depending on the symmetry of the Hartree-Fock eigenfunctions. To this end, Seeger and Pople outlined a hierarchical approach to systematically evaluate the stability of HF states in the restricted, unrestricted and generalized Hartree-Fock procedures\cite{Seeger1977}. Recently, the method has been used to aid the in search for the lowest energy Unrestricted Hartree-Fock (UHF) solutions in molecules, as well as the General Hartree-Fock (GHF) solutions in geometrically frustrated hydrogen rings which cannot conform even to the UHF scheme \cite{Pulay2016}\cite{Goings2015}.
     
     The presence of GHF solutions to the Homogeneous Electron Gas which have lower energy than the RHF solutions was proven in the landmark paper by Overhauser\cite{Overhauser1962}. Later still, the ground state energies of the electron gas were found to great accuracy by Ceperley and Alder \cite{Ceperley1980}. In the past few years, phase diagrams have been determined for the HEG in 2 and 3 dimensions\cite{Delyon2008}\cite{Bernu2011}\cite{Baguet2013}. In all cases the phase diagrams are made by computing the energies of the polarized and unpolarized states, and comparing them. The present work focuses on directly calculating the stability of the paramagnetic homogeneous electron gas as a function of electron density. It should be emphasized that instability of the Hartree-Fock solution is a sufficient, but not necessary, condition for the presence of a symmetry-broken Hartree-Fock solution of lower energy to exist. The technique may be used to guide a search for the lowest energy Hartree-Fock solution by following the instability eigenvectors downhill in energy. Such an approach will be attempted in a future paper. 
@@ -97,6 +154,6 @@
     
 
 \section{References}
-\bibliography{../heg_references}
+\bibliography{../prelim_references}
 
 \end{document}
