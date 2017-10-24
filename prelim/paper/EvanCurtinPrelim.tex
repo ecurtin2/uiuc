@@ -98,7 +98,10 @@
     The present work focuses on directly calculating the Hartree-Fock stability of 
     the 
     paramagnetic homogeneous electron gas as a function of electron density. In this way it is 
-    possible to map out where the symmetry broken Hartree-Fock reference is needed. 
+    possible to map out where the symmetry broken Hartree-Fock reference is needed. To date, an 
+    optimal form of the Hartree-Fock solution to the HEG remains unknown, even though exact energy 
+    (including correlation) is essentially known. Therefore determining a lower energy HF solution 
+    can yield insight into the effects of correlation of this fundamental physical model. 
     	
   \subsection{Method}
 
@@ -123,7 +126,7 @@
    	& \vec{k}''' = \vec{k} + \vec{k}' - \vec{k}'' + n\vec{G} \textbf{ and } | \vec{k} - 
    	\vec{k}''| \neq 0 \\
    	0 
-   	& \text{else}
+   	& \text{else},
    	\end{cases}
   \end{align}
   where $\Omega$ is the direct lattice volume and $n\vec{G}$ is any integer times a reciprocal 
@@ -148,21 +151,32 @@
       was implemented by representing the matrix as a matrix-vector product (made possible by the 
       SLEPc library\cite{Hernandez2005}). This allowed for two necessary optimizations. First, the 
       algorithmic change from full diagonalization to a subspace algorithm reduces the memory 
-      requirements from $O(N^2)$ to $O(N)$ and the computational scaling from $O(N^3)$ to $O(N^2)$. 
+      requirements from $O(N^2)$ to $O(N)$ and the computational scaling from $O(N^3)$ to $O(N^2)$ 
+      (See Fig~\ref{fig:scaling}). 
       Secondly, the parallelization of the algorithm allows the program to be run on the Blue 
-      Waters supercomputer with about 80\% strong parallel scaling efficiency. 
-     \begin{figure}[H]
-       \centering
-       \includegraphics[width=0.5\textwidth]{../figures/dav_vs_exact_scaling.eps}
-       \caption{The asymptotic scaling of both algorithms behaves as expected.}
-     \end{figure}  
-     \begin{figure}[H]
-     \centering
-      \includegraphics[width=0.5\textwidth]{../figures/parallel-scaling.eps}
-      \caption{The speedup of the entire calculation as the number of computer cores is 
-      sufficiently linear.}
-     \end{figure}     
-     These optimizations allow the calculation to be performed with enough grid points to         
+      Waters supercomputer with about 80\% strong parallel scaling efficiency 
+      (Fig~\ref{fig:parallel}). 
+
+     
+      \begin{figure}[t]
+        \begin{minipage}[c]{0.45\linewidth}
+          \includegraphics[height=0.7\linewidth]{../figures/dav_vs_exact_scaling.eps}
+          \caption{The asymptotic scaling of both algorithms behaves as expected.}
+          \label{fig:scaling}
+        \end{minipage}
+        ~
+        \begin{minipage}[c]{0.45\linewidth}
+          \includegraphics[height=0.7\linewidth]{../figures/parallel-scaling.eps}
+          \caption{The speedup of the entire calculation as the number of computer cores is 
+                          sufficiently linear.}
+          \label{fig:parallel}
+        \end{minipage}%
+      \end{figure}
+     
+     
+     These optimizations allow the calculation to be performed with enough grid points to converge 
+     the resulting "transition $r_s$", the Wigner-Seitz radius at which the HF solution transitions 
+     from stable to unstable.          
       \begin{figure}[H]
       \centering
         \includegraphics[width=0.75\textwidth]{../figures/stability.pdf}
@@ -170,11 +184,16 @@
         3 dimensions.}
       \end{figure}   
         
-    In each case, there is a clear density at which the triplet instability appears, and persists 
-    beyond. Tracking this quantity as a function of number of grid points in the calculation 
-    reveals that this "transition $r_s$" occurs at $r_s = 1$ in 2D and $r_s = 3$ in 3D. These 
-    results are consistent with those seen by other methods. 
-    \cite{Baguet2014}\cite{Bernu2011}
+    The transition $r_s$" occurs at $r_s = 1$ in 2D and $r_s = 3$ in 3D. These 
+    results are consistent with those seen by other methods\cite{Baguet2014}\cite{Bernu2011}. On 
+    the other hand, the transition 
+    $r_s$ for one dimension tends towards zero and stays quite close as the number of gridpoints 
+    increases. Indeed, numerical issues appear at very high density (low $r_s$) due to divergence 
+    of the two electron integrals in the asymptotic limit. With this in mind, it is clear at least 
+    that the instability in the 1D case persists even at very high densities (potentially all 
+    finite densities), which is to be expected from Overhauser's proof of instability at all 
+    values of $r_s$ in 1D for the delta function potential \cite{Overhauser1962}.
+
 
     \begin{figure}[H]
     \centering
@@ -229,7 +248,15 @@
     the dissociation curve of H$_2$ in the RHF and UHF approximations, compared with the exact 
     solution obtained by full configuration-interaction in the complete basis set limit. 
     
-    \textcolor{red}{H2 curve pic}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.75\textwidth]{../figures/H2_curves.png}
+      \caption{Dissociation curve in the RHF and UHF approximations, compared to the 
+               exact limit. The difference in correlation energies as determined by 
+               each reference illustrates the ambiguity of that quantity. In the large
+               dissociation limit, the correlation energy vanishes.}
+      \label{h2diss}
+    \end{figure}
     
     The correlation energy for the RHF reference case is dramatically larger than that for the UHF 
     reference. In other words, \emph{the correlation energy is, by definition, inherently coupled 
@@ -239,14 +266,46 @@
     to simply 
     using and inadequate level of Hartree-Fock theory. Scuseria and coworkers have leveraged this 
     idea to create new coupled cluster theories while preserving the symmetry of the reference 
-    \cite{Gomez2016}. While the exact wave function of will have the same symmetry as the exact 
-    Hamiltonian, it is important to remember that the Hartree-Fock Hamiltonian is not exact, and we 
+    \cite{Gomez2016}. 
+    
+    While the exact wave function of will have the same symmetry as the exact 
+    Hamiltonian (to be exact, the wave function will be an eigenfunction of all symmetry operators 
+    that commute with the Hamiltonian), it is important to remember that the Hartree-Fock 
+    Hamiltonian is not exact, and we 
     may have something to gain by taking the variational principal at face value; lower energy is 
-    always better. For certain observables this is not the case, but for energies alone we are free 
+    always better. For predicting certain observables this is not the case, but for energies alone 
+    we are free 
     to maintain this mindset. Therefore the overarching theme of the proposed work is that 
-    \emph{many 
-    examples of strong correlation may be illusory, and in order to find out we have to find lower 
-    energy Hartree-Fock solutions, even at the cost of broken symmetry}.    
+    \emph{\bf{many 
+    examples of strong correlation may be misleading, and in order to find out we have to find 
+    lower 
+    energy Hartree-Fock solutions, even at the cost of broken symmetry}}.    
+    
+    For some time an approach to find lower energy HF solutions has been known to follow the 
+    instability eigenvectors down in energy 
+    to find lower energy solutions \cite{Seeger1977}. This approach will, by construction, always 
+    lead to a lower energy HF solution than the starting point. However, it is important to 
+    remember that the instability condition is a local phenomena, and the lower energy solution is 
+    not itself guaranteed to be the \emph{lowest} energy solution. The standard approach still 
+    suffers 
+    from the global optimization problem: whether a solution is a local or global minimum can only 
+    be known by comparing it to the other minima of the surface. In fact, the problem of finding 
+    the lowest energy HF solution has a direct correspondence to the problem of finding minimum 
+    energy points on a potential energy surface of atomic coordinates. It is therefore proposed to 
+    adopt approaches from that field to apply to the current problem. An attractive approach is the 
+    Global Reaction Route Mapping (GRRM) method with its Anharmonic Downward Distortion (ADD) 
+    algorithm \cite{Ohno2006}\cite{Ohno2016}. In essence, the algorithm leverages the idea that the 
+    presence of a local minimum influences the surrounding energy landscape (in a smooth surface). 
+    The minimum will lower the energy pathways leading towards it, and softens the ascent of energy 
+    around a transition state. This softening of the PES can be seen by increased anharmonicity in 
+    the PES's Taylor expansion. Thus a waypoint from one minimum to another can be determined by 
+    finding the direction with the highest anharmonicity, and these can be followed to find new 
+    solutions. By adopting this approach to use 
+    molecular orbital expansion 
+    coefficients in place of normal mode coordinates, many minima of the Hartree-Fock electronic 
+    energy surface can be found. 
+    
+      
 
 \section{References}
 \bibliography{../prelim_references}

@@ -4,55 +4,55 @@ The top-level auxiliary file: EvanCurtinPrelim.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../prelim_references.bib
-Repeated entry---line 1196 of file ../prelim_references.bib
+Repeated entry---line 409 of file ../prelim_references.bib
  : @article{Cui2013
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1449 of file ../prelim_references.bib
+Repeated entry---line 897 of file ../prelim_references.bib
  : @article{Hernandez2005
  :                       ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 18 entries,
+You've used 20 entries,
             3411 wiz_defined-function locations,
-            1309 strings with 13890 characters,
-and the built_in function-call counts, 12577 in all, are:
-= -- 737
-> -- 387
-< -- 59
-+ -- 304
-- -- 94
-* -- 1797
-:= -- 1365
-add.period$ -- 18
-call.type$ -- 18
-change.case$ -- 74
-chr.to.int$ -- 21
-cite$ -- 18
-duplicate$ -- 1125
-empty$ -- 1072
-format.name$ -- 246
-if$ -- 2382
+            1327 strings with 14267 characters,
+and the built_in function-call counts, 13749 in all, are:
+= -- 812
+> -- 411
+< -- 64
++ -- 320
+- -- 100
+* -- 1952
+:= -- 1501
+add.period$ -- 20
+call.type$ -- 20
+change.case$ -- 82
+chr.to.int$ -- 23
+cite$ -- 20
+duplicate$ -- 1233
+empty$ -- 1178
+format.name$ -- 264
+if$ -- 2609
 int.to.chr$ -- 1
-int.to.str$ -- 19
-missing$ -- 174
-newline$ -- 69
-num.names$ -- 54
-pop$ -- 241
+int.to.str$ -- 21
+missing$ -- 191
+newline$ -- 75
+num.names$ -- 60
+pop$ -- 263
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 80
 quote$ -- 0
-skip$ -- 443
+skip$ -- 485
 stack$ -- 0
-substring$ -- 419
-swap$ -- 937
-text.length$ -- 48
+substring$ -- 467
+swap$ -- 1023
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 102
+type$ -- 114
 warning$ -- 0
-while$ -- 54
+while$ -- 60
 width$ -- 0
-write$ -- 226
+write$ -- 248
 (There were 2 error messages)
