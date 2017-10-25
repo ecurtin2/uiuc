@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -73,25 +73,27 @@
   \eprint{arXiv:1310.0942v1},
   \urlprefix\url{http://scitation.aip.org/content/aip/journal/jcp/139/15/10.1063/1.4824905}.
 
-\bibitem[{\citenamefont{Ceperley and Alder}(1980)}]{Ceperley1980}
-\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{Ceperley}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.~J.} \bibnamefont{Alder}},
-  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{45}},
-  \bibinfo{pages}{566} (\bibinfo{year}{1980}), ISSN \bibinfo{issn}{0031-9007},
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.45.566}.
-
-\bibitem[{\citenamefont{Phillips}(2012)}]{Phillips2012}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Phillips}},
-  \emph{\bibinfo{title}{{Advanced Solid State Physics}}}
-  (\bibinfo{publisher}{Cambridge University Press},
-  \bibinfo{address}{Cambridge}, \bibinfo{year}{2012}), \bibinfo{edition}{2nd}
-  ed., ISBN \bibinfo{isbn}{978-0-521-19490-7}.
+\bibitem[{\citenamefont{Yamada and Hirata}(2015)}]{Yamada2015}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yamada}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Hirata}},
+  \bibinfo{journal}{The Journal of Chemical Physics}
+  \textbf{\bibinfo{volume}{143}}, \bibinfo{pages}{114112}
+  (\bibinfo{year}{2015}), ISSN \bibinfo{issn}{0021-9606},
+  \urlprefix\url{http://dx.doi.org/10.1063/1.4929354
+  http://scitation.aip.org/content/aip/journal/jcp/143/11/10.1063/1.4929354}.
 
 \bibitem[{\citenamefont{Overhauser}(1962)}]{Overhauser1962}
 \bibinfo{author}{\bibfnamefont{A.~W.} \bibnamefont{Overhauser}},
   \bibinfo{journal}{Physical Review} \textbf{\bibinfo{volume}{128}},
   \bibinfo{pages}{1437} (\bibinfo{year}{1962}), ISSN \bibinfo{issn}{0031-899X},
   \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.128.1437}.
+
+\bibitem[{\citenamefont{Ceperley and Alder}(1980)}]{Ceperley1980}
+\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{Ceperley}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.~J.} \bibnamefont{Alder}},
+  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{45}},
+  \bibinfo{pages}{566} (\bibinfo{year}{1980}), ISSN \bibinfo{issn}{0031-9007},
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.45.566}.
 
 \bibitem[{\citenamefont{Delyon et~al.}(2008)\citenamefont{Delyon, Duneau,
   Bernu, and Holzmann}}]{Delyon2008}
@@ -181,5 +183,15 @@
 \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Ohno}},
   \bibinfo{journal}{Chemical Record} \textbf{\bibinfo{volume}{16}},
   \bibinfo{pages}{2198} (\bibinfo{year}{2016}), ISSN \bibinfo{issn}{15280691}.
+
+\bibitem[{\citenamefont{Supady et~al.}(2015)\citenamefont{Supady, Blum, and
+  Baldauf}}]{Supady2015}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Supady}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Blum}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Baldauf}},
+  \bibinfo{journal}{Journal of Chemical Information and Modeling}
+  \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{2338} (\bibinfo{year}{2015}),
+  ISSN \bibinfo{issn}{1549-9596},
+  \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.jcim.5b00243}.
 
 \end{thebibliography}

@@ -28,9 +28,10 @@
     solutions to the HF equations for a given system, but being a 
     solution to the Hartree-Fock equation ensures only that the solution is stationary with respect 
     to the 
-    determined orbitals. If the solution is indeed a minimum, it is called "stable", while if there 
+    determined orbitals. If the solution is indeed a minimum, it is called ``stable'', while if 
+    there 
     is any displacement in the electronic structure which reduces the energy, the solution is 
-    "unstable". A method for determining the stability of a Hartree-Fock solution was 
+    ``unstable''. A method for determining the stability of a Hartree-Fock solution was 
     proposed by Thouless in 1960\cite{Thouless1960}. The condition was rederived into the 
     expression familiar to quantum chemists by Čížek and Paldus in 1967\cite{Cizek1967}. 
     Furthermore, the stability equations factorize depending on the symmetry of the Hartree-Fock 
@@ -39,9 +40,14 @@
     generalized Hartree-Fock procedures\cite{Seeger1977}. Recently, the method has been used to aid 
     the in search for the lowest energy Unrestricted Hartree-Fock (UHF) solutions in molecules, as 
     well as the General Hartree-Fock (GHF) solutions in geometrically frustrated hydrogen rings 
-    which cannot conform even to the UHF scheme \cite{Pulay2016}\cite{Goings2015}.
+    which cannot conform even to the UHF scheme\cite{Pulay2016, Goings2015}. The lower energy HF 
+    solutions in these studies were found by first finding the instabilities in the higher 
+    spin-symmetry solutions, then using this information to find ``symmetry breaking'' 
+    displacements that lower the energy.
     
-    The usual method of determining stability of a Hartree-Fock solution is to look for a negative
+    To determine if there is indeed a symmetry-broken HF solution of lower energy, the usual method 
+    is to determine the stability of a found Hartree-Fock solution. Instabilities are indicated by a
+    negative
     eigenvalue the Electronic Hessian, 
     \begin{equation}
      \bf{H}=
@@ -57,10 +63,10 @@
      + \left< aj||ib \right>, \\
      B_{i \rightarrow a, j \rightarrow b} &= \left< ab||ij \right>. 
     \end{align}    
-    If $\bf{H}$ has a negative eigenvalue, this indicates an 
-    instability. For a paramagnetic HF solution, the equations 
-    factorize into the matrices known to 
-    chemists as the singlet and triplet instability matrices \cite{Dunning1967}\cite{Seeger1977},
+    For a paramagnetic HF solution (RHF), the Orbital Hessian
+    factorizes into the matrices known to 
+    chemists as the singlet and triplet instability matrices ($\bf{{}^1H}$ and $\bf{{}^3H}$, 
+    respectively)\cite{Dunning1967,Seeger1977}.
     
      \begin{subequations}
      	\begin{align}
@@ -72,34 +78,52 @@
      	{}^{3}{B'}_{i\rightarrow a, j\rightarrow b} &= -\braket{ab|ji}
      	\end{align}
      \end{subequations}
-     where the $1,3$ denote singlet and triplet instabilities, respectively. The lowest eigenvalue 
-     of both of 
-     these matrices will reveal the stability of the RHF solution. If they are both positive, the 
-     solution is stable with respect to symmetry breaking, while negative eigenvalues in either 
-     indicate instability with respect to either triplet or singlet perturbations (or both). An 
+      The lowest eigenvalue of both of 
+     these matrices will reveal the stability of the RHF solution. If  ${}^1\bf{H}$ has negative 
+     eigenvalues, the
+     solution is unstable with respect to changes that preserve singlet character (singlet 
+     instability), while if ${}^3\bf{H}$ has negative eigenvalues, the solution is unstable towards 
+     displacements that would change the wavefunction towards a triplet state (triplet 
+     instability). The solution is stable if neither ${}^1\bf{H}$ nor ${}^3\bf{H}$ has a negative 
+     eigenvalue. An 
      eigenvalue of 0 does not indicate instability, and this case is discussed 
      in detail by Cui et al \cite{Cui2013}.
     
     \subsection{Hartee-Fock Stability of the Homogeneous Electron Gas}
     
-    The Homogeneous Electron Gas (HEG) model of metallic systems is a convenient starting point 
-    for 
-    this study. The Energies of various phases thereof have been computed to great accuracy
-    \cite{Ceperley1980}, while plane wave solutions to the Hartree-Fock equations can be 
-    demonstrated analytically \cite{Phillips2012}. Furthermore, within the Hartree-Fock 
-    approximation, it has been known for half a century that broken symmetry solutions are always 
-    lower in energy compared to their paramagnetic counterparts \cite{Overhauser1962}. More 
+    Previously it has been shown for finite systems with form-degenerate HOMO-LUMO, there always 
+    exists a symmetry-breaking instability\cite{Yamada2015}. Whether this theorem holds in the 
+    infinite case remains to be seen. To investigate HF instabilities in zero band gap solids, a 
+    natural starting point is the Homogeneous Electron Gas (HEG, often called Jellium or Uniform 
+    Electron Gas) model. The model consists of electrons in a box with periodic boundary conditions 
+    and the constraint that the entire system is charge-neutral via a uniform background positive 
+    charge. The resulting coulomb interactions cancel exactly, and the only remaining terms are due 
+    to kinetic and exchange energies. Historically it was thought that the 
+    a plane wave paramagnetic solution to the HF equations for this model was the ``correct'' 
+    solution. However, in a landmark paper, Overhauser showed that certain symmetry broken 
+    solutions \emph{always} have lower energy than the paramagnetic solutions at all electron 
+    densities\cite{Overhauser1962}. This hints at, but does not show, that the analogous triplet 
+    instability theorem persists in the infinite case.  
+    
+      Overhausers' paper sparked new interest in the HEG, and since then Energies of various 
+      phases thereof 
+      have been computed to great 
+    accuracy\cite{Ceperley1980}. More 
     recently, phase diagrams have been determined for the 
-    HEG in 2 and 3 dimensions\cite{Delyon2008}\cite{Bernu2011}\cite{Baguet2013}. In all cases the 
+    HEG in 2 and 3 dimensions\cite{Delyon2008, Bernu2011, Baguet2013}. In all cases the 
     phase diagrams are made by computing the energies of the polarized and unpolarized states, and 
     comparing them. This approach necessitates that the form of the solutions is known ahead of 
     time. 
     
     The present work focuses on directly calculating the Hartree-Fock stability of 
     the 
-    paramagnetic homogeneous electron gas as a function of electron density. In this way it is 
-    possible to map out where the symmetry broken Hartree-Fock reference is needed. To date, an 
-    optimal form of the Hartree-Fock solution to the HEG remains unknown, even though exact energy 
+    paramagnetic homogeneous electron gas as a function of electron density. The motivation is 
+    two-fold. First, the numerical studies of this model can give computational evidence for or 
+    against the ubiquity of symmetry-breaking HF instabilities in metallic solids. Secondly, the 
+    instabilities can help in determining lower energy HF solutions of the HEG. This is because the 
+    study will reveal where the symmetry broken Hartree-Fock reference is needed. To date, an 
+    optimal form (i.e. minimal energy in the HF manifold) of the Hartree-Fock solution to the HEG 
+    remains unknown, even though exact energy 
     (including correlation) is essentially known. Therefore determining a lower energy HF solution 
     can yield insight into the effects of correlation of this fundamental physical model. 
     	
@@ -117,19 +141,19 @@
 	\end{equation}
 	where $L$ is the length of one side of the direct lattice with cubic symmetry. Using this as the 
 	basis for the rest of the analysis, the two electron repulsion integrals are analytic and 
-	well-behaved in two and three dimensions \cite{Delyon2008}\cite{Guiliani2005}
+	well-behaved in two and three dimensions\cite{Delyon2008, Guiliani2005}
   \begin{align}
    	\braket{\vec{k}, \vec{k}' | \vec{k}'', \vec{k}'''} 
   	  \stackrel{ \text{2D, 3D} }{=}&
    	\begin{cases} 
-   	\frac{\pi} {\Omega} \frac{ 2^{D-1} } { | \vec{k} - \vec{k}'' | ^ {D-1} } 
+   	\frac{\pi} {L ^ D} \frac{ 2^{D-1} } { | \vec{k} - \vec{k}'' | ^ {D-1} } 
    	& \vec{k}''' = \vec{k} + \vec{k}' - \vec{k}'' + n\vec{G} \textbf{ and } | \vec{k} - 
    	\vec{k}''| \neq 0 \\
    	0 
    	& \text{else},
    	\end{cases}
   \end{align}
-  where $\Omega$ is the direct lattice volume and $n\vec{G}$ is any integer times a reciprocal 
+  where $n\vec{G}$ is any integer times a reciprocal 
   lattice vector of the 
   system. The orbital energies are
   \begin{equation}\label{eq:hf_orb_energy}
@@ -138,24 +162,40 @@
   k_f}n_{\vec{k}\sigma}\braket{\vec{k}, \vec{k}' |\vec{k}', \vec{k}},
   \end{equation}
   where $n_{\vec{k}\sigma}$ is the occupation number of the state with momentum $\vec{k}$ and 
-  spin $\sigma$ \cite{Guiliani2005}. 
+  spin $\sigma$ \cite{Guiliani2005}. In one dimension, the two electron integral diverges, and it 
+  is common to use a delta function interaction, 
+  \begin{equation}
+    V(r_{12}) = V_0\delta(r_{12}),
+  \end{equation}
+  and the two electron integral in this case is simply
+  \begin{align}
+   	\braket{\vec{k}, \vec{k}' | \vec{k}'', \vec{k}'''} 
+  	  \stackrel{ \text{1D} }{=}&
+   	\begin{cases} 
+   	V_0 
+   	& \vec{k}''' = \vec{k} + \vec{k}' - \vec{k}'' + n\vec{G}\\
+   	0 
+   	& \text{else}.
+   	\end{cases}
+  \end{align}  
     
  \subsection{Results}   
       Using the equations for energies and two electron integrals, the stability analysis was 
       performed on the paramagnetic HEG model as a function of electron density (or equivalently, 
+      the Wigner-Seitz radius, 
       $r_s$). The naive approach of explicitly constructing and diagonalizing the orbital hessian 
       is intractable both in terms of memory and calculation time requirements. Since the 
       instability condition is that the any eigenvalue is negative, it suffices to calculate the 
       sign of only the lowest eigenvalue. This is a task well suited for an iterative subspace 
-      solver. To this end a parallel version of the Jacobi-Davidson algorithm 
+      solver. To this end, a parallel version of the Jacobi-Davidson algorithm 
       was implemented by representing the matrix as a matrix-vector product (made possible by the 
       SLEPc library\cite{Hernandez2005}). This allowed for two necessary optimizations. First, the 
       algorithmic change from full diagonalization to a subspace algorithm reduces the memory 
       requirements from $O(N^2)$ to $O(N)$ and the computational scaling from $O(N^3)$ to $O(N^2)$ 
-      (See Fig~\ref{fig:scaling}). 
+      (See Fig.~\ref{fig:scaling}). 
       Secondly, the parallelization of the algorithm allows the program to be run on the Blue 
       Waters supercomputer with about 80\% strong parallel scaling efficiency 
-      (Fig~\ref{fig:parallel}). 
+      (Fig.~\ref{fig:parallel}). 
 
      
       \begin{figure}[t]
@@ -175,17 +215,20 @@
      
      
      These optimizations allow the calculation to be performed with enough grid points to converge 
-     the resulting "transition $r_s$", the Wigner-Seitz radius at which the HF solution transitions 
+     the resulting ``transition $r_s$'', the Wigner-Seitz radius at which the HF solution 
+     transitions 
      from stable to unstable.          
       \begin{figure}[H]
       \centering
-        \includegraphics[width=0.75\textwidth]{../figures/stability.pdf}
+        \includegraphics[width=0.7\textwidth]{../figures/stability.pdf}
         \caption{The Lowest eigenvalues of the triplet and singlet instability matrices in 1, 2 and
         3 dimensions.}
+        \label{fig:stability}
       \end{figure}   
         
-    The transition $r_s$" occurs at $r_s = 1$ in 2D and $r_s = 3$ in 3D. These 
-    results are consistent with those seen by other methods\cite{Baguet2014}\cite{Bernu2011}. On 
+    The transition $r_s$ occurs at $r_s = 1$ in 2D and $r_s = 3$ in 3D (See 
+    Fig.~\ref{fig:stability} and Fig.~\ref{fig:onset}). These 
+    results are consistent with those seen by other methods\cite{Baguet2014, Bernu2011}. On 
     the other hand, the transition 
     $r_s$ for one dimension tends towards zero and stays quite close as the number of gridpoints 
     increases. Indeed, numerical issues appear at very high density (low $r_s$) due to divergence 
@@ -198,8 +241,9 @@
     \begin{figure}[H]
     \centering
       \includegraphics[width=0.75\textwidth]{../figures/triplet_onset.eps}
-      \caption{The Lowest eigenvalues of the triplet and singlet instability matrices in 1, 2 and
-      3 dimensions.}
+      \caption{The value of $r_s$ at which the triplet instability occurs with increasing number of 
+      gridpoints.}
+      \label{fig:onset}
     \end{figure}
     
     
@@ -214,8 +258,8 @@
     sufficiently close to the exact solution of the Schr{\"o}dinger equation to converge to the 
     correct 
     answer in a computationally feasible manner. Both the MP and CC approaches have the attractive 
-    quality that they are systematically improvable, i.e. more computational power can be used on a 
-    problem to increase the accuracy of the resulting solution. These so-called post-Hartree-Fock 
+    quality that they are systematically improvable, i.e. increasing the accuracy of the resulting 
+    solution can be done by using a higher order of the theory. These so-called post-Hartree-Fock 
     methods are able to recover more of the total electronic energy by accounting for the 
     \emph{correlation energy} in the system. Traditionally, the correlation energy is defined by 
     the difference between the exact energy and the Hartree-Fock energy \cite{Shavitt2009}
@@ -226,7 +270,7 @@
     captures a significant portion of the exact total energy. In such cases, the prevailing 
     approach is usually successful and has only implementation issues for larger systems. On the 
     other hand there are systems which are not well treated by this approach, which are often 
-    called "strongly correlated". Examples of such systems are those with degenerate or 
+    called ``strongly correlated''. Examples of such systems are those with degenerate or 
     near-degenerate HOMO-LUMO gaps, metallic solids or molecules close to breaking bonds. 
     Oftentimes for such systems the traditional Hartree-Fock solutions are not even qualitatively 
     correct, implying inadequacies in either the single-reference or mean-field approach. 
@@ -241,9 +285,9 @@
     of the $\hat{S_z}$. There is yet another lesser-known variation of the theory, known as General 
     Hartree-Fock (GHF), which assumes no spin-symmetries in the wave function. This allows for 
     greater
-    variational flexibility at the cost of "broken symmetry". Together these three levels of 
+    variational flexibility at the cost of ``broken symmetry''. Together these three levels of 
     Hartree-Fock theory form a heirarchy of increasing parameter space within which to minimize the 
-    total energy. Thus the term "Hartree-Fock Energy" is inherently ambigious; this fact calling 
+    total energy. Thus the term ``Hartree-Fock Energy'' is inherently ambigious; this fact calling 
     into question commonly held ideas about correlation and Hartree-Fock theory. Take for example 
     the dissociation curve of H$_2$ in the RHF and UHF approximations, compared with the exact 
     solution obtained by full configuration-interaction in the complete basis set limit. 
@@ -253,8 +297,9 @@
       \includegraphics[width=0.75\textwidth]{../figures/H2_curves.png}
       \caption{Dissociation curve in the RHF and UHF approximations, compared to the 
                exact limit. The difference in correlation energies as determined by 
-               each reference illustrates the ambiguity of that quantity. In the large
-               dissociation limit, the correlation energy vanishes.}
+               each reference illustrates the ambiguity of that quantity. In the             
+               dissociation limit, the UHF correlation energy vanishes while the RHF
+               correlation energy increases in magnitude.}
       \label{h2diss}
     \end{figure}
     
@@ -268,18 +313,18 @@
     idea to create new coupled cluster theories while preserving the symmetry of the reference 
     \cite{Gomez2016}. 
     
-    While the exact wave function of will have the same symmetry as the exact 
-    Hamiltonian (to be exact, the wave function will be an eigenfunction of all symmetry operators 
-    that commute with the Hamiltonian), it is important to remember that the Hartree-Fock 
-    Hamiltonian is not exact, and we 
-    may have something to gain by taking the variational principal at face value; lower energy is 
+    Another approach to this problem is to allow breaking of symmetry, and to take the variational 
+    principal at face value; lower 
+    energy is 
     always better. For predicting certain observables this is not the case, but for energies alone 
     we are free 
-    to maintain this mindset. Therefore the overarching theme of the proposed work is that 
-    \emph{\bf{many 
+    to maintain this mindset. If the HF solution is allowed to relax fully in its most general 
+    form, the resulting correlation energy may be reduced dramatically. Therefore the overarching 
+    theme of the proposed work is that 
+    \emph{many 
     examples of strong correlation may be misleading, and in order to find out we have to find 
     lower 
-    energy Hartree-Fock solutions, even at the cost of broken symmetry}}.    
+    energy Hartree-Fock solutions, even at the cost of broken symmetry}.    
     
     For some time an approach to find lower energy HF solutions has been known to follow the 
     instability eigenvectors down in energy 
@@ -294,16 +339,49 @@
     energy points on a potential energy surface of atomic coordinates. It is therefore proposed to 
     adopt approaches from that field to apply to the current problem. An attractive approach is the 
     Global Reaction Route Mapping (GRRM) method with its Anharmonic Downward Distortion (ADD) 
-    algorithm \cite{Ohno2006}\cite{Ohno2016}. In essence, the algorithm leverages the idea that the 
+    algorithm \cite{Ohno2006, Ohno2016}. 
+    
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.5\textwidth]{../figures/ADD.png}
+      \caption{Example PES illustrating the ADD effect. A) The anharmonicity increases in the 
+      direction towards flattening of the PES due to dissociation (DC). B) The anharmonic 
+      distortion of the 
+      harmonic potential points in the direction from one equilibrium point to another. Taken from 
+      Ohno\cite{Ohno2016}.}
+      \label{add}
+    \end{figure}
+    
+    In essence, the algorithm leverages the idea that the 
     presence of a local minimum influences the surrounding energy landscape (in a smooth surface). 
     The minimum will lower the energy pathways leading towards it, and softens the ascent of energy 
     around a transition state. This softening of the PES can be seen by increased anharmonicity in 
-    the PES's Taylor expansion. Thus a waypoint from one minimum to another can be determined by 
+    the PES's Taylor expansion (see Fig.~\ref{add}). Thus a waypoint from one minimum to another 
+    can 
+    be determined by 
     finding the direction with the highest anharmonicity, and these can be followed to find new 
     solutions. By adopting this approach to use 
     molecular orbital expansion 
     coefficients in place of normal mode coordinates, many minima of the Hartree-Fock electronic 
-    energy surface can be found. 
+    energy surface can be found. The proposed algorithm would have the following steps. First, a HF 
+    calculation will be performed and solved self-consistently to find a stationary point. This 
+    solution will then be subject to the stability analysis. If the solution is unstable, the 
+    instability eigenvector will be followed downhill and a new solution will be found. This will 
+    be repeated until a local minimum solution is found. Once this has been completed, the ADD 
+    algorithm can be applied to the minimum solution to search for the direction of other minima 
+    using the HF stability eigenvectors (the electronic analogue to vibrational modes). We then 
+    perturb our solution in that direction and repeat the process to search for all relevant 
+    minima. 
+    
+    This algorithm could then be used to investigate strong correlation of various systems. If it 
+    turns out that fully minimizing the HF energy can reproduce a majority of the ``correlation 
+    energy'' in these systems, then using this HF searching method becomes a justified method of 
+    solving strongly correlated systems. 
+    
+
+    
+    
+    
     
       
 
