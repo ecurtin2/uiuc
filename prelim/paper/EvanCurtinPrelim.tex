@@ -296,7 +296,7 @@
       \centering
       \includegraphics[width=0.75\textwidth]{../figures/H2_curves.png}
       \caption{Dissociation curve in the RHF and UHF approximations, compared to the 
-               exact limit. The difference in correlation energies as determined by 
+               exact limit (FCI). The difference in correlation energies as determined by 
                each reference illustrates the ambiguity of that quantity. In the             
                dissociation limit, the UHF correlation energy vanishes while the RHF
                correlation energy increases in magnitude.}
@@ -376,7 +376,17 @@
     This algorithm could then be used to investigate strong correlation of various systems. If it 
     turns out that fully minimizing the HF energy can reproduce a majority of the ``correlation 
     energy'' in these systems, then using this HF searching method becomes a justified method of 
-    solving strongly correlated systems. 
+    solving strongly correlated systems. This would mean that the strong correlation was in fact illusory, and is convertible to a weak correlation problem by means of a more rigorous Hartree-Fock theory. 
+    
+    Another topic of interest is the metal-insulator transition in infinite systems. For a particular type of insulator, the Mott Insulator, the transition from the metallic phase to the insulating phase is due to emergence of a Spin Density Wave (SDW). The SDW is oscillating density of up and down spins throughout space in a checkerboard pattern. Again the finite systems may give clues to explain under what circumstances (Temperature, Pressure, dopant concentration) this transition occurs. Since HOMO-LUMO degeneracy in RHF solutions of finite systems is accompanied by a triplet instability, the emergence of triplet instability can serve as a proxy for an RHF-UHF transition. The corresponding corollary for the solid state case is that triplet instability can signal a paramagnetic-SDW transition. Therefore we can calculate the instability as a function of temperature, pressure and dopant concentration to map out a metallic / insulating phase diagram for infinite systems. A temperature-dependent periodic Hartree-Fock has already been developed and applied to a 2D hydrogen sheet (by other members of the Hirata Lab), a crude but reasonable starting point for testing this approach. By varying the dimensionality, temperature and pressure of the hydrogen sheet, we can monitor the UHF instability and determine under what circumstances the SDW phase becomes present at higher temperatures. In doing so, we hope to be able to understand further how to create new materials with controlled Mott-Insulating transitions, which may be related to increasing the $T_c$ of superconducting materials (See Fig.~\ref{scphase}). 
+    
+    \begin{figure}
+       	\centering
+       	\includegraphics[width=0.3\textwidth]{../figures/NSFdiagram.png}
+       	\caption{Cartoon illustration of a phase diagram of superconducting transitions. The insulator (SDW) phase is thought to increase with the superconducting phase.}
+       	\label{scphase}
+    \end{figure}
+    
        
       
 \newpage
