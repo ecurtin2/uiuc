@@ -21,12 +21,12 @@
 \definecolor{lightgray}{gray}{0.9}
 \renewcommand{\arraystretch}{1.2}
 
-\title{Hartree-Fock Stability of the Electron Gas}
+\title{Hartree-Fock Stability and its Relation to Strong Correlation}
 % \subtitle{Applied to the Electron Gas}
 \date{\today}
 \author{Evan Curtin}
 \institute{University of Illinois at Urbana-Champaign}
-\titlegraphic{\hfill\includegraphics[height=1.5cm]{../../images/imark_bold.eps}}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{../figures/imark_bold.eps}}
 
 \begin{document}
 
@@ -38,6 +38,39 @@
 \end{frame}
 
 \section{Background Information}
+
+\begin{frame}{Correlation Energy}
+	\begin{itemize}[<+->]
+		\item {The Molecular Electronic S.E. in the Born-Oppenheimer approximation
+		  \begin{equation*}
+  		  \left( 
+        \hat{T}_{elec} + \hat{V}_{elec-nuc} + 
+  		    \hat{V}_{exchange} + \hat{V}_{\textrm{\alert{coulomb}}} 
+  		 \right)
+  		 \Psi
+  		  = E_{exact}\Psi
+		  \end{equation*}
+		}
+		\item {in Hartree-Fock theory is replaced by
+		  \begin{equation*}
+  		  \left( 
+        \hat{T}_{elec} + \hat{V}_{elec-nuc} + 
+  		    \hat{V}_{exchange} + \hat{V}_{\textrm{\alert{mean-field}}} 
+  		 \right)
+  		 \Psi
+  		  = E_{HF}\Psi
+		  \end{equation*}
+		}
+		\item {the difference between the two energies is the \alert{correlation energy}
+		  \begin{equation*}
+		    E_{corr} = E_{exact} - E_{HF}
+		  \end{equation*}
+    }
+    \item {The correlation energy is recovered by post Hartree-Fock methods (CC, MBPT)
+    which perform better the closer the HF solution is to the exact.
+    }
+	\end{itemize}
+\end{frame}
 
 {%
 \setbeamertemplate{frame footer}{Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.
@@ -87,47 +120,25 @@
 
 {%+
 \setbeamertemplate{frame footer}{}
-
-
-\begin{frame}[fragile]{Restricted Minimization}
-	\begin{itemize}
-		\item<1-> Hartee-Fock SCF guarantees only stationary energy w.r.t. change in orbitals
-		\item<1-> The solution may be a maximum, minimum or saddle point 
-		\begin{itemize}
-			\item<2->[] \begin{alertblock}{Within the Constrained Space} \end{alertblock}
-		\end{itemize}
-	\end{itemize}
-	\begin{center}
-		\includegraphics[width=0.5\textwidth]{../../images/1d_extrema.pdf}
-	\end{center}
+\begin{frame}{Case Study: H$_2$ Dissociation}
+  \centering
+	Is this strong correlation or a bad reference?
+	\includegraphics[width=\linewidth]{../figures/H2_curves.png}
 \end{frame}
 
-\begin{frame}{Restricted Minimization}
-	\begin{columns}[c] % align columns
-		\begin{column}{.48\textwidth}
-			\begin{itemize}[<+->]
-				\item {Restricted minima may correspond to minima in another dimension}
-				\item {Restricted minima may correspond to maxima in another dimension}
-				\item {Restricted minima may be nonstationary}
-			\end{itemize}
-		\end{column}
-		\hfill
-		\begin{column}{0.48\textwidth}
-		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=0.9\linewidth, trim={7cm, 2cm, 7cm, 3cm}, 
-			    clip]{../../images/const_opt_globalmin.jpeg}
-				\onslide<2>\includegraphics[width=0.9\linewidth, trim={7cm, 1cm, 7cm, 1cm}, 
-				clip]{../../images/const_opt_saddle.jpeg}
-				\onslide<3>\includegraphics[width=0.9\linewidth, trim={7cm, 2cm, 7cm, 3cm}, 
-				clip]{../../images/const_opt_nonstationary.jpeg}
-			\end{overprint}
-		\end{column}
-	\end{columns}
+
+\begin{frame}{Project Questions}
+	\begin{itemize}[<+->]
+		\item {How can we improve our HF solutions?}
+		\item {Does this actually help in finding the exact energy?}
+		\item {Apply to systems (known molecules, periodic systems)}
+	\end{itemize}
 \end{frame}
 
 
 \section{Hartree-Fock Stability}
 
+\begin{comment}
 {%
 	\setbeamertemplate{frame footer}{Thouless, D. J. The Quantum Mechanics of Many-Body Systems, 2nd ed.; Dover: 1972. (p. 114)}
 \begin{frame}{Hartree-Fock Stability}
@@ -138,6 +149,7 @@
 		\item Thouless$^1$ showed a physically motivated derivation using Time-Dependent Hartree-Fock theory (TDHF).
 	\end{itemize}
 \end{frame}
+\end{comment}
 
 
 \begin{comment}
@@ -206,9 +218,11 @@
 
 \begin{frame}{Hartree-Fock Stability Conditions}
 	\begin{itemize}[<+->]
-		\item{The RPA frequencies represent electronic oscillations about the ground state}
-		\item{Real frequencies are stable, imaginary frequencies are unstable}
-		\item{The RPA frequencies are imaginary when the \alert{Orbital Hessian} (aka stability matrix, electronic Hessian) eigenvalues are \alert{negative}
+		\item Solving the HF equations guarantees only that the energy is \alert{stationary}. The first 
+		order variation is therefore 0.
+		\item We need to know if this is indeed a minimum.
+		\item{This not the case if any \alert{Orbital Hessian} (aka stability matrix, electronic 
+		Hessian) eigenvalues are \alert{negative}
 			\begin{eqnarray}
 				\begin{bmatrix}
 					\bf{A}   & \bf{B}   \\
@@ -335,8 +349,11 @@
 
 \begin{frame}{Brief Overview}
 	\begin{itemize}
-		\item{Homogeneous Electron Gas (HEG) model, also known as Uniform Electron Gas or Jellium Model.}
+		\item{Homogeneous Electron Gas (HEG) model, also known as Uniform Electron Gas or Jellium 
+		Model.}
+		\item{Characterized by \alert{$r_s$}, inversely proportional to density}
 		\item{Electrons in a box with "smeared" nuclei $\rightarrow$ uniform positive background charge}
+
 		\item{The total charge is constrained to be neutral,}
 			\begin{eqnarray}
 				V_{bg}(\mathbf{r}) = \sum\limits_{i} \frac{-Ze^2}{|\mathbf{r}-\mathbf{R_i}|} \rightarrow -e^2 \int \frac{d\mathbf{r'}}{|\mathbf{r}-\mathbf{r'}|},
@@ -361,36 +378,40 @@
 				\braket{\vec{k}, \vec{k}' |\vec{k}', \vec{k}}
 		\end{eqnarray}
 		}
-		\item{Where the two electron integral is given by
-		\begin{align}
-			\braket{\vec{k}, \vec{k}'|\vec{k}'',\vec{k}'''}\stackrel{\text{2D, 3D}}{=}&
-				\begin{cases}
-				\frac{\pi}{V}\frac{2^{D-1}}{|\vec{k}-\vec{k}''|^{D-1}}
-				& \vec{k}''' = \vec{k}+\vec{k}'-\vec{k}'' \nonumber\\
-				0
-				& \text{else}
-				\end{cases}
-			\nonumber \\
-			\braket{k, k'|k'',k'''}\stackrel{\text{1D}}{=}&
-				\begin{cases}
-				\frac{\pi}{V}e^{|k-k''|^2a^2}\text{Ei}(-|k-k''|^2a^2)\text{ ;}
-				& k''' = k+k'-k'' \\
-				0\text{ ;}
-				& \text{else}
-				\end{cases}
-		\end{align}
+		\item{Where the 2D and 3D two electron integral is given by
+  		\begin{equation}
+  			\braket{\vec{k}, \vec{k}'|\vec{k}'',\vec{k}'''}{=}
+  				\begin{cases}
+  				\frac{\pi}{V}\frac{2^{D-1}}{|\vec{k}-\vec{k}''|^{D-1}}
+  				& \vec{k}''' = \vec{k}+\vec{k}'-\vec{k}'' \nonumber\\
+  				0
+  				& \text{else}
+  				\end{cases}
+  		\end{equation}
+		}
+		\item{ In 1D, if $V(r_{12}) = V_0\delta{(r_{12})}$,
+		  \begin{equation}
+  			\braket{k, k'|k'',k'''}{=}
+  				\begin{cases}
+  				V_0\text{ ;}
+  				& k''' = k+k'-k'' \\
+  				0\text{ ;}
+  				& \text{else}
+  				\end{cases}
+		  \end{equation}
 		}
 	\end{itemize}
 \end{frame}
 
 {%
-	\setbeamertemplate{frame footer}{Ceperley, D. M.; Alder, B. J. Phys. Rev. Lett. 1980, 45 (7), 
+	\setbeamertemplate{frame footer}{Figure reproduced from: Ceperley, D. M.; Alder, B. J. Phys. Rev. 
+	Lett. 1980, 45 (7), 
 		566–569.}
 
 \begin{frame}{Exact Results}
   \centering
 	QMC Energies for various phases
-	\includegraphics[width=.85\linewidth]{../../images/Ceperley_PhaseDiag.png}
+	\includegraphics[width=.85\linewidth]{../figures/Ceperley_PhaseDiag.png}
 \end{frame}
 
 
@@ -402,7 +423,7 @@
 		\item{Will this predict the known tendency of crystallization at low density?}
 		\item{It is known that the GHF solution persists at all densities for the HEG$^1$.}
 		\item{Can we show this numerically?}
-		\item{(Future) Can we combine this with to improve the efficacy of correlation theories (CC, MBPT)?}
+		\item{(Future) Can we find a lower energy GHF solution to reduce ``correlation energy''?}
 	\end{itemize}
 \end{frame}
 
@@ -410,6 +431,7 @@
 
 \section{Results}
 
+\begin{comment}
 {%
 \setbeamertemplate{frame footer}{}
 
@@ -431,6 +453,7 @@
 	\end{columns}
 \end{frame}
 
+
 {%
 \setbeamertemplate{frame footer}{}
 
@@ -451,6 +474,8 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+\end{comment}
+
 
 \begin{comment}
 {%
@@ -475,26 +500,94 @@
 \end{comment}
 
 
-\begin{frame}{Convergence of Stability Curves}
-	\includegraphics[width=.95\linewidth]{../../images/singlet_onset.eps}
-	\\
-	\includegraphics[width=.95\linewidth]{../../images/triplet_onset.eps}
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Stability Curves}
+  \vspace{-0.5in}
+	\includegraphics[width=\linewidth]{../figures/stability.pdf}
 \end{frame}
+
+\begin{frame}{Convergence of Stability Curves}
+	\includegraphics[width=.95\linewidth]{../figures/singlet_onset.eps}
+	\\
+	\includegraphics[width=.95\linewidth]{../figures/triplet_onset.eps}
+\end{frame}
+
+
 
 {%
-\setbeamertemplate{frame footer}{Bernu, B.; Delyon, F.; Holzmann, M.; Baguet, L. Phys. Rev. B 2011, 84 (11), 115115.}
+\setbeamertemplate{frame footer}{}
 \begin{frame}{Dependence on r${}_s$}
-	Previously reported transition in 2d: $rs \approx 0.8 $
-  \begin{center}
-  	\includegraphics[width=.6\linewidth]{../../images/Bernu_2dEnergyGain.pdf}
-	\end{center}
+  \centering
+  \begin{tabular}{ c | c | c } 
+  \# Dimensions & Instability $r_s$ & Literature \\
+  \hline
+  1 & 0.15 & 0$^1$ \\ 
+  2 & 0.95  & 0.8$^2$ \\ 
+  3 & 3.0  & 3.0$^3$ \\ 
+  \end{tabular}\\
+  \vspace{5mm}
+  \tiny
+  (1) Overhauser, A. W. Phys. Rev. 1962, 128 (3), 1437–1452. \\
+  (2) Bernu, B.; Delyon, F.; Holzmann, M.; Baguet, L. Phys. Rev. B 2011, 84 (11), 115115.\\
+  (3) Baguet, L.; Delyon, F.; Bernu, B.; Holzmann, M. Phys. Rev. B 2014, 90 (16), 165131.
 \end{frame}
 
-\begin{frame}{Final Stability Curves}
-  \vspace{-0.5in}
-	\includegraphics[width=\linewidth]{../../images/stability.pdf}
+\section{Future Directions}
+
+\setbeamertemplate{frame footer}{
+(1) Ohno, K. Chem. Rec. 2016, 16 (5), 2198–2218. \newline
+(2) Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
+}
+\begin{frame}{Brute Force GHF}
+	\begin{itemize}[<+->]
+  	\item Find the lowest energy GHF solution 
+  	\item Use algorithms inspired by similar problems (atomic configuration)
+  	\item Global Reaction Route Mapping (GRRM) / Anharmonic Downard Distortion (ADD)$^1$
+  	\item Genetic Algorithm$^2$
+	\end{itemize}
 \end{frame}
 
+\setbeamertemplate{frame footer}{
+Figure reproduced from: Ohno, K. Chem. Rec. 2016, 16 (5), 2198–2218.
+}
+\begin{frame}{Anharmonic Downard Distortion}
+  \centering
+	\includegraphics[width=.6\linewidth]{../figures/ADD.png}\\
+	Replace atomic coordinates with MO coefficients and vibrational information with MO 
+	eigenvalues/vectors
+\end{frame}
+
+\setbeamertemplate{frame footer}{
+Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 
+2338–2348.
+}
+\begin{frame}{Genetic Algorithm}
+  \centering
+  Genetic Algorithm promising in finding many low energy solutions
+	\includegraphics[width=.6\linewidth]{../figures/GA_supady.png}
+\end{frame}
+
+\begin{frame}{Proposal: Genetic Algorithm}
+  \begin{itemize}
+    \item{ Use as the gene the density matrix / MO coefficients }
+    \item{ Less human input }
+    \item{ Less dependence on underlying PES structure }
+    \item{ How the HF solution gets found is irrelevant } 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Concluding Remarks}
+  \begin{itemize}
+    \item{ Paramagnetic HEG instabilities are successfully reproduced by the MO hessian approach }
+    \item{ HF Stability analysis can show when restrictions should be lifted }
+    \item{ It is feasible that even stable HF are not global minimum }
+    \item{ Other approaches should be used to find even lower energy HF solutions }
+    \item{ Inspiration from similar problems could help; GRRM or Genetic Algorithms } 
+  \end{itemize}
+\end{frame}
+
+\begin{comment}
 \section{Concluding Remarks}
 {%
 \setbeamertemplate{frame footer}{}
@@ -518,7 +611,7 @@
   \end{itemize}
 \end{frame}
 }
-
+\end{comment}
 
 {%
 \setbeamertemplate{frame footer}{}
@@ -595,32 +688,13 @@
 		\hfill
 		\begin{column}{0.6\textwidth}
 		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=\linewidth]{../../images/dav_vs_exact_scaling.eps}
+			    \onslide<1>\includegraphics[width=\linewidth]{../figures/dav_vs_exact_scaling.eps}
 
 			\end{overprint}
 		\end{column}
 	\end{columns}
 \end{frame}
 
-{%
-\setbeamertemplate{frame footer}{}
-\begin{frame}{Efficacy of Davidson's Algorithm}
-	\begin{columns}[c] % align columns
-		\begin{column}{.4\textwidth}
-			\begin{itemize}
-				\item {Reproduces Exact result to machine precision in all test cases.}
-				\item {Odd spikes are due to approximating circle by squares}
-			\end{itemize}
-		\end{column}
-		\hfill
-		\begin{column}{0.6\textwidth}
-		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=\linewidth]{../../images/dav_vs_exact.eps}
-
-			\end{overprint}
-		\end{column}
-	\end{columns}
-\end{frame}
 
 {%
 \setbeamertemplate{frame footer}{Hern, V.; Tom, A.; Vidal, V. SLEPc Technical Reports, 2007.}

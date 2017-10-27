@@ -1,11 +1,41 @@
-\frametitle{Restricted Minimization}
-\begin{itemize}
-		\item<1-> Hartee-Fock SCF guarantees only stationary energy w.r.t. change in orbitals
-		\item<1-> The solution may be a maximum, minimum or saddle point
-		\begin{itemize}
-			\item<2->[] \begin{alertblock}{Within the Constrained Space} \end{alertblock}
-		\end{itemize}
-	\end{itemize}
-	\begin{center}
-		\includegraphics[width=0.5\textwidth]{../../images/1d_extrema.pdf}
+\frametitle{Levels of Hartree-Fock Theory}
+\begin{center}
+		\begin{tabular}{ | c | c | c | c |}
+			\hline
+			 \textbf{Method} & \textbf{Spinorbital} & \textbf{DoF} & \textbf{Eigenfunction of}\\
+			\hline
+
+			Restricted \rule{0pt}{7ex} &
+			\begin{tabular}{c@{}c@{}}
+				$\chi_j^\alpha(\vec{r},\sigma) =
+				\sum\limits_{i=1}^{N} c_{ij}\phi_i\left(\vec{r \,}\right)\alpha(\sigma)$
+				\\ \rule{0pt}{4ex}
+				$\chi_j^\beta(\vec{r},\sigma) =
+				\sum\limits_{i=1}^{N} c_{ij}\phi_i\left(\vec{r \,}\right)\beta(\sigma)$
+			\end{tabular}
+			& N/2
+			& $\hat{S}^2$, $\hat{S}_z$
+			\\ [5ex] \hline
+
+			Unrestricted \rule{0pt}{7ex} &
+			\begin{tabular}{c@{}c@{}}
+			$\chi_j^\alpha(\vec{r},\sigma) = \sum\limits_{i=1}^{N}
+			c_{ij}^\alpha\phi_i(\vec{r \,}) \alpha(\sigma)$
+			\\ \rule{0pt}{4ex}
+			$\chi_j^\beta(\vec{r},\sigma) = \sum\limits_{i=1}^{N}
+			c_{ij}^\beta\phi_i(\vec{r \,}) \beta(\sigma)$
+			\end{tabular}
+			& N & $\hat{S}_z$ \\ [5ex]
+			\hline
+
+			General \rule{0pt}{7ex}&
+			\begin{tabular}{r@{}r@{}}
+				$\chi_j(\vec{r},\sigma) = \sum\limits_{i=1}^{N} [
+				c_{ij}^\alpha\phi_i\left(\vec{r \,}\right) \alpha(\sigma) $
+				\\ \rule{0pt}{4ex}
+				$+c_{ij}^\beta \phi_i(\vec{r \,}) \beta(\sigma)]  $
+			\end{tabular}
+			& 2N & Neither \\ [5ex]
+			\hline
+		\end{tabular}
 	\end{center}
