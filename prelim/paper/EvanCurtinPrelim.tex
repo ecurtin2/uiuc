@@ -13,12 +13,197 @@
 \linespread{2}
 \begin{document}
 
-\title{Hartree-Fock Stability Theory and its Relation to Correlation Theories}
+\title{Hartree-Fock Stability Theory and its Relation to Strong Correlation}
 \author{Evan Curtin}
 \maketitle
 
+\section{Goals and Relevance of Proposed Research}
+    The goal of electronic structure theory is to solve the electronic Schr{\"o}dinger equation
+    for a molecule or solid state system. The prevailing approach in \emph{ab initio} quantum 
+    chemistry is to first compute a self-consistent single-determinant Hartree-Fock (HF) solution 
+    which will serve as a reference for many-body perturbative (MP) or coupled-cluster (CC) 
+    approaches.  
+    Implicit in these methods is the assumption that the reference wave function will be 
+    sufficiently close to the exact solution of the Schr{\"o}dinger equation to converge to the 
+    correct 
+    answer in a computationally feasible manner. Both the MP and CC approaches have the attractive 
+    quality that they are systematically improvable, i.e. increasing the accuracy of the resulting 
+    solution can be done by using a higher order of the theory. These so-called post-Hartree-Fock 
+    methods are able to recover more of the total electronic energy by accounting for the 
+    \emph{correlation energy} in the system. Traditionally, the correlation energy is defined by 
+    the difference between the exact energy and the Hartree-Fock energy \cite{Shavitt2009}
+    \begin{equation}\label{correlation_energy}
+      E_{corr} = E_{exact} -  E_{HF}
+    \end{equation}
+    In many cases the correlation energy is relatively small and the Hartree-Fock reference 
+    captures a significant portion of the exact total energy. In such cases, the prevailing 
+    approach is usually successful and has only implementation issues for larger systems. On the 
+    other hand there are systems which are not well treated by this approach, which are often 
+    called ``strongly correlated''. Examples of such systems are those with degenerate or 
+    near-degenerate HOMO-LUMO gaps, metallic solids or molecules close to breaking bonds. 
+    Oftentimes for such systems the traditional Hartree-Fock solutions are not even qualitatively 
+    correct, implying inadequacies in either the single-reference or mean-field approach. 
+      
+      It is often neglected, however, that the usual way for computing a Hartree-Fock solution in 
+      practice
+    is to use a restricted form of the single determinantal wavefunction. In the Restricted 
+    Hartree-Fock (RHF), the wave function is restricted to be an eigenfunction of the $\hat{S^2}$ 
+    and $\hat{S_z}$ 
+    operators, while in the Unrestricted variant (UHF), the wave function need only be an 
+    eigenfunction 
+    of the $\hat{S_z}$. There is yet another lesser-known variation of the theory, known as General 
+    Hartree-Fock (GHF), which assumes no spin-symmetries in the wave function. This allows for 
+    greater
+    variational flexibility at the cost of ``broken symmetry''. Together these three levels of 
+    Hartree-Fock theory form a heirarchy of increasing parameter space within which to minimize the 
+    total energy. Thus the term ``Hartree-Fock Energy'' is inherently ambigious; this fact calling 
+    into question commonly held ideas about correlation and Hartree-Fock theory. Take for example 
+    the dissociation curve of H$_2$ in the RHF and UHF approximations, compared with the exact 
+    solution obtained by full configuration-interaction in the complete basis set limit. 
+    
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.75\textwidth]{../figures/H2_curves.png}
+      \caption{Dissociation curve of H$_2$ in the RHF and UHF approximations, compared to the 
+               exact limit (FCI). The difference in correlation energies as determined by 
+               each reference illustrates the ambiguity of that quantity. In the             
+               dissociation limit, the UHF correlation energy vanishes while the RHF
+               correlation energy increases in magnitude.}
+      \label{h2diss}
+    \end{figure}
+    
+    The correlation energy for the RHF reference case is dramatically larger than that for the UHF 
+    reference. In other words, \emph{the correlation energy is, by definition, inherently coupled 
+    to the 
+    Hartree-Fock reference}. The given example is well understood, but it brings to mind a more 
+    general idea that there may be more cases where apparently large correlation energies are due 
+    to simply 
+    using and inadequate level of Hartree-Fock theory. Scuseria and coworkers have leveraged this 
+    idea to create new coupled cluster theories while preserving the symmetry of the reference 
+    \cite{Gomez2016}. 
+    
+    Another approach to this problem is to allow breaking of symmetry, and to take the variational 
+    principle at face value; lower 
+    energy is 
+    always better. For predicting certain observables this is not the case, but for energies alone 
+    we are free 
+    to maintain this mindset. If the HF solution is allowed to relax fully in its most general 
+    form, the resulting correlation energy may be reduced dramatically. Therefore the overarching 
+    theme of the proposed work is that 
+    \emph{many 
+    examples of strong correlation may be misleading, and in order to find out we have to find 
+    lower 
+    energy Hartree-Fock solutions, even at the cost of broken symmetry}.    
+    
+    For some time an approach to find lower energy HF solutions has been known to follow the 
+    instability eigenvectors down in energy 
+    to find lower energy solutions \cite{Seeger1977}. This approach will, by construction, always 
+    lead to a lower energy HF solution than the starting point. However, it is important to 
+    remember that the instability condition is a local phenomena, and the lower energy solution is 
+    not itself guaranteed to be the \emph{lowest} energy solution. The standard approach still 
+    suffers 
+    from the global optimization problem: whether a solution is a local or global minimum can only 
+    be known by comparing it to the other minima of the surface. In fact, the problem of finding 
+    the lowest energy HF solution has a direct correspondence to the problem of finding minimum 
+    energy points on a potential energy surface of atomic coordinates. It is therefore proposed to 
+    adopt approaches from that field to apply to the current problem. An attractive approach is the 
+    Global Reaction Route Mapping (GRRM) method with its Anharmonic Downward Distortion (ADD) 
+    algorithm \cite{Ohno2006, Ohno2016}. 
+    
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.5\textwidth]{../figures/ADD.png}
+      \caption{Example PES illustrating the ADD effect. A) The anharmonicity increases in the 
+      direction towards flattening of the PES due to dissociation (DC). B) The anharmonic 
+      distortion of the 
+      harmonic potential points in the direction from one equilibrium point to another. Taken from 
+      Ohno\cite{Ohno2016}.}
+      \label{add}
+    \end{figure}
+    
+    In essence, the algorithm leverages the idea that the 
+    presence of a local minimum influences the surrounding energy landscape (in a smooth surface). 
+    The minimum will lower the energy pathways leading towards it, and softens the ascent of energy 
+    around a transition state. This softening of the PES can be seen by increased anharmonicity in 
+    the PES's Taylor expansion (see Fig.~\ref{add}). Thus a waypoint from one minimum to another 
+    can 
+    be determined by 
+    finding the direction with the highest anharmonicity, and these can be followed to find new 
+    solutions. By adopting this approach to use 
+    molecular orbital expansion 
+    coefficients in place of normal mode coordinates, many minima of the Hartree-Fock electronic 
+    energy surface can be found. The proposed algorithm would have the following steps. First, a HF 
+    calculation will be performed and solved self-consistently to find a stationary point. This 
+    solution will then be subject to the stability analysis. If the solution is unstable, the 
+    instability eigenvector will be followed downhill and a new solution will be found. This will 
+    be repeated until a local minimum solution is found. Once this has been completed, the ADD 
+    algorithm can be applied to the minimum solution to search for the direction of other minima 
+    using the HF stability eigenvectors (the electronic analogue to vibrational modes). We then 
+    perturb our solution in that direction and repeat the process to search for all relevant 
+    minima. 
+    
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.4\textwidth]{../figures/GA_supady.png}
+      \caption{Conformations of dipeptides found in a search using a Genetic Algorithm. The GA 
+      results were compared to a reference data set. Taken from Supady~\cite{Supady2015}. Note that 
+      the only missed conformations are relatively higher-energy.}
+      \label{GA}
+    \end{figure}  
+    
+    In the event that the ADD algorithm doesn't perform well, there is another option that requires 
+    no assumptions about the underlying potential energy surface. The Genetic Algorithm is a 
+    machine learning technique that has been applied to search for minimum energy conformations in 
+    peptide dimers~\cite{Supady2015}. Genetic algorithms have seen use in various global 
+    optimization problems, and have been designed via mutation to avoid being stuck in local 
+    minima. This makes them well suited for finding a host of high-fitness solutions (see 
+    Fig.~\ref{GA}). This approach could be implemented by using the GHF initial guess density 
+    matrix as a gene 
+    for the algorithm, and a fitness function which prioritizes low-energy HF solutions in a manner 
+    similar to the method of Supady~\cite{Supady2015}. 
+    
+    If effective, either the ADD or the Genetic   algorithm could then be used to investigate 
+    strong 
+    correlation of various systems. If it 
+    turns out that fully minimizing the HF energy can reproduce a majority of the ``correlation 
+    energy'' in these systems, then using this HF searching method becomes a justified method of 
+    solving strongly correlated systems. This would mean that the strong correlation was in fact illusory, and is convertible to a weak correlation problem by means of a more rigorous Hartree-Fock theory. 
+    
+    Another topic of interest is the metal-insulator transition in infinite systems. For a 
+    particular type of insulator, the Mott Insulator, the transition from the metallic phase to the 
+    insulating phase is due to emergence of a Spin Density Wave (SDW). The SDW is oscillating 
+    density of up and down spins throughout space in a checkerboard pattern. The presence of a 
+    gapped Mott insulator phase in high-$T_c$ cuprates (which is not predicted by band 
+    theory) hints at 
+    a connection between Mott insulators and some superconducting materials, but this is not fully 
+    understood. Again the finite 
+    systems may give clues to 
+    explain under what circumstances (Temperature, Pressure, dopant concentration) this transition 
+    occurs. Since HOMO-LUMO degeneracy in RHF solutions of finite systems is accompanied by a 
+    triplet instability, the emergence of triplet instability can serve as a proxy for an RHF-UHF 
+    transition. The corresponding corollary for the solid state case is that triplet instability 
+    can signal a paramagnetic-SDW transition. Therefore we can calculate the instability as a 
+    function of temperature, pressure and dopant concentration to map out a metallic / insulating 
+    phase diagram for infinite systems. A temperature-dependent periodic Hartree-Fock has already 
+    been developed and applied to a 2D hydrogen sheet (by other members of the Hirata Lab), a crude 
+    but reasonable starting point for testing this approach. By varying the dimensionality, 
+    temperature and pressure of the hydrogen sheet, we can monitor the UHF instability and 
+    determine under what circumstances the SDW phase becomes present at higher temperatures. In 
+    doing so, we hope to be able to understand further how to create new materials with controlled 
+    Mott-Insulating transitions, which may be related to increasing the $T_c$ of superconducting 
+    materials (See Fig.~\ref{scphase}). 
+    
+    \begin{figure}
+       	\centering
+       	\includegraphics[width=0.3\textwidth]{../figures/NSFdiagram.png}
+       	\caption{Cartoon illustration of a phase diagram of superconducting transitions. The insulator (SDW) phase is thought to increase with the superconducting phase.}
+       	\label{scphase}
+    \end{figure}
+    
+    
+\newpage
 
-\section{Background Information and Accomplishments}
+\section{Accomplishments}
 
    
    \subsection{Hartree-Fock Stability}
@@ -30,7 +215,7 @@
     to the 
     determined orbitals. If the solution is indeed a minimum, it is called ``stable'', while if 
     there 
-    is any displacement in the electronic structure which reduces the energy, the solution is 
+    is any displacement in the electronic structure which lowers the energy, the solution is 
     ``unstable''. A method for determining the stability of a Hartree-Fock solution was 
     proposed by Thouless in 1960\cite{Thouless1960}. The condition was rederived into the 
     expression familiar to quantum chemists by Čížek and Paldus in 1967\cite{Cizek1967}. 
@@ -38,11 +223,11 @@
     eigenfunctions. To this end, Seeger and Pople outlined a hierarchical approach to 
     systematically evaluate the stability of HF states in the restricted, unrestricted and 
     generalized Hartree-Fock procedures\cite{Seeger1977}. Recently, the method has been used to aid 
-    the in search for the lowest energy Unrestricted Hartree-Fock (UHF) solutions in molecules, as 
+    the search for the lowest-energy Unrestricted Hartree-Fock (UHF) solutions in molecules, as 
     well as the General Hartree-Fock (GHF) solutions in geometrically frustrated hydrogen rings 
     which cannot conform even to the UHF scheme\cite{Pulay2016, Goings2015}. The lower energy HF 
-    solutions in these studies were found by first finding the instabilities in the higher 
-    spin-symmetry solutions, then using this information to find ``symmetry breaking'' 
+    solutions in these studies were located by first finding the instabilities in the higher 
+    spin-symmetry solutions, then using this information to obtain ``symmetry breaking'' 
     displacements that lower the energy.
     
     To determine if there is indeed a symmetry-broken HF solution of lower energy, the usual method 
@@ -97,11 +282,11 @@
     natural starting point is the Homogeneous Electron Gas (HEG, often called Jellium or Uniform 
     Electron Gas) model. The model consists of electrons in a box with periodic boundary conditions 
     and the constraint that the entire system is charge-neutral via a uniform background positive 
-    charge. The resulting coulomb interactions cancel exactly, and the only remaining terms are due 
+    charge. The resulting Coulomb interactions cancel exactly, and the only remaining terms are due 
     to kinetic and exchange energies. Historically it was thought that the 
-    a plane wave paramagnetic solution to the HF equations for this model was the ``correct'' 
+    plane-wave paramagnetic solution to the HF equations for this model was the ``correct'' 
     solution. However, in a landmark paper, Overhauser showed that certain symmetry broken 
-    solutions \emph{always} have lower energy than the paramagnetic solutions at all electron 
+    solutions \emph{always} have lower-energy than the paramagnetic solutions at all electron 
     densities\cite{Overhauser1962}. This hints at, but does not show, that the analogous triplet 
     instability theorem persists in the infinite case.  
     
@@ -220,7 +405,7 @@
      from stable to unstable.          
       \begin{figure}[H]
       \centering
-        \includegraphics[width=0.7\textwidth]{../figures/stability.pdf}
+        \includegraphics[width=\textwidth]{../figures/stability.eps}
         \caption{The Lowest eigenvalues of the triplet and singlet instability matrices in 1, 2 and
         3 dimensions.}
         \label{fig:stability}
@@ -240,154 +425,12 @@
 
     \begin{figure}[H]
     \centering
-      \includegraphics[width=0.75\textwidth]{../figures/triplet_onset.eps}
+      \includegraphics[width=\textwidth]{../figures/triplet_onset.eps}
       \caption{The value of $r_s$ at which the triplet instability occurs with increasing number of 
-      gridpoints.}
+      k-points in 1, 2 and 3 dimensions.}
       \label{fig:onset}
     \end{figure}
     
-    
-\newpage
-\section{Goals and Relevance of Proposed Research}
-    The goal of electronic structure theory is to solve the electronic Schr{\"o}dinger equation
-    for a molecule or solid state system. The prevailing approach in \emph{ab initio} quantum 
-    chemistry is to first compute a self-consistent single-determinant Hartree-Fock (HF) solution 
-    which will serve as a reference for many-body perturbative (MP) or coupled-cluster (CC) 
-    approaches.  
-    Implicit in these methods is the assumption that the reference wave function will be 
-    sufficiently close to the exact solution of the Schr{\"o}dinger equation to converge to the 
-    correct 
-    answer in a computationally feasible manner. Both the MP and CC approaches have the attractive 
-    quality that they are systematically improvable, i.e. increasing the accuracy of the resulting 
-    solution can be done by using a higher order of the theory. These so-called post-Hartree-Fock 
-    methods are able to recover more of the total electronic energy by accounting for the 
-    \emph{correlation energy} in the system. Traditionally, the correlation energy is defined by 
-    the difference between the exact energy and the Hartree-Fock energy \cite{Shavitt2009}
-    \begin{equation}\label{correlation_energy}
-      E_{corr} = E_{exact} -  E_{HF}
-    \end{equation}
-    In many cases the correlation energy is relatively small and the Hartree-Fock reference 
-    captures a significant portion of the exact total energy. In such cases, the prevailing 
-    approach is usually successful and has only implementation issues for larger systems. On the 
-    other hand there are systems which are not well treated by this approach, which are often 
-    called ``strongly correlated''. Examples of such systems are those with degenerate or 
-    near-degenerate HOMO-LUMO gaps, metallic solids or molecules close to breaking bonds. 
-    Oftentimes for such systems the traditional Hartree-Fock solutions are not even qualitatively 
-    correct, implying inadequacies in either the single-reference or mean-field approach. 
-      
-      It is often neglected, however, that the usual way for computing a Hartree-Fock solution in 
-      practice
-    is to use a restricted form of the single determinantal wavefunction. In the Restricted 
-    Hartree-Fock (RHF), the wave function is restricted to be an eigenfunction of the $\hat{S^2}$ 
-    and $\hat{S_z}$ 
-    operators, while in the Unrestricted variant (UHF), the wave function need only be an 
-    eigenfunction 
-    of the $\hat{S_z}$. There is yet another lesser-known variation of the theory, known as General 
-    Hartree-Fock (GHF), which assumes no spin-symmetries in the wave function. This allows for 
-    greater
-    variational flexibility at the cost of ``broken symmetry''. Together these three levels of 
-    Hartree-Fock theory form a heirarchy of increasing parameter space within which to minimize the 
-    total energy. Thus the term ``Hartree-Fock Energy'' is inherently ambigious; this fact calling 
-    into question commonly held ideas about correlation and Hartree-Fock theory. Take for example 
-    the dissociation curve of H$_2$ in the RHF and UHF approximations, compared with the exact 
-    solution obtained by full configuration-interaction in the complete basis set limit. 
-    
-    \begin{figure}[H]
-      \centering
-      \includegraphics[width=0.75\textwidth]{../figures/H2_curves.png}
-      \caption{Dissociation curve in the RHF and UHF approximations, compared to the 
-               exact limit (FCI). The difference in correlation energies as determined by 
-               each reference illustrates the ambiguity of that quantity. In the             
-               dissociation limit, the UHF correlation energy vanishes while the RHF
-               correlation energy increases in magnitude.}
-      \label{h2diss}
-    \end{figure}
-    
-    The correlation energy for the RHF reference case is dramatically larger than that for the UHF 
-    reference. In other words, \emph{the correlation energy is, by definition, inherently coupled 
-    to the 
-    Hartree-Fock reference}. The given example is well understood, but it brings to mind a more 
-    general idea that there may be more cases where apparently large correlation energies are due 
-    to simply 
-    using and inadequate level of Hartree-Fock theory. Scuseria and coworkers have leveraged this 
-    idea to create new coupled cluster theories while preserving the symmetry of the reference 
-    \cite{Gomez2016}. 
-    
-    Another approach to this problem is to allow breaking of symmetry, and to take the variational 
-    principal at face value; lower 
-    energy is 
-    always better. For predicting certain observables this is not the case, but for energies alone 
-    we are free 
-    to maintain this mindset. If the HF solution is allowed to relax fully in its most general 
-    form, the resulting correlation energy may be reduced dramatically. Therefore the overarching 
-    theme of the proposed work is that 
-    \emph{many 
-    examples of strong correlation may be misleading, and in order to find out we have to find 
-    lower 
-    energy Hartree-Fock solutions, even at the cost of broken symmetry}.    
-    
-    For some time an approach to find lower energy HF solutions has been known to follow the 
-    instability eigenvectors down in energy 
-    to find lower energy solutions \cite{Seeger1977}. This approach will, by construction, always 
-    lead to a lower energy HF solution than the starting point. However, it is important to 
-    remember that the instability condition is a local phenomena, and the lower energy solution is 
-    not itself guaranteed to be the \emph{lowest} energy solution. The standard approach still 
-    suffers 
-    from the global optimization problem: whether a solution is a local or global minimum can only 
-    be known by comparing it to the other minima of the surface. In fact, the problem of finding 
-    the lowest energy HF solution has a direct correspondence to the problem of finding minimum 
-    energy points on a potential energy surface of atomic coordinates. It is therefore proposed to 
-    adopt approaches from that field to apply to the current problem. An attractive approach is the 
-    Global Reaction Route Mapping (GRRM) method with its Anharmonic Downward Distortion (ADD) 
-    algorithm \cite{Ohno2006, Ohno2016}. 
-    
-    \begin{figure}
-      \centering
-      \includegraphics[width=0.5\textwidth]{../figures/ADD.png}
-      \caption{Example PES illustrating the ADD effect. A) The anharmonicity increases in the 
-      direction towards flattening of the PES due to dissociation (DC). B) The anharmonic 
-      distortion of the 
-      harmonic potential points in the direction from one equilibrium point to another. Taken from 
-      Ohno\cite{Ohno2016}.}
-      \label{add}
-    \end{figure}
-    
-    In essence, the algorithm leverages the idea that the 
-    presence of a local minimum influences the surrounding energy landscape (in a smooth surface). 
-    The minimum will lower the energy pathways leading towards it, and softens the ascent of energy 
-    around a transition state. This softening of the PES can be seen by increased anharmonicity in 
-    the PES's Taylor expansion (see Fig.~\ref{add}). Thus a waypoint from one minimum to another 
-    can 
-    be determined by 
-    finding the direction with the highest anharmonicity, and these can be followed to find new 
-    solutions. By adopting this approach to use 
-    molecular orbital expansion 
-    coefficients in place of normal mode coordinates, many minima of the Hartree-Fock electronic 
-    energy surface can be found. The proposed algorithm would have the following steps. First, a HF 
-    calculation will be performed and solved self-consistently to find a stationary point. This 
-    solution will then be subject to the stability analysis. If the solution is unstable, the 
-    instability eigenvector will be followed downhill and a new solution will be found. This will 
-    be repeated until a local minimum solution is found. Once this has been completed, the ADD 
-    algorithm can be applied to the minimum solution to search for the direction of other minima 
-    using the HF stability eigenvectors (the electronic analogue to vibrational modes). We then 
-    perturb our solution in that direction and repeat the process to search for all relevant 
-    minima. 
-    
-    This algorithm could then be used to investigate strong correlation of various systems. If it 
-    turns out that fully minimizing the HF energy can reproduce a majority of the ``correlation 
-    energy'' in these systems, then using this HF searching method becomes a justified method of 
-    solving strongly correlated systems. This would mean that the strong correlation was in fact illusory, and is convertible to a weak correlation problem by means of a more rigorous Hartree-Fock theory. 
-    
-    Another topic of interest is the metal-insulator transition in infinite systems. For a particular type of insulator, the Mott Insulator, the transition from the metallic phase to the insulating phase is due to emergence of a Spin Density Wave (SDW). The SDW is oscillating density of up and down spins throughout space in a checkerboard pattern. Again the finite systems may give clues to explain under what circumstances (Temperature, Pressure, dopant concentration) this transition occurs. Since HOMO-LUMO degeneracy in RHF solutions of finite systems is accompanied by a triplet instability, the emergence of triplet instability can serve as a proxy for an RHF-UHF transition. The corresponding corollary for the solid state case is that triplet instability can signal a paramagnetic-SDW transition. Therefore we can calculate the instability as a function of temperature, pressure and dopant concentration to map out a metallic / insulating phase diagram for infinite systems. A temperature-dependent periodic Hartree-Fock has already been developed and applied to a 2D hydrogen sheet (by other members of the Hirata Lab), a crude but reasonable starting point for testing this approach. By varying the dimensionality, temperature and pressure of the hydrogen sheet, we can monitor the UHF instability and determine under what circumstances the SDW phase becomes present at higher temperatures. In doing so, we hope to be able to understand further how to create new materials with controlled Mott-Insulating transitions, which may be related to increasing the $T_c$ of superconducting materials (See Fig.~\ref{scphase}). 
-    
-    \begin{figure}
-       	\centering
-       	\includegraphics[width=0.3\textwidth]{../figures/NSFdiagram.png}
-       	\caption{Cartoon illustration of a phase diagram of superconducting transitions. The insulator (SDW) phase is thought to increase with the superconducting phase.}
-       	\label{scphase}
-    \end{figure}
-    
-       
       
 \newpage
 \section{References}

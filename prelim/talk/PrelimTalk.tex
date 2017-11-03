@@ -44,8 +44,8 @@
 		\item {The Molecular Electronic S.E. in the Born-Oppenheimer approximation
 		  \begin{equation*}
   		  \left( 
-        \hat{T}_{elec} + \hat{V}_{elec-nuc} + 
-  		    \hat{V}_{exchange} + \hat{V}_{\textrm{\alert{coulomb}}} 
+        \hat{T}_{elec} + \hat{V}_{elec-nuc} 
+                       + \hat{V}_{\textrm{\alert{elec-elec}}} 
   		 \right)
   		 \Psi
   		  = E_{exact}\Psi
@@ -55,7 +55,7 @@
 		  \begin{equation*}
   		  \left( 
         \hat{T}_{elec} + \hat{V}_{elec-nuc} + 
-  		    \hat{V}_{exchange} + \hat{V}_{\textrm{\alert{mean-field}}} 
+  		   \hat{V}_{\textrm{\alert{mean-field}}} 
   		 \right)
   		 \Psi
   		  = E_{HF}\Psi
@@ -75,7 +75,7 @@
 {%
 \setbeamertemplate{frame footer}{Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.
 }
-\begin{frame}[fragile]{Levels of Hartree-Fock Theory}
+\begin{frame}[fragile]{Hartree-Fock Theory is Almost Always Restricted}
 	\begin{center}
 		\begin{tabular}{ | c | c | c | c |}
 			\hline
