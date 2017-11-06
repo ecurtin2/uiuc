@@ -49,45 +49,59 @@
 \headcommand {\beamer@framepages {30}{30}}
 \headcommand {\slideentry {4}{0}{4}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\sectionentry {5}{Future Directions}{32}{Future Directions}{0}}
-\headcommand {\beamer@sectionpages {28}{31}}
-\headcommand {\beamer@subsectionpages {28}{31}}
-\headcommand {\slideentry {5}{0}{1}{32/32}{}{0}}
+\headcommand {\slideentry {4}{0}{5}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {5}{0}{2}{33/36}{}{0}}
-\headcommand {\beamer@framepages {33}{36}}
-\headcommand {\slideentry {5}{0}{3}{37/37}{}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {5}{0}{4}{38/38}{}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {5}{0}{5}{39/39}{}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {5}{0}{6}{40/40}{}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {5}{0}{7}{41/41}{}{0}}
+\headcommand {\slideentry {4}{0}{6}{33/34}{}{0}}
+\headcommand {\beamer@framepages {33}{34}}
+\headcommand {\slideentry {4}{0}{7}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\sectionentry {5}{Future Directions}{36}{Future Directions}{0}}
+\headcommand {\beamer@sectionpages {28}{35}}
+\headcommand {\beamer@subsectionpages {28}{35}}
+\headcommand {\slideentry {5}{0}{1}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {5}{0}{2}{37/40}{}{0}}
+\headcommand {\beamer@framepages {37}{40}}
+\headcommand {\slideentry {5}{0}{3}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@sectionpages {32}{41}}
-\headcommand {\beamer@subsectionpages {32}{41}}
-\headcommand {\beamer@appendixpages {42}}
-\headcommand {\sectionentry {6}{Iterative Subspace Eigenvalue Methods}{42}{Iterative Subspace Eigenvalue Methods}{1}}
-\headcommand {\beamer@sectionpages {42}{41}}
-\headcommand {\beamer@subsectionpages {42}{41}}
-\headcommand {\slideentry {6}{0}{1}{42/42}{}{1}}
+\headcommand {\slideentry {5}{0}{4}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {6}{0}{2}{43/43}{}{1}}
+\headcommand {\slideentry {5}{0}{5}{43/43}{}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {6}{0}{3}{44/53}{}{1}}
-\headcommand {\beamer@framepages {44}{53}}
-\headcommand {\slideentry {6}{0}{4}{54/54}{}{1}}
+\headcommand {\slideentry {5}{0}{6}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {5}{0}{7}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@sectionpages {36}{45}}
+\headcommand {\beamer@subsectionpages {36}{45}}
+\headcommand {\beamer@appendixpages {46}}
+\headcommand {\slideentry {5}{0}{8}{46/49}{}{1}}
+\headcommand {\beamer@framepages {46}{49}}
+\headcommand {\slideentry {5}{0}{9}{50/53}{}{1}}
+\headcommand {\beamer@framepages {50}{53}}
+\headcommand {\slideentry {5}{0}{10}{54/54}{}{1}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {6}{0}{5}{55/55}{}{1}}
+\headcommand {\slideentry {5}{0}{11}{55/55}{}{1}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@partpages {42}{55}}
-\headcommand {\beamer@subsectionpages {42}{55}}
-\headcommand {\beamer@sectionpages {42}{55}}
-\headcommand {\beamer@documentpages {55}}
-\headcommand {\def \inserttotalframenumber {4}}
-\headcommand {\def \inserttotalframenumber {19}}
-\headcommand {\def \appendixtotalframenumber {4}}
+\headcommand {\slideentry {5}{0}{12}{56/56}{}{1}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\sectionentry {6}{Iterative Subspace Eigenvalue Methods}{57}{Iterative Subspace Eigenvalue Methods}{1}}
+\headcommand {\beamer@sectionpages {46}{56}}
+\headcommand {\beamer@subsectionpages {46}{56}}
+\headcommand {\slideentry {6}{0}{1}{57/57}{}{1}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {6}{0}{2}{58/58}{}{1}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {6}{0}{3}{59/68}{}{1}}
+\headcommand {\beamer@framepages {59}{68}}
+\headcommand {\slideentry {6}{0}{4}{69/69}{}{1}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\beamer@partpages {46}{69}}
+\headcommand {\beamer@subsectionpages {57}{69}}
+\headcommand {\beamer@sectionpages {57}{69}}
+\headcommand {\beamer@documentpages {69}}
+\headcommand {\def \inserttotalframenumber {8}}
+\headcommand {\def \inserttotalframenumber {22}}
+\headcommand {\def \appendixtotalframenumber {8}}

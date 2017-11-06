@@ -3,5 +3,5 @@
 \beamer@sectionintoc {2}{Hartree-Fock Stability}{13}{0}{2}
 \beamer@sectionintoc {3}{Homogeneous Electron Gas}{19}{0}{3}
 \beamer@sectionintoc {4}{Results}{28}{0}{4}
-\beamer@sectionintoc {5}{Future Directions}{32}{0}{5}
-\beamer@sectionintoc {6}{Iterative Subspace Eigenvalue Methods}{42}{1}{6}
+\beamer@sectionintoc {5}{Future Directions}{36}{0}{5}
+\beamer@sectionintoc {6}{Iterative Subspace Eigenvalue Methods}{57}{1}{6}

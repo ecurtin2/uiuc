@@ -138,81 +138,6 @@
 
 \section{Hartree-Fock Stability}
 
-\begin{comment}
-{%
-	\setbeamertemplate{frame footer}{Thouless, D. J. The Quantum Mechanics of Many-Body Systems, 2nd ed.; Dover: 1972. (p. 114)}
-\begin{frame}{Hartree-Fock Stability}
-	\begin{itemize}[<+->]
-		\item Solving the HF equations guarantees only that the energy is \alert{stationary}. The first order variation is therefore 0.
-		\item We need to know if this is indeed a minimum.
-		\item We can determine this if we inspect the \alert{second order variation} in the energy.
-		\item Thouless$^1$ showed a physically motivated derivation using Time-Dependent Hartree-Fock theory (TDHF).
-	\end{itemize}
-\end{frame}
-\end{comment}
-
-
-\begin{comment}
-{%
-	\setbeamertemplate{frame footer}{Thouless, D. J. The Quantum Mechanics of Many-Body Systems, 2nd ed.; Dover: 1972. (p. 114)}
-\begin{frame}{Hartree-Fock Stability Conditions}
-	\begin{itemize}[<+->]
-		\item[]{The TDHF solution is given by the Liouville Von-Neumann Equation of Motion,
-			\begin{eqnarray}
-				i\hbar\frac{\partial \rho}{\partial t} = \left[ T+U, \rho \right],
-			\end{eqnarray}
-		}
-		\item[]{Where U is the self-consistent potential,
-			\begin{eqnarray}
-				U_{pq} = \sum\limits_{p,q} \left(\rho_{pq,rs} - \braket{pr|sq} \right) \rho_{sr}.
-			\end{eqnarray}
-		}
-		\item[]{Under the restrictions,
-			\begin{eqnarray}
-				\rho^2 = \rho \quad \textrm{and} \quad \rho^{\dagger} = \rho,
-			\end{eqnarray}
-		}
-		\item[]{and to first order in $\rho_{ai}$, the elements of the density matrix are ,
-			\begin{eqnarray}
-				\rho_{ai} = C_{ai}, \quad \rho_{ia} = C_{ai}^*.
-			\end{eqnarray}
-		}
-	\end{itemize}
-\end{frame}
-
-{%
-	\setbeamertemplate{frame footer}{Thouless, D. J. The Quantum Mechanics of Many-Body Systems, 2nd ed.; Dover: 1972. (p. 114)}
-
-\begin{frame}{Hartree-Fock Stability Conditions}
-	\begin{itemize}[<+->]
-		\item[]{The TDHF EoM becomes,
-			\begin{eqnarray}
-				i\hbar \frac{dC_{ai} \left(t\right) }{dt} &=& \left(\epsilon_a - \epsilon_i \right) \nonumber
-					\\ &+& \sum\limits_{i}^{occ}  \sum\limits_{b}^{vir}
-					  \left[\braket{aj||ib}C_{bj}   \left( t \right)
-						  +\braket{ab||ij}C_{bj}^* \left( t \right) \right].
-			\end{eqnarray}
-		}
-		\item[]{The solutions are complex exponentials,
-			\begin{eqnarray}
-				C_{ai} \left(t \right)  = \alpha X_{ai} e^{-i \omega t} + \alpha^* Y_{ai}^* e^{i \omega^* t},
-			\end{eqnarray}
-		}
-		\item[]{whose amplitudes, $X_{ai}$ and $Y_{ai}$ satisfy,
-			\begin{align}
-				\left(\epsilon_a - \epsilon_i \right)X_{ai} + \sum\limits_{i}^{occ}  \sum\limits_{b}^{vir}
-					\left[ \braket{aj||ib}X_{bj} + \braket{ab||ij}Y_{bj} \right] &= \hbar \omega X_{ai}
-				\nonumber \\
-				\left(\epsilon_a - \epsilon_i \right)Y_{ai} + \sum\limits_{i}^{occ}  \sum\limits_{b}^{vir}
-					\left[ \braket{aj||ib}X_{bj} + \braket{ab||ij}Y_{bj} \right] &= -\hbar \omega Y_{ai}.
-			\end{align}
-		}
-		\item[]{These are the equations of the Random Phase Approximation (RPA)}
-	\end{itemize}
-\end{frame}
-
-\end{comment}
-
 {%
 	\setbeamertemplate{frame footer}{Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.}
 
@@ -242,11 +167,358 @@
 \end{frame}
 
 
-\begin{comment}
-  {%
-  	\setbeamertemplate{frame footer}{}
-  
-  \begin{frame}{Matrix Factorizations}
+{%
+	\setbeamertemplate{frame footer}{1) Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.}
+\begin{frame}{Hartree-Fock Stability Conditions}
+	\begin{itemize}
+		\item[]{The Matrix Equation Factorizes} \\~\\
+		\item[]{
+			\resizebox{0.9\textwidth}{!}{%
+			\begin{tabular}{r@{\qquad}cccccc}
+				  \multirow{1}{*}{Solution Type} & \multicolumn{6}{c}{Space Type}  \\
+				  \cmidrule{2-7}
+				  & Real RHF & Complex RHF & Real UHF & Complex UHF & Real GHF & Complex GHF \\
+				  \midrule
+				  Real RHF    & ${}^1\mathbf{A}' + {}^1\mathbf{B}'$ & ${}^1\mathbf{A}' - {}^1\mathbf{B}'$ & 
+				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$ & 
+				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$  \\
+				  Complex RHF & - & \alert{${}^1\mathbf{H}'$} & - & \alert{${}^3\mathbf{H}'$} & - & 
+				  ${}^3\mathbf{H}'$ \\
+				  Real UHF    & - & - & $\mathbf{A}' + \mathbf{B}'$ & $\mathbf{A}' - \mathbf{B}'$ & 
+				  $\mathbf{A}'' + \mathbf{B}''$ & $\mathbf{A}'' - \mathbf{B}''$ \\
+				  Complex UHF & - & - & - &  $\mathbf{H}'$ & - & $\mathbf{H}'$ \\
+				  Real GHF    & - & - & - & - & $\mathbf{A} - \mathbf{B}$ &  $\mathbf{A} - \mathbf{B}$  \\
+				  Complex GHF & - & - & - & - & - & $\mathbf{H}$ \\
+				  \bottomrule
+			\end{tabular}}
+		\item[] \tiny Table reproduced from Seeger \& Pople$^1$
+		}
+	\end{itemize}
+\end{frame}
+
+\section{Homogeneous Electron Gas}
+
+{%
+	\setbeamertemplate{frame footer}{Phillips, P. Advanced Solid State Physics, 2nd ed.; Cambridge University Press: Cambridge, 2012.}
+
+\begin{frame}{Brief Overview of HEG}
+	\begin{itemize}
+		\item{Homogeneous Electron Gas (HEG) model, also known as Uniform Electron Gas or Jellium 
+		Model.}
+		\item{Characterized by \alert{$r_s$}, inversely proportional to density}
+		\item{Electrons in a box with "smeared" nuclei $\rightarrow$ uniform positive background charge}
+
+		\item{The total charge is constrained to be neutral,}
+			\begin{eqnarray}
+				V_{bg}(\mathbf{r}) = \sum\limits_{i} \frac{-Ze^2}{|\mathbf{r}-\mathbf{R_i}|} \rightarrow -e^2 \int \frac{d\mathbf{r'}}{|\mathbf{r}-\mathbf{r'}|},
+			\end{eqnarray}
+		\item{and the background and coulomb terms cancel exactly,
+			\begin{eqnarray}
+				V_{ee} = e^2 \int \frac{d\mathbf{r'}}{|\mathbf{r}-\mathbf{r'}|}.
+			\end{eqnarray}
+		}
+	\end{itemize}
+\end{frame}
+
+{%
+	\setbeamertemplate{frame footer}{Giuliani, G.; Vignale, G. Quantum Theory of the Electron Liquid; 2005.}
+
+\begin{frame}{Brief Overview of HEG}
+	\begin{itemize}
+		\item{The discretized solutions are given by,
+		\begin{eqnarray}\label{eq:hf_orb_energy}
+			\epsilon_{\vec{k}}=
+				\frac{\hbar^2 k^2}{2m} - \sum\limits_{\vec{k}'}^{|\vec{k}'|< k_f}
+				\braket{\vec{k}, \vec{k}' |\vec{k}', \vec{k}}
+		\end{eqnarray}
+		}
+		\item{Where the 2D and 3D two electron integral is given by
+  		\begin{equation}
+  			\braket{\vec{k}, \vec{k}'|\vec{k}'',\vec{k}'''}{=}
+  				\begin{cases}
+  				\frac{\pi}{V}\frac{2^{D-1}}{|\vec{k}-\vec{k}''|^{D-1}}
+  				& \vec{k}''' = \vec{k}+\vec{k}'-\vec{k}'' \nonumber\\
+  				0
+  				& \text{else}
+  				\end{cases}
+  		\end{equation}
+		}
+		\item{ In 1D, if $V(r_{12}) = V_0\delta{(r_{12})}$,
+		  \begin{equation}
+  			\braket{k, k'|k'',k'''}{=}
+  				\begin{cases}
+  				V_0\text{ ;}
+  				& k''' = k+k'-k'' \\
+  				0\text{ ;}
+  				& \text{else}
+  				\end{cases}
+		  \end{equation}
+		}
+	\end{itemize}
+\end{frame}
+
+{%
+	\setbeamertemplate{frame footer}{Figure reproduced from: Ceperley, D. M.; Alder, B. J. Phys. Rev. 
+	Lett. 1980, 45 (7), 
+		566–569.}
+
+\begin{frame}{Energies of Some Phases are Known Exactly}
+  \centering
+	QMC Energies for various phases
+	\includegraphics[width=.85\linewidth]{../figures/Ceperley_PhaseDiag.png}
+\end{frame}
+
+
+{%
+\setbeamertemplate{frame footer}{Overhauser, A. W. Phys. Rev. Lett. 1960, 4 (9), 462–465.}
+\begin{frame}{Project Questions}
+	\begin{itemize}[<+->]
+		\item{Can we use the HF-Stability analysis to determine where the HEG is unstable?}
+		\item{Will this predict the known tendency of crystallization at low density?}
+		\item{It is known that the GHF solution persists at all densities for the HEG$^1$.}
+		\item{Can we show this numerically?}
+		\item{(Future) Can we find a lower energy GHF solution to reduce ``correlation energy''?}
+	\end{itemize}
+\end{frame}
+
+
+
+\section{Results}
+
+{%
+\setbeamertemplate{frame footer}{}
+
+\begin{frame}{Implementation Problems}
+	\begin{columns}[c] % align columns
+		\begin{column}{.4\textwidth}
+			\begin{itemize}
+			  \item {$\mathbf{H}$ Too big to construct or diagonalize}
+				\item {Spectrum is dense, leading to numerical issues}
+			\end{itemize}
+		\end{column}
+		\hfill
+		\begin{column}{0.6\textwidth}
+		    \begin{overprint}
+			    \onslide<1>\includegraphics[width=\linewidth]{../figures/exchist.eps}
+			\end{overprint}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+{%
+\setbeamertemplate{frame footer}{}
+
+\begin{frame}{Implementation Solutions 1: Davidson's Algorithm}
+	\begin{columns}[c] % align columns
+		\begin{column}{.4\textwidth}
+			\begin{itemize}
+			  \item {Davidson requires no explicit matrix storage}
+				\item {Davidson is Asymptotically quadratic}
+				\item {Full diagonalization is cubic}
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.7\textwidth}
+				\vspace{10mm}
+		    \begin{overprint}
+			    \onslide<1>\includegraphics[width=\linewidth]{../figures/dav_vs_exact_scaling.eps}
+			\end{overprint}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Implementation Solutions 2: Parallelization}
+	\begin{columns}[c] % align columns
+		\begin{column}{.4\textwidth}
+			\begin{itemize}
+			  \item {Access to Blue Waters}
+			  \item {Depending on \# of cores, 400-1000 fold speedup compared to serial}
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.7\textwidth}
+		    \vspace{5mm}
+		    \begin{overprint}
+		    \centering
+			    \onslide<1>\includegraphics[width=0.9\linewidth]{../figures/parallel-scaling.eps}
+			\end{overprint}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Stability Curves Show Clear Transition}
+  \centering
+	\includegraphics[width=0.75\linewidth]{../figures/stability.eps}
+\end{frame}
+
+\begin{frame}{Stability Onset Converges With k-points}
+  \centering 
+  \begin{overprint}
+    \onslide<1, 2>{Singlet Instabilities
+    \includegraphics[width=.95\linewidth]{../figures/singlet_onset.eps}
+  	}
+  	\\
+  	\centering
+  	\onslide<2>{Triplet Instabilities
+  	\includegraphics[width=.95\linewidth]{../figures/triplet_onset.eps}
+  	}
+	\end{overprint}
+\end{frame}
+
+
+
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Transitions are Consistent with Others}
+  \centering
+  \begin{tabular}{ c | c | c } 
+  \# Dimensions & Instability $r_s$ (Me) & Phase Boundary $r_s$ (Literature) \\
+  \hline
+  1 & 0.09 & 0$^1$ \\ 
+  2 & 0.87  & 0.8$^2$ \\ 
+  3 & 3.15  & 3.0$^3$ \\ 
+  \end{tabular}\\
+  \vspace{5mm}
+  \scriptsize
+  (1) Overhauser, A. W. Phys. Rev. 1962, 128 (3), 1437–1452. \\
+  (2) Bernu, B.; Delyon, F.; Holzmann, M.; Baguet, L. Phys. Rev. B 2011, 84 (11), 115115.\\
+  (3) Baguet, L.; Delyon, F.; Bernu, B.; Holzmann, M. Phys. Rev. B 2014, 90 (16), 165131.
+\end{frame}
+
+\section{Future Directions}
+
+\setbeamertemplate{frame footer}{
+(1) Ohno, K. Chem. Rec. 2016, 16 (5), 2198–2218. \newline
+(2) Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
+}
+\begin{frame}{Brute Force GHF}
+	\begin{itemize}[<+->]
+  	\item Find the lowest energy GHF solution 
+  	\item Use algorithms inspired by similar problems (atomic configuration)
+  	\item Global Reaction Route Mapping (GRRM) / Anharmonic Downard Distortion (ADD)$^1$
+  	\item Genetic Algorithm$^2$
+	\end{itemize}
+\end{frame}
+
+\setbeamertemplate{frame footer}{
+Figure reproduced from: Ohno, K. Chem. Rec. 2016, 16 (5), 2198–2218.
+}
+\begin{frame}{Anharmonic Downard Distortion}
+  \centering
+	\includegraphics[width=.6\linewidth]{../figures/ADD.png}\\
+	Replace atomic coordinates with MO coefficients and vibrational information with MO 
+	eigenvalues/vectors
+\end{frame}
+
+\setbeamertemplate{frame footer}{
+Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 
+2338–2348.
+}
+\begin{frame}{Genetic Algorithm}
+  \centering
+  Genetic Algorithm promising in finding many low energy solutions
+	\includegraphics[width=.6\linewidth]{../figures/GA_supady.png}
+\end{frame}
+
+\begin{frame}{Proposal: Genetic Algorithm}
+  \begin{itemize}
+    \item{ Use as the gene the density matrix / MO coefficients }
+    \item{ Less human input }
+    \item{ Less dependence on underlying PES structure }
+    \item{ How the HF solution gets found is irrelevant } 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Concluding Remarks}
+  \begin{itemize}
+    \item{ Paramagnetic HEG instabilities are successfully reproduced by the MO hessian approach }
+    \item{ HF Stability analysis can show when restrictions should be lifted }
+    \item{ It is feasible that even stable HF are not global minimum }
+    \item{ Other approaches should be used to find even lower energy HF solutions }
+    \item{ Inspiration from similar problems could help; GRRM or Genetic Algorithms } 
+  \end{itemize}
+\end{frame}
+
+
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}[standout]
+  Questions?
+\end{frame}
+
+
+\appendix
+
+
+
+{%
+	\setbeamertemplate{frame footer}{Thouless, D. J. The Quantum Mechanics of Many-Body Systems, 2nd 
+	ed.; Dover: 1972. (p. 114)}
+\begin{frame}{Hartree-Fock Stability Derivation}
+	\begin{itemize}[<+->]
+		\item[]{The TDHF solution is given by the Liouville Von-Neumann Equation of Motion,
+			\begin{eqnarray}
+				i\hbar\frac{\partial \rho}{\partial t} = \left[ T+U, \rho \right],
+			\end{eqnarray}
+		}
+		\item[]{Where U is the self-consistent potential,
+			\begin{eqnarray}
+				U_{pq} = \sum\limits_{p,q} \left(\rho_{pq,rs} - \braket{pr|sq} \right) \rho_{sr}.
+			\end{eqnarray}
+		}
+		\item[]{Under the restrictions,
+			\begin{eqnarray}
+				\rho^2 = \rho \quad \textrm{and} \quad \rho^{\dagger} = \rho,
+			\end{eqnarray}
+		}
+		\item[]{and to first order in $\rho_{ai}$, the elements of the density matrix are ,
+			\begin{eqnarray}
+				\rho_{ai} = C_{ai}, \quad \rho_{ia} = C_{ai}^*.
+			\end{eqnarray}
+		}
+	\end{itemize}
+\end{frame}
+
+{%
+	\setbeamertemplate{frame footer}{Thouless, D. J. The Quantum Mechanics of Many-Body Systems, 2nd 
+	ed.; Dover: 1972. (p. 114)}
+
+\begin{frame}{Hartree-Fock Stability Derivation}
+	\begin{itemize}[<+->]
+		\item[]{The TDHF EoM becomes,
+			\begin{eqnarray}
+				i\hbar \frac{dC_{ai} \left(t\right) }{dt} &=& \left(\epsilon_a - \epsilon_i \right) 
+				\nonumber
+					\\ &+& \sum\limits_{i}^{occ}  \sum\limits_{b}^{vir}
+					  \left[\braket{aj||ib}C_{bj}   \left( t \right)
+						  +\braket{ab||ij}C_{bj}^* \left( t \right) \right].
+			\end{eqnarray}
+		}
+		\item[]{The solutions are complex exponentials,
+			\begin{eqnarray}
+				C_{ai} \left(t \right)  = \alpha X_{ai} e^{-i \omega t} + \alpha^* Y_{ai}^* e^{i \omega^* 
+				t},
+			\end{eqnarray}
+		}
+		\item[]{whose amplitudes, $X_{ai}$ and $Y_{ai}$ satisfy,
+			\begin{align}
+				\left(\epsilon_a - \epsilon_i \right)X_{ai} + \sum\limits_{i}^{occ}  \sum\limits_{b}^{vir}
+					\left[ \braket{aj||ib}X_{bj} + \braket{ab||ij}Y_{bj} \right] &= \hbar \omega X_{ai}
+				\nonumber \\
+				\left(\epsilon_a - \epsilon_i \right)Y_{ai} + \sum\limits_{i}^{occ}  \sum\limits_{b}^{vir}
+					\left[ \braket{aj||ib}X_{bj} + \braket{ab||ij}Y_{bj} \right] &= -\hbar \omega Y_{ai}.
+			\end{align}
+		}
+		\item[]{These are the equations of the Random Phase Approximation (RPA)}
+	\end{itemize}
+\end{frame}
+
+
+{%
+ 	\setbeamertemplate{frame footer}{}
+
+\begin{frame}{Matrix Factorizations}
   \vspace{-6mm}
   \begin{eqnarray*}
     \begin{bmatrix}
@@ -310,317 +582,35 @@
       \mathbf{Im(d)} 
     \end{bmatrix}
   \end{eqnarray*}
-  \end{frame}
-\end{comment}
-
-{%
-	\setbeamertemplate{frame footer}{1) Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.}
-\begin{frame}{Hartree-Fock Stability Conditions}
-	\begin{itemize}
-		\item[]{The Matrix Equation Factorizes} \\~\\
-		\item[]{
-			\resizebox{0.9\textwidth}{!}{%
-			\begin{tabular}{r@{\qquad}cccccc}
-				  \multirow{1}{*}{Solution Type} & \multicolumn{6}{c}{Space Type}  \\
-				  \cmidrule{2-7}
-				  & Real RHF & Complex RHF & Real UHF & Complex UHF & Real GHF & Complex GHF \\
-				  \midrule
-				  Real RHF    & ${}^1\mathbf{A}' + {}^1\mathbf{B}'$ & ${}^1\mathbf{A}' - {}^1\mathbf{B}'$ & 
-				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$ & 
-				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$  \\
-				  Complex RHF & - & \alert{${}^1\mathbf{H}'$} & - & \alert{${}^3\mathbf{H}'$} & - & 
-				  ${}^3\mathbf{H}'$ \\
-				  Real UHF    & - & - & $\mathbf{A}' + \mathbf{B}'$ & $\mathbf{A}' - \mathbf{B}'$ & 
-				  $\mathbf{A}'' + \mathbf{B}''$ & $\mathbf{A}'' - \mathbf{B}''$ \\
-				  Complex UHF & - & - & - &  $\mathbf{H}'$ & - & $\mathbf{H}'$ \\
-				  Real GHF    & - & - & - & - & $\mathbf{A} - \mathbf{B}$ &  $\mathbf{A} - \mathbf{B}$  \\
-				  Complex GHF & - & - & - & - & - & $\mathbf{H}$ \\
-				  \bottomrule
-			\end{tabular}}
-		\item[] \tiny Table reproduced from Seeger \& Pople$^1$
-		}
-	\end{itemize}
 \end{frame}
 
-\section{Homogeneous Electron Gas}
-
-{%
-	\setbeamertemplate{frame footer}{Phillips, P. Advanced Solid State Physics, 2nd ed.; Cambridge University Press: Cambridge, 2012.}
-
-\begin{frame}{Brief Overview}
-	\begin{itemize}
-		\item{Homogeneous Electron Gas (HEG) model, also known as Uniform Electron Gas or Jellium 
-		Model.}
-		\item{Characterized by \alert{$r_s$}, inversely proportional to density}
-		\item{Electrons in a box with "smeared" nuclei $\rightarrow$ uniform positive background charge}
-
-		\item{The total charge is constrained to be neutral,}
-			\begin{eqnarray}
-				V_{bg}(\mathbf{r}) = \sum\limits_{i} \frac{-Ze^2}{|\mathbf{r}-\mathbf{R_i}|} \rightarrow -e^2 \int \frac{d\mathbf{r'}}{|\mathbf{r}-\mathbf{r'}|},
-			\end{eqnarray}
-		\item{and the background and coulomb terms cancel exactly,
-			\begin{eqnarray}
-				V_{ee} = e^2 \int \frac{d\mathbf{r'}}{|\mathbf{r}-\mathbf{r'}|}.
-			\end{eqnarray}
-		}
-	\end{itemize}
-\end{frame}
-
-{%
-	\setbeamertemplate{frame footer}{Giuliani, G.; Vignale, G. Quantum Theory of the Electron Liquid; 2005.}
-
-\begin{frame}{Brief Overview}
-	\begin{itemize}
-		\item{The discretized solutions are given by,
-		\begin{eqnarray}\label{eq:hf_orb_energy}
-			\epsilon_{\vec{k}}=
-				\frac{\hbar^2 k^2}{2m} - \sum\limits_{\vec{k}'}^{|\vec{k}'|< k_f}
-				\braket{\vec{k}, \vec{k}' |\vec{k}', \vec{k}}
-		\end{eqnarray}
-		}
-		\item{Where the 2D and 3D two electron integral is given by
-  		\begin{equation}
-  			\braket{\vec{k}, \vec{k}'|\vec{k}'',\vec{k}'''}{=}
-  				\begin{cases}
-  				\frac{\pi}{V}\frac{2^{D-1}}{|\vec{k}-\vec{k}''|^{D-1}}
-  				& \vec{k}''' = \vec{k}+\vec{k}'-\vec{k}'' \nonumber\\
-  				0
-  				& \text{else}
-  				\end{cases}
-  		\end{equation}
-		}
-		\item{ In 1D, if $V(r_{12}) = V_0\delta{(r_{12})}$,
-		  \begin{equation}
-  			\braket{k, k'|k'',k'''}{=}
-  				\begin{cases}
-  				V_0\text{ ;}
-  				& k''' = k+k'-k'' \\
-  				0\text{ ;}
-  				& \text{else}
-  				\end{cases}
-		  \end{equation}
-		}
-	\end{itemize}
-\end{frame}
-
-{%
-	\setbeamertemplate{frame footer}{Figure reproduced from: Ceperley, D. M.; Alder, B. J. Phys. Rev. 
-	Lett. 1980, 45 (7), 
-		566–569.}
-
-\begin{frame}{Exact Results}
-  \centering
-	QMC Energies for various phases
-	\includegraphics[width=.85\linewidth]{../figures/Ceperley_PhaseDiag.png}
-\end{frame}
-
-
-{%
-\setbeamertemplate{frame footer}{Overhauser, A. W. Phys. Rev. Lett. 1960, 4 (9), 462–465.}
-\begin{frame}{Project Goal}
-	\begin{itemize}[<+->]
-		\item{Can we use the HF-Stability analysis to determine where the HEG is unstable?}
-		\item{Will this predict the known tendency of crystallization at low density?}
-		\item{It is known that the GHF solution persists at all densities for the HEG$^1$.}
-		\item{Can we show this numerically?}
-		\item{(Future) Can we find a lower energy GHF solution to reduce ``correlation energy''?}
-	\end{itemize}
-\end{frame}
-
-
-
-\section{Results}
-
-\begin{comment}
-{%
-\setbeamertemplate{frame footer}{}
-
-\begin{frame}{First Brillouin Zone}
-	\begin{columns}[c] % align columns
-		\begin{column}{.4\textwidth}
-			\begin{itemize}
-				\item {Excite Ony in one direction}
-				\item {Consider only First BZ due to $\vec{k}' = \vec{k} + \vec{G}$}
-			\end{itemize}
-		\end{column}
-		\hfill
-		\begin{column}{0.6\textwidth}
-		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=\linewidth]{../../images/1stBZ.eps}
-
-			\end{overprint}
-		\end{column}
-	\end{columns}
-\end{frame}
-
-
-{%
-\setbeamertemplate{frame footer}{}
-
-\begin{frame}{Orbital Energies}
-	\begin{columns}[c] % align columns
-		\begin{column}{.4\textwidth}
-			\begin{itemize}
-				\item {57 grid points per dimension reproduces the orbital energies reasonably well}
-				\item {Worst towards $\Gamma$, better for higher $|\vec{k}|$}
-			\end{itemize}
-		\end{column}
-		\hfill
-		\begin{column}{0.6\textwidth}
-		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=\linewidth]{../../images/energycompare.eps}
-
-			\end{overprint}
-		\end{column}
-	\end{columns}
-\end{frame}
-\end{comment}
-
-
-\begin{comment}
-{%
-\setbeamertemplate{frame footer}{}
-
-\begin{frame}{Matrix Diagonals}
-	\begin{columns}[c] % align columns
-		\begin{column}{.4\textwidth}
-			\begin{itemize}
-				\item {Spectrum is Dense}
-			\end{itemize}
-		\end{column}
-		\hfill
-		\begin{column}{0.6\textwidth}
-		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=\linewidth]{../../images/exchist.eps}
-
-			\end{overprint}
-		\end{column}
-	\end{columns}
-\end{frame}
-\end{comment}
-
-
-{%
-\setbeamertemplate{frame footer}{}
-\begin{frame}{Stability Curves}
-  \vspace{-0.5in}
-	\includegraphics[width=\linewidth]{../figures/stability.pdf}
-\end{frame}
-
-\begin{frame}{Convergence of Stability Curves}
-	\includegraphics[width=.95\linewidth]{../figures/singlet_onset.eps}
-	\\
-	\includegraphics[width=.95\linewidth]{../figures/triplet_onset.eps}
-\end{frame}
-
-
-
-{%
-\setbeamertemplate{frame footer}{}
-\begin{frame}{Dependence on r${}_s$}
-  \centering
-  \begin{tabular}{ c | c | c } 
-  \# Dimensions & Instability $r_s$ & Literature \\
-  \hline
-  1 & 0.15 & 0$^1$ \\ 
-  2 & 0.95  & 0.8$^2$ \\ 
-  3 & 3.0  & 3.0$^3$ \\ 
-  \end{tabular}\\
-  \vspace{5mm}
-  \tiny
-  (1) Overhauser, A. W. Phys. Rev. 1962, 128 (3), 1437–1452. \\
-  (2) Bernu, B.; Delyon, F.; Holzmann, M.; Baguet, L. Phys. Rev. B 2011, 84 (11), 115115.\\
-  (3) Baguet, L.; Delyon, F.; Bernu, B.; Holzmann, M. Phys. Rev. B 2014, 90 (16), 165131.
-\end{frame}
-
-\section{Future Directions}
 
 \setbeamertemplate{frame footer}{
-(1) Ohno, K. Chem. Rec. 2016, 16 (5), 2198–2218. \newline
-(2) Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 2338–2348.
+Figure reproduced from: Benavides-Riveros, C. L.; Lathiotakis, N. N.; Marques, M. A. L. 2017, 1–11.
 }
-\begin{frame}{Brute Force GHF}
-	\begin{itemize}[<+->]
-  	\item Find the lowest energy GHF solution 
-  	\item Use algorithms inspired by similar problems (atomic configuration)
-  	\item Global Reaction Route Mapping (GRRM) / Anharmonic Downard Distortion (ADD)$^1$
-  	\item Genetic Algorithm$^2$
-	\end{itemize}
+\begin{frame}{Correlation Energy Increases at Small Gap}
+  \centering
+	\includegraphics[width=.4\linewidth]{../figures/gap_vs_corr_Marques.png}
 \end{frame}
 
 \setbeamertemplate{frame footer}{
-Figure reproduced from: Ohno, K. Chem. Rec. 2016, 16 (5), 2198–2218.
+Phillips, P. Advanced Solid State Physics, 2nd ed.; Cambridge University Press: Cambridge, 2012.
 }
-\begin{frame}{Anharmonic Downard Distortion}
+\begin{frame}{Physicist's Strong Correlation}
   \centering
-	\includegraphics[width=.6\linewidth]{../figures/ADD.png}\\
-	Replace atomic coordinates with MO coefficients and vibrational information with MO 
-	eigenvalues/vectors
+	\begin{quote}
+  	However, because all repulsive short-range interactions renormalize towards the Fermi surface, 
+  	their presence does not destroy the underlying free-particle picture of a Fermi Liquid. That 
+  	is, the interactions can be integrated out, leaving behind renormalized electron or 
+  	quasi-particle states. Hence, in a Fermi liquid there is a simple principle that can be invoked 
+  	to lay plain that free electrons are the propagating degrees of freedom. Without the assumption 
+  	of a Fermi surface, no principle exists that allows us to smooth away the interactions. 
+  	\alert{We 
+  	refer to such problems as being strongly correlated, namely those in which no obvious 
+  	principle, ... exists that governs the renormalization of the electron-electron interactions.} 
+	\end{quote}
+	
 \end{frame}
-
-\setbeamertemplate{frame footer}{
-Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2015, 55 (11), 
-2338–2348.
-}
-\begin{frame}{Genetic Algorithm}
-  \centering
-  Genetic Algorithm promising in finding many low energy solutions
-	\includegraphics[width=.6\linewidth]{../figures/GA_supady.png}
-\end{frame}
-
-\begin{frame}{Proposal: Genetic Algorithm}
-  \begin{itemize}
-    \item{ Use as the gene the density matrix / MO coefficients }
-    \item{ Less human input }
-    \item{ Less dependence on underlying PES structure }
-    \item{ How the HF solution gets found is irrelevant } 
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Concluding Remarks}
-  \begin{itemize}
-    \item{ Paramagnetic HEG instabilities are successfully reproduced by the MO hessian approach }
-    \item{ HF Stability analysis can show when restrictions should be lifted }
-    \item{ It is feasible that even stable HF are not global minimum }
-    \item{ Other approaches should be used to find even lower energy HF solutions }
-    \item{ Inspiration from similar problems could help; GRRM or Genetic Algorithms } 
-  \end{itemize}
-\end{frame}
-
-\begin{comment}
-\section{Concluding Remarks}
-{%
-\setbeamertemplate{frame footer}{}
-\begin{frame}{Conclusions}
-  \begin{itemize}
-    \item {Numerical studies likely support Overhauser's theorem in 1D}
-    \item {Stability corresponds with direct phase calculations in 2D}
-    \item {In 3D, predicts transition at higher density than is currently known via
-    other methods.}
-  \end{itemize}
-\end{frame}
-}
-
-{%
-\setbeamertemplate{frame footer}{}
-\begin{frame}{Next Steps}
-  \begin{itemize}
-    \item {Directly calculate more exotic spin phases of HEG within HF theory}
-    \item {Use those as starting points for CC, MBPT theories}
-    \item {Apply a similar approach to finite molecular systems}
-  \end{itemize}
-\end{frame}
-}
-\end{comment}
-
-{%
-\setbeamertemplate{frame footer}{}
-\begin{frame}[standout]
-  Questions?
-\end{frame}
-
-
-\appendix
 
 \section{Iterative Subspace Eigenvalue Methods}
 {%
@@ -673,27 +663,7 @@ Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2
 	\end{itemize}
 \end{frame}
 
-{%
-\setbeamertemplate{frame footer}{1) http://mathworld.wolfram.com/StrassenFormulas.html}
 
-\begin{frame}{Davidson Scaling}
-	\begin{columns}[c] % align columns
-		\begin{column}{.4\textwidth}
-			\begin{itemize}
-				\item {Davidson is Asymptotically quadratic.}
-				\item {Full diagonalization is almost cubic.}
-				\item {Matrix multiplication is order${}^1$ $log_2(7) \approx 2.807$}
-			\end{itemize}
-		\end{column}
-		\hfill
-		\begin{column}{0.6\textwidth}
-		    \begin{overprint}
-			    \onslide<1>\includegraphics[width=\linewidth]{../figures/dav_vs_exact_scaling.eps}
-
-			\end{overprint}
-		\end{column}
-	\end{columns}
-\end{frame}
 
 
 {%
