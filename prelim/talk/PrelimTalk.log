@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  6 NOV 2017 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  6 NOV 2017 17:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1351,7 +1351,7 @@ onverted-to.pdf ../figures/imark_bold.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/imark_bold-eps-converted-to.pdf, id=41, 27.10126pt x 35.13126pt>
+<../figures/imark_bold-eps-converted-to.pdf, id=45, 27.10126pt x 35.13126pt>
 File: ../figures/imark_bold-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/imark_bold-eps-converted-to.pdf>
@@ -1395,25 +1395,35 @@ thkerncmss.
 )
 [3
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 73.
+] [4
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 73.
+]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 80.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 80.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 73.
+(Font)              for symbol `textbullet' on input line 80.
 
-[4
-
-] [5
+[5
 
 ] [6
 
 ] [7
 
-]
+] [8
+
+] <../figures/H2_curves.png, id=118, 578.16pt x 289.08pt>
+File: ../figures/H2_curves.png Graphic file (type png)
+
+<use ../figures/H2_curves.png>
+Package pdftex.def Info: ../figures/H2_curves.png used on input line 97.
+(pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
+ [9
+
+ <../figures/H2_curves.png>]
 \openout4 = `PrelimTalk.vrb'.
 
  (./PrelimTalk.vrb
@@ -1421,21 +1431,21 @@ Overfull \hbox (16.41405pt too wide) in paragraph at lines 3--41
  [] 
  []
 
-) [8
-
-] <../figures/H2_curves.png, id=114, 578.16pt x 289.08pt>
-File: ../figures/H2_curves.png Graphic file (type png)
-
-<use ../figures/H2_curves.png>
-Package pdftex.def Info: ../figures/H2_curves.png used on input line 127.
-(pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
- [9
-
- <../figures/H2_curves.png>] [10
-
-] [11
+) [10
 
 ]
+File: ../figures/H2_curves.png Graphic file (type png)
+ <use ../figures/H2_curves.png>
+Package pdftex.def Info: ../figures/H2_curves.png used on input line 157.
+(pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
+ [11
+
+]
+File: ../figures/H2_curves.png Graphic file (type png)
+ <use ../figures/H2_curves.png>
+Package pdftex.def Info: ../figures/H2_curves.png used on input line 157.
+(pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
+
 [12
 
 ] [13
@@ -1456,26 +1466,22 @@ Package pdftex.def Info: ../figures/H2_curves.png used on input line 127.
 
 ] [21
 
+] [22
+
 ]
-<../figures/Ceperley_PhaseDiag.png, id=188, 692.5875pt x 464.73625pt>
+<../figures/Ceperley_PhaseDiag.png, id=199, 692.5875pt x 464.73625pt>
 File: ../figures/Ceperley_PhaseDiag.png Graphic file (type png)
 
 <use ../figures/Ceperley_PhaseDiag.png>
 Package pdftex.def Info: ../figures/Ceperley_PhaseDiag.png used on input line 2
-69.
+75.
 (pdftex.def)             Requested size: 261.19826pt x 175.26843pt.
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [22
-
- <../figures/Ceperley_PhaseDiag.png>]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [23
 
-]
+ <../figures/Ceperley_PhaseDiag.png (PNG copy)>]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
@@ -1493,13 +1499,7 @@ Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [26
 
-]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [27
-
-] [28
+] [27
 
 ]
 Package epstopdf Info: Source file: <../figures/exchist.eps>
@@ -1510,17 +1510,17 @@ Package epstopdf Info: Source file: <../figures/exchist.eps>
 (epstopdf)                    size: 54131 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/exchist-eps-conv
 erted-to.pdf ../figures/exchist.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/exchist-eps-converted-to.pdf, id=225, 216.81pt x 216.81pt>
+<../figures/exchist-eps-converted-to.pdf, id=227, 216.81pt x 216.81pt>
 File: ../figures/exchist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/exchist-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/exchist-eps-converted-to.pdf used on input 
-line 306.
+line 312.
 (pdftex.def)             Requested size: 184.3758pt x 184.3853pt.
- [29
+ [28
 
  <../figures/exchist-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/dav_vs_exact_scaling.eps>
@@ -1532,18 +1532,18 @@ ted-to.pdf>
 (epstopdf)                    size: 44489 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/dav_vs_exact_sca
 ling-eps-converted-to.pdf ../figures/dav_vs_exact_scaling.eps>
-(epstopdf)             \includegraphics on input line 327.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/dav_vs_exact_scaling-eps-converted-to.pdf, id=266, 433.62pt x 289.0
+<../figures/dav_vs_exact_scaling-eps-converted-to.pdf, id=268, 433.62pt x 289.0
 8pt>
 File: ../figures/dav_vs_exact_scaling-eps-converted-to.pdf Graphic file (type p
 df)
  <use ../figures/dav_vs_exact_scaling-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/dav_vs_exact_scaling-eps-converted-to.pdf u
-sed on input line 327.
+sed on input line 334.
 (pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
- [30
+ [29
 
  <../figures/dav_vs_exact_scaling-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/parallel-scaling.eps>
@@ -1555,19 +1555,21 @@ to.pdf>
 (epstopdf)                    size: 25556 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/parallel-scaling
 -eps-converted-to.pdf ../figures/parallel-scaling.eps>
-(epstopdf)             \includegraphics on input line 345.
+(epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/parallel-scaling-eps-converted-to.pdf, id=325, 227.85126pt x 173.64
+<../figures/parallel-scaling-eps-converted-to.pdf, id=327, 227.85126pt x 173.64
 874pt>
 File: ../figures/parallel-scaling-eps-converted-to.pdf Graphic file (type pdf)
  <use ../figures/parallel-scaling-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/parallel-scaling-eps-converted-to.pdf used 
-on input line 345.
+on input line 353.
 (pdftex.def)             Requested size: 193.59044pt x 147.54118pt.
- [31
+ [30
 
- <../figures/parallel-scaling-eps-converted-to.pdf>]
+ <../figures/parallel-scaling-eps-converted-to.pdf>] [31
+
+]
 Package epstopdf Info: Source file: <../figures/stability.eps>
 (epstopdf)                    date: 2017-11-06 13:10:02
 (epstopdf)                    size: 45607 bytes
@@ -1577,18 +1579,18 @@ Package epstopdf Info: Source file: <../figures/stability.eps>
 (epstopdf)                    size: 34150 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/stability-eps-co
 nverted-to.pdf ../figures/stability.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 362.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/stability-eps-converted-to.pdf, id=366, 428.60126pt x 426.59375pt>
+<../figures/stability-eps-converted-to.pdf, id=373, 428.60126pt x 426.59375pt>
 File: ../figures/stability-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/stability-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/stability-eps-converted-to.pdf used on inpu
-t line 353.
+t line 362.
 (pdftex.def)             Requested size: 230.46739pt x 229.3873pt.
 
-Overfull \vbox (12.2232pt too high) detected at line 353
+Overfull \vbox (26.02313pt too high) detected at line 362
  []
 
 [32
@@ -1603,16 +1605,16 @@ pdf>
 (epstopdf)                    size: 24339 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/singlet_onset-ep
 s-converted-to.pdf ../figures/singlet_onset.eps>
-(epstopdf)             \includegraphics on input line 367.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/singlet_onset-eps-converted-to.pdf, id=420, 642.4pt x 209.78375pt>
+<../figures/singlet_onset-eps-converted-to.pdf, id=427, 642.4pt x 209.78375pt>
 File: ../figures/singlet_onset-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/singlet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/singlet_onset-eps-converted-to.pdf used on 
-input line 367.
-(pdftex.def)             Requested size: 291.92444pt x 95.3333pt.
+input line 373.
+(pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
 Package epstopdf Info: Source file: <../figures/triplet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
 (epstopdf)                    size: 35118 bytes
@@ -1622,24 +1624,19 @@ pdf>
 (epstopdf)                    size: 26566 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/triplet_onset-ep
 s-converted-to.pdf ../figures/triplet_onset.eps>
-(epstopdf)             \includegraphics on input line 367.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/triplet_onset-eps-converted-to.pdf, id=421, 642.4pt x 209.78375pt>
+<../figures/triplet_onset-eps-converted-to.pdf, id=428, 642.4pt x 209.78375pt>
 File: ../figures/triplet_onset-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/triplet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/triplet_onset-eps-converted-to.pdf used on 
-input line 367.
-(pdftex.def)             Requested size: 291.92444pt x 95.3333pt.
+input line 373.
+(pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
+ [33
 
-Overfull \vbox (19.79117pt too high) detected at line 367
- []
-
-[33
-
- <../figures/singlet_onset-eps-converted-to.pdf> <../figures/triplet_onset-eps-
-converted-to.pdf>]
+ <../figures/singlet_onset-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/singlet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
 (epstopdf)                    size: 34543 bytes
@@ -1649,13 +1646,13 @@ pdf>
 (epstopdf)                    size: 24339 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/singlet_onset-ep
 s-converted-to.pdf ../figures/singlet_onset.eps>
-(epstopdf)             \includegraphics on input line 367.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 File: ../figures/singlet_onset-eps-converted-to.pdf Graphic file (type pdf)
  <use ../figures/singlet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/singlet_onset-eps-converted-to.pdf used on 
-input line 367.
-(pdftex.def)             Requested size: 291.92444pt x 95.3333pt.
+input line 373.
+(pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
 Package epstopdf Info: Source file: <../figures/triplet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
 (epstopdf)                    size: 35118 bytes
@@ -1665,21 +1662,17 @@ pdf>
 (epstopdf)                    size: 26566 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/triplet_onset-ep
 s-converted-to.pdf ../figures/triplet_onset.eps>
-(epstopdf)             \includegraphics on input line 367.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 File: ../figures/triplet_onset-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/triplet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/triplet_onset-eps-converted-to.pdf used on 
-input line 367.
-(pdftex.def)             Requested size: 291.92444pt x 95.3333pt.
+input line 373.
+(pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
+ [34
 
-Overfull \vbox (19.79117pt too high) detected at line 367
- []
-
-[34
-
-]
+ <../figures/triplet_onset-eps-converted-to.pdf>]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
@@ -1687,14 +1680,7 @@ Missing character: There is no “ in font cmss8!
 
 ] [36
 
-]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [37
+] [37
 
 ]
 Missing character: There is no â in font cmss8!
@@ -1724,128 +1710,127 @@ Missing character: There is no “ in font cmss8!
  [40
 
 ]
-<../figures/ADD.png, id=536, 433.62pt x 398.48875pt>
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [41
+
+]
+<../figures/ADD.png, id=548, 433.62pt x 398.48875pt>
 File: ../figures/ADD.png Graphic file (type png)
  <use ../figures/ADD.png>
-Package pdftex.def Info: ../figures/ADD.png used on input line 412.
+Package pdftex.def Info: ../figures/ADD.png used on input line 427.
 (pdftex.def)             Requested size: 184.3758pt x 169.43756pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
 
-[41
+[42
 
  <../figures/ADD.png>]
-<../figures/GA_supady.png, id=542, 572.1375pt x 563.10374pt>
+<../figures/GA_supady.png, id=554, 572.1375pt x 563.10374pt>
 File: ../figures/GA_supady.png Graphic file (type png)
 
 <use ../figures/GA_supady.png>
-Package pdftex.def Info: ../figures/GA_supady.png used on input line 422.
+Package pdftex.def Info: ../figures/GA_supady.png used on input line 437.
 (pdftex.def)             Requested size: 184.3758pt x 181.45993pt.
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [42
-
- <../figures/GA_supady.png>]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [43
 
-]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [44
+ <../figures/GA_supady.png>] [44
+
+] [45
 
 ]
-[45
+[46
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 451.
+(hyperref)                removing `\translate ' on input line 466.
 
-[46
-
-] [47
+[47
 
 ] [48
 
 ] [49
 
-]
-Overfull \vbox (3.47342pt too high) detected at line 515
- []
-
-[50
+] [50
 
 ]
-Overfull \vbox (3.47342pt too high) detected at line 515
+Overfull \vbox (3.47342pt too high) detected at line 530
  []
 
 [51
 
 ]
-Overfull \vbox (3.47342pt too high) detected at line 515
+Overfull \vbox (3.47342pt too high) detected at line 530
  []
 
 [52
 
 ]
-Overfull \vbox (3.47342pt too high) detected at line 515
+Overfull \vbox (3.47342pt too high) detected at line 530
  []
 
 [53
 
 ]
-Overfull \hbox (24.55103pt too wide) in alignment at lines 585--585
- [][][] []
- []
-
-
-Overfull \vbox (21.8293pt too high) detected at line 585
+Overfull \vbox (3.47342pt too high) detected at line 530
  []
 
 [54
 
-] <../figures/gap_vs_corr_Marques.png, id=611, 466.74374pt x 826.08624pt>
+]
+Overfull \hbox (24.55103pt too wide) in alignment at lines 600--600
+ [][][] []
+ []
+
+
+Overfull \vbox (21.8293pt too high) detected at line 600
+ []
+
+[55
+
+] <../figures/gap_vs_corr_Marques.png, id=625, 466.74374pt x 826.08624pt>
 File: ../figures/gap_vs_corr_Marques.png Graphic file (type png)
 
 <use ../figures/gap_vs_corr_Marques.png>
 Package pdftex.def Info: ../figures/gap_vs_corr_Marques.png used on input line 
-594.
+609.
 (pdftex.def)             Requested size: 122.91406pt x 217.53786pt.
 
-Overfull \vbox (0.37376pt too high) detected at line 594
+Overfull \vbox (0.37376pt too high) detected at line 609
  []
 
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
-[55
+[56
 
- <../figures/gap_vs_corr_Marques.png>] [56
+ <../figures/gap_vs_corr_Marques.png>] [57
 
-] [57
+] [58
 
 ]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [58
-
-] [59
+ [59
 
 ] [60
 
 ] [61
 
-]
-[62
+] [62
 
-] [63
+]
+[63
 
 ] [64
 
@@ -1859,6 +1844,8 @@ Missing character: There is no “ in font cmss8!
 
 ] [69
 
+] [70
+
 ]
 \tf@nav=\write6
 \openout6 = `PrelimTalk.nav'.
@@ -1869,13 +1856,13 @@ Missing character: There is no “ in font cmss8!
 \tf@snm=\write8
 \openout8 = `PrelimTalk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 693.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 693.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 732.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 732.
  (./PrelimTalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 693.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 693.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 732.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 732.
 Package rerunfilecheck Info: File `PrelimTalk.out' has not changed.
-(rerunfilecheck)             Checksum: 2BDABEEED9F09E7A07028EAD42AB35A6;388.
+(rerunfilecheck)             Checksum: D33E8692C3C183DC2B46998E9FFCC775;437.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1884,38 +1871,39 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 693.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 732.
  )
-(\end occurred inside a group at level 19)
+(\end occurred inside a group at level 20)
 
-### simple group (level 19) entered at line 669 ({)
-### simple group (level 18) entered at line 639 ({)
-### simple group (level 17) entered at line 616 ({)
-### simple group (level 16) entered at line 518 ({)
-### simple group (level 15) entered at line 483 ({)
-### simple group (level 14) entered at line 455 ({)
-### simple group (level 13) entered at line 444 ({)
-### simple group (level 12) entered at line 371 ({)
-### simple group (level 11) entered at line 348 ({)
-### simple group (level 10) entered at line 308 ({)
-### simple group (level 9) entered at line 288 ({)
-### simple group (level 8) entered at line 272 ({)
-### simple group (level 7) entered at line 260 ({)
-### simple group (level 6) entered at line 223 ({)
-### simple group (level 5) entered at line 201 ({)
-### simple group (level 4) entered at line 170 ({)
-### simple group (level 3) entered at line 141 ({)
-### simple group (level 2) entered at line 121 ({)
-### simple group (level 1) entered at line 75 ({)
+### simple group (level 20) entered at line 684 ({)
+### simple group (level 19) entered at line 654 ({)
+### simple group (level 18) entered at line 631 ({)
+### simple group (level 17) entered at line 533 ({)
+### simple group (level 16) entered at line 498 ({)
+### simple group (level 15) entered at line 470 ({)
+### simple group (level 14) entered at line 459 ({)
+### simple group (level 13) entered at line 377 ({)
+### simple group (level 12) entered at line 356 ({)
+### simple group (level 11) entered at line 314 ({)
+### simple group (level 10) entered at line 294 ({)
+### simple group (level 9) entered at line 278 ({)
+### simple group (level 8) entered at line 266 ({)
+### simple group (level 7) entered at line 229 ({)
+### simple group (level 6) entered at line 207 ({)
+### simple group (level 5) entered at line 191 ({)
+### simple group (level 4) entered at line 162 ({)
+### simple group (level 3) entered at line 146 ({)
+### simple group (level 2) entered at line 100 ({)
+### simple group (level 1) entered at line 91 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30684 strings out of 493029
- 617991 string characters out of 6136235
- 681119 words of memory out of 5000000
- 33497 multiletter control sequences out of 15000+600000
+ 30701 strings out of 493029
+ 618149 string characters out of 6136235
+ 681767 words of memory out of 5000000
+ 33511 multiletter control sequences out of 15000+600000
  15975 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,17n,96p,10393b,3049s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,17n,96p,10393b,3219s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -1931,10 +1919,10 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PrelimTalk.pdf (69 pages, 685680 bytes).
+Output written on PrelimTalk.pdf (70 pages, 690190 bytes).
 PDF statistics:
- 783 PDF objects out of 1000 (max. 8388607)
- 467 compressed objects within 5 object streams
- 147 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

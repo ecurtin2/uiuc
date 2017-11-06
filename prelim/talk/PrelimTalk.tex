@@ -39,7 +39,16 @@
 
 \section{Background Information}
 
-\begin{frame}{Correlation Energy}
+\begin{frame}{Motivation}
+superconductivity
+
+correlation energy
+
+\end{frame}
+
+
+
+\begin{frame}{The Electronic Structure Approach}
 	\begin{itemize}[<+->]
 		\item {The Molecular Electronic S.E. in the Born-Oppenheimer approximation
 		  \begin{equation*}
@@ -66,11 +75,27 @@
 		    E_{corr} = E_{exact} - E_{HF}
 		  \end{equation*}
     }
-    \item {The correlation energy is recovered by post Hartree-Fock methods (CC, MBPT)
-    which perform better the closer the HF solution is to the exact.
-    }
+
 	\end{itemize}
 \end{frame}
+
+\begin{frame}{Post-Hartree-Fock}
+  \begin{itemize}
+    \item {The correlation energy is recovered by post Hartree-Fock methods (CC, MBPT)
+    which perform better the closer the HF solution is to the exact.} 
+    \item {These methods may fail if the HF solution is far from the exact}
+    \item {Can we remedy this by finding a better HF solution?}
+  \end{itemize}
+\end{frame}
+
+{%+
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Case Study: H$_2$ Dissociation}
+  \centering
+	Is this strong correlation or a bad reference?
+	\includegraphics[width=\linewidth]{../figures/H2_curves.png}
+\end{frame}
+
 
 {%
 \setbeamertemplate{frame footer}{Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.
@@ -122,16 +147,12 @@
 \setbeamertemplate{frame footer}{}
 \begin{frame}{Case Study: H$_2$ Dissociation}
   \centering
-	Is this strong correlation or a bad reference?
 	\includegraphics[width=\linewidth]{../figures/H2_curves.png}
-\end{frame}
-
-
-\begin{frame}{Project Questions}
 	\begin{itemize}[<+->]
-		\item {How can we improve our HF solutions?}
-		\item {Does this actually help in finding the exact energy?}
-		\item {Apply to systems (known molecules, periodic systems)}
+    \item {Is this situation unique to H$_2$ or is it common
+    ?}
+		\item {Can we identify when a better HF solution is necessary?}
+
 	\end{itemize}
 \end{frame}
 
@@ -143,11 +164,10 @@
 
 \begin{frame}{Hartree-Fock Stability Conditions}
 	\begin{itemize}[<+->]
-		\item Solving the HF equations guarantees only that the energy is \alert{stationary}. The first 
-		order variation is therefore 0.
-		\item We need to know if this is indeed a minimum.
-		\item{This not the case if any \alert{Orbital Hessian} (aka stability matrix, electronic 
-		Hessian) eigenvalues are \alert{negative}
+		\item Solving the HF equations guarantees only that the energy is \alert{stationary}.
+		\item{The solution is \alert{unstable} if any \alert{Orbital Hessian} (aka stability matrix, 
+		electronic +
+		Hessian) eigenvalues are \alert{negative}, indicating that it's not a minimum
 			\begin{eqnarray}
 				\begin{bmatrix}
 					\bf{A}   & \bf{B}   \\
@@ -163,6 +183,7 @@
 			\nonumber \\
 			B_{ia,jb} &=& \braket{{}_{ij}^{ab}|H-E_0|0} = \braket{ab||ij}.
 		\end{eqnarray}
+		\item{To determine instabilities, find the lowest eigenvalue}
 	\end{itemize}
 \end{frame}
 
@@ -172,31 +193,16 @@
 \begin{frame}{Hartree-Fock Stability Conditions}
 	\begin{itemize}
 		\item[]{The Matrix Equation Factorizes} \\~\\
-		\item[]{
-			\resizebox{0.9\textwidth}{!}{%
-			\begin{tabular}{r@{\qquad}cccccc}
-				  \multirow{1}{*}{Solution Type} & \multicolumn{6}{c}{Space Type}  \\
-				  \cmidrule{2-7}
-				  & Real RHF & Complex RHF & Real UHF & Complex UHF & Real GHF & Complex GHF \\
-				  \midrule
-				  Real RHF    & ${}^1\mathbf{A}' + {}^1\mathbf{B}'$ & ${}^1\mathbf{A}' - {}^1\mathbf{B}'$ & 
-				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$ & 
-				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$  \\
-				  Complex RHF & - & \alert{${}^1\mathbf{H}'$} & - & \alert{${}^3\mathbf{H}'$} & - & 
-				  ${}^3\mathbf{H}'$ \\
-				  Real UHF    & - & - & $\mathbf{A}' + \mathbf{B}'$ & $\mathbf{A}' - \mathbf{B}'$ & 
-				  $\mathbf{A}'' + \mathbf{B}''$ & $\mathbf{A}'' - \mathbf{B}''$ \\
-				  Complex UHF & - & - & - &  $\mathbf{H}'$ & - & $\mathbf{H}'$ \\
-				  Real GHF    & - & - & - & - & $\mathbf{A} - \mathbf{B}$ &  $\mathbf{A} - \mathbf{B}$  \\
-				  Complex GHF & - & - & - & - & - & $\mathbf{H}$ \\
-				  \bottomrule
-			\end{tabular}}
-		\item[] \tiny Table reproduced from Seeger \& Pople$^1$
-		}
+		\item[]{Singlet and Triplet Instabilities (RHF - RHF) and (RHF - UHF) }
 	\end{itemize}
 \end{frame}
 
 \section{Homogeneous Electron Gas}
+
+\begin{frame}
+why
+
+\end{frame}
 
 {%
 	\setbeamertemplate{frame footer}{Phillips, P. Advanced Solid State Physics, 2nd ed.; Cambridge University Press: Cambridge, 2012.}
@@ -225,7 +231,7 @@
 
 \begin{frame}{Brief Overview of HEG}
 	\begin{itemize}
-		\item{The discretized solutions are given by,
+		\item{The discretized solutions are given by, ONE AT A TIME
 		\begin{eqnarray}\label{eq:hf_orb_energy}
 			\epsilon_{\vec{k}}=
 				\frac{\hbar^2 k^2}{2m} - \sum\limits_{\vec{k}'}^{|\vec{k}'|< k_f}
@@ -271,24 +277,24 @@
 
 {%
 \setbeamertemplate{frame footer}{Overhauser, A. W. Phys. Rev. Lett. 1960, 4 (9), 462–465.}
-\begin{frame}{Project Questions}
+\begin{frame}{Applying HF-Stability to HEG}
 	\begin{itemize}[<+->]
-		\item{Can we use the HF-Stability analysis to determine where the HEG is unstable?}
 		\item{Will this predict the known tendency of crystallization at low density?}
-		\item{It is known that the GHF solution persists at all densities for the HEG$^1$.}
-		\item{Can we show this numerically?}
-		\item{(Future) Can we find a lower energy GHF solution to reduce ``correlation energy''?}
+		\item{Overhauser's theorem states that the GHF solution persists at all densities for the 
+		HEG$^1$.}
+		\begin{itemize}
+  		\item{Can we show this numerically?}
+  	\end{itemize}
 	\end{itemize}
 \end{frame}
 
 
-
-\section{Results}
+\section{Implementation}
 
 {%
 \setbeamertemplate{frame footer}{}
 
-\begin{frame}{Implementation Problems}
+\begin{frame}{Technical Challenges}
 	\begin{columns}[c] % align columns
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
@@ -312,9 +318,10 @@
 	\begin{columns}[c] % align columns
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
+  			\item {Only need the lowest eigenvalue}
 			  \item {Davidson requires no explicit matrix storage}
-				\item {Davidson is Asymptotically quadratic}
-				\item {Full diagonalization is cubic}
+			  \item {Careful choice of initial guess circumvents numerical issues}
+			  \item {Still slow for large N}
 			\end{itemize}
 		\end{column}
 		\begin{column}{0.7\textwidth}
@@ -330,8 +337,9 @@
 	\begin{columns}[c] % align columns
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-			  \item {Access to Blue Waters}
-			  \item {Depending on \# of cores, 400-1000 fold speedup compared to serial}
+			  \item {Enables utilization of Blue Waters}
+			  \item {Depending on \# of cores, 400-1000 fold speedup compared to serial}			  			  
+			  \item {This enabled me to compute 3D results}
 			\end{itemize}
 		\end{column}
 		\begin{column}{0.7\textwidth}
@@ -344,25 +352,23 @@
 	\end{columns}
 \end{frame}
 
-
+\section{Results}
 {%
 \setbeamertemplate{frame footer}{}
 \begin{frame}{Stability Curves Show Clear Transition}
   \centering
+  add each to own slide
 	\includegraphics[width=0.75\linewidth]{../figures/stability.eps}
 \end{frame}
 
 \begin{frame}{Stability Onset Converges With k-points}
   \centering 
   \begin{overprint}
-    \onslide<1, 2>{Singlet Instabilities
-    \includegraphics[width=.95\linewidth]{../figures/singlet_onset.eps}
-  	}
-  	\\
-  	\centering
-  	\onslide<2>{Triplet Instabilities
-  	\includegraphics[width=.95\linewidth]{../figures/triplet_onset.eps}
-  	}
+    \centering
+    \onslide<1>\centering Singlet Instabilities\\ \vspace{5mm}
+    \includegraphics[width=\linewidth]{../figures/singlet_onset.eps}
+  	\onslide<2>\centering Triplet Instabilities\\ \vspace{5mm}
+  	\includegraphics[width=\linewidth]{../figures/triplet_onset.eps}
 	\end{overprint}
 \end{frame}
 
@@ -373,17 +379,26 @@
 \begin{frame}{Transitions are Consistent with Others}
   \centering
   \begin{tabular}{ c | c | c } 
-  \# Dimensions & Instability $r_s$ (Me) & Phase Boundary $r_s$ (Literature) \\
+  \# Dimensions & Instability $r_s$ & Phase Boundary $r_s$ \\
   \hline
-  1 & 0.09 & 0$^1$ \\ 
-  2 & 0.87  & 0.8$^2$ \\ 
-  3 & 3.15  & 3.0$^3$ \\ 
+  1 & 0.(1) & 0$^1$ \\ 
+  2 & 0.8(7)  & 0.8$^2$ \\ 
+  3 & 3.(2)  & 3.0$^3$ \\ 
   \end{tabular}\\
   \vspace{5mm}
   \scriptsize
   (1) Overhauser, A. W. Phys. Rev. 1962, 128 (3), 1437–1452. \\
   (2) Bernu, B.; Delyon, F.; Holzmann, M.; Baguet, L. Phys. Rev. B 2011, 84 (11), 115115.\\
   (3) Baguet, L.; Delyon, F.; Bernu, B.; Holzmann, M. Phys. Rev. B 2014, 90 (16), 165131.
+\end{frame}
+
+
+\begin{frame}{Concluding Remarks}
+  \begin{itemize}
+    \item{ Paramagnetic HEG instabilities are successfully reproduced by the MO hessian approach }
+    \item{ HF Stability analysis can show when restrictions should be lifted }
+    \item{ It is feasible that even stable HF are not global minimum }
+  \end{itemize}
 \end{frame}
 
 \section{Future Directions}
@@ -421,6 +436,7 @@ Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2
 	\includegraphics[width=.6\linewidth]{../figures/GA_supady.png}
 \end{frame}
 
+\setbeamertemplate{frame footer}{}
 \begin{frame}{Proposal: Genetic Algorithm}
   \begin{itemize}
     \item{ Use as the gene the density matrix / MO coefficients }
@@ -430,13 +446,12 @@ Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Concluding Remarks}
+
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Acknowledgements}
   \begin{itemize}
-    \item{ Paramagnetic HEG instabilities are successfully reproduced by the MO hessian approach }
-    \item{ HF Stability analysis can show when restrictions should be lifted }
-    \item{ It is feasible that even stable HF are not global minimum }
-    \item{ Other approaches should be used to find even lower energy HF solutions }
-    \item{ Inspiration from similar problems could help; GRRM or Genetic Algorithms } 
+    \item{ Nobody i did this shit myself }
+ 
   \end{itemize}
 \end{frame}
 
@@ -689,5 +704,29 @@ Phillips, P. Advanced Solid State Physics, 2nd ed.; Cambridge University Press: 
 	\end{itemize}
 
 \end{frame}
+
+
+%\begin{frame}
+%		{
+%			\resizebox{0.9\textwidth}{!}{%
+%			\begin{tabular}{r@{\qquad}cccccc}
+%				  \multirow{1}{*}{Solution Type} & \multicolumn{6}{c}{Space Type}  \\
+%				  \cmidrule{2-7}
+%%				  \midrule
+%				  Real RHF    & ${}^1\mathbf{A}' + {}^1\mathbf{B}'$ & ${}^1\mathbf{A}' - {}^1\mathbf{B}'$ & 
+%				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$ & 
+%				  ${}^3\mathbf{A}' + {}^3\mathbf{B}'$ & ${}^3\mathbf{A}' - {}^3\mathbf{B}'$  \\
+%				  Complex RHF & - & \alert{${}^1\mathbf{H}'$} & - & \alert{${}^3\mathbf{H}'$} & - & 
+%				  ${}^3\mathbf{H}'$ \\
+%				  Real UHF    & - & - & $\mathbf{A}' + \mathbf{B}'$ & $\mathbf{A}' - \mathbf{B}'$ & 
+%				  $\mathbf{A}'' + \mathbf{B}''$ & $\mathbf{A}'' - \mathbf{B}''$ \\
+%				  Complex UHF & - & - & - &  $\mathbf{H}'$ & - & $\mathbf{H}'$ \\
+%				  Real GHF    & - & - & - & - & $\mathbf{A} - \mathbf{B}$ &  $\mathbf{A} - \mathbf{B}$  \\
+%				  Complex GHF & - & - & - & - & - & $\mathbf{H}$ \\
+%				  \bottomrule
+%			\end{tabular}}
+%
+%		}
+%\end{frame}
 
 \end{document}
