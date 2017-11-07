@@ -215,7 +215,8 @@
 (2)	Overhauser, A. W. Phys. Rev. Lett. 1960, 4 (9), 462–465.}
 \begin{frame}{Why HEG?}
  \begin{itemize} 
-   \item{ In finite systems with degenerate HOMO-LUMO, an RHF solution is always triplet unstable }
+   \item{ In finite systems with degenerate HOMO-LUMO, an RHF solution is always triplet 
+   unstable${}^1$ }
    \item{ Does this hold for infinite systems? }
    \item{ Overhauser's theorem suggests that this always holds in 1D$^2$ HEG }
    \item{ Can we show this and investigate 2D and 3D? }
@@ -292,21 +293,6 @@
 	QMC Energies for various phases
 	\includegraphics[width=.85\linewidth]{../figures/Ceperley_PhaseDiag.png}
 \end{frame}
-
-
-{%
-\setbeamertemplate{frame footer}{Overhauser, A. W. Phys. Rev. Lett. 1960, 4 (9), 462–465.}
-\begin{frame}{Applying HF-Stability to HEG}
-	\begin{itemize}[<+->]
-		\item{Will this predict the known tendency of crystallization at low density?}
-		\item{Overhauser's theorem states that the GHF solution persists at all densities for the 
-		HEG$^1$.}
-		\begin{itemize}
-  		\item{Can we show this numerically?}
-  	\end{itemize}
-	\end{itemize}
-\end{frame}
-
 
 \section{Implementation}
 
@@ -419,7 +405,7 @@
   \begin{itemize}
     \item{ Paramagnetic HEG instabilities are successfully reproduced by the MO hessian approach }
     \item{ HF Stability analysis can show when restrictions should be lifted }
-    \item{ It is feasible that even stable HF are not global minimum }
+    \item{ It is feasible that even stable HF are not global minimum... }
   \end{itemize}
 \end{frame}
 
