@@ -100,6 +100,8 @@
     which perform better the closer the HF solution is to the exact.} 
     \item {These methods may fail if the HF solution is far from the exact}
     \item {Can we remedy this by finding a better HF solution?}
+    \item {To what extent are systems with large correlation energies insufficiently described by 
+    HF?} 
   \end{itemize}
 \end{frame}
 
@@ -186,18 +188,38 @@
 
 
 {%
-	\setbeamertemplate{frame footer}{1) Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.}
+	\setbeamertemplate{frame footer}{Seeger, R.; Pople, J. A. J. Chem. Phys. 1977, 66 (7), 3045.}
 \begin{frame}{Hartree-Fock Stability Conditions}
 	\begin{itemize}
-		\item[]{The Matrix Equation Factorizes} \\~\\
-		\item[]{Singlet and Triplet Instabilities (RHF - RHF) and (RHF - UHF) }
+		\item {The Matrix Equation Factorizes after spin integration
+					\begin{eqnarray*}
+						\begin{bmatrix}
+							{}^1\bf{H}   & \bf{0}   \\
+							\bf{0} & {}^3\bf{H} \\
+						\end{bmatrix}
+						\begin{bmatrix}  {}^1\bf{x} \\ {}^3\bf{x}  \end{bmatrix}
+						= \omega \begin{bmatrix}  {}^1\bf{x} \\ {}^3\bf{x}  \end{bmatrix}
+					\end{eqnarray*}
+		}
+		\item {${}^1\bf{H} = $ Singlet Instability Matrix (RHF $\rightarrow$ RHF) }
+		\item {${}^3\bf{H} = $ Triplet Instability Matrix (RHF $\rightarrow$ UHF) }
+		\item {If the lowest eigenvalue of either is negative, solution is unstable }
 	\end{itemize}
 \end{frame}
 
 \section{Homogeneous Electron Gas}
 
-\begin{frame}
-why
+{%
+	\setbeamertemplate{frame footer}{(1) Yamada, T.; Hirata, S. J. Chem. Phys. 2015, 143 (11), 
+	114112. \newline
+(2)	Overhauser, A. W. Phys. Rev. Lett. 1960, 4 (9), 462–465.}
+\begin{frame}{Why HEG?}
+ \begin{itemize} 
+   \item{ In finite systems with degenerate HOMO-LUMO, an RHF solution is always triplet unstable }
+   \item{ Does this hold for infinite systems? }
+   \item{ Overhauser's theorem suggests that this always holds in 1D$^2$ HEG }
+   \item{ Can we show this and investigate 2D and 3D? }
+ \end{itemize}
 
 \end{frame}
 
@@ -353,9 +375,12 @@ why
 {%
 \setbeamertemplate{frame footer}{}
 \begin{frame}{Stability Curves Show Clear Transition}
-  \centering
-  add each to own slide
-	\includegraphics[width=0.75\linewidth]{../figures/stability.eps}
+  \begin{overprint}
+    \centering
+    \onslide<1>\centering \vspace{5mm}\includegraphics[width=\linewidth]{../figures/stability1d.eps}
+  	\onslide<2>\centering \vspace{5mm}\includegraphics[width=\linewidth]{../figures/stability2d.eps}
+  	\onslide<3>\centering \vspace{5mm}\includegraphics[width=\linewidth]{../figures/stability3d.eps}
+	\end{overprint}
 \end{frame}
 
 \begin{frame}{Stability Onset Converges With k-points}

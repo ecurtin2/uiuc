@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  7 NOV 2017 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  7 NOV 2017 10:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1438,7 +1438,7 @@ Package epstopdf Info: Source file: <../figures/H2_curves.eps>
 (epstopdf)                    size: 17593 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/H2_curves-eps-co
 nverted-to.pdf ../figures/H2_curves.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
 <../figures/H2_curves-eps-converted-to.pdf, id=122, 578.16pt x 289.08pt>
@@ -1446,7 +1446,7 @@ File: ../figures/H2_curves-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/H2_curves-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/H2_curves-eps-converted-to.pdf used on inpu
-t line 112.
+t line 114.
 (pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
  [9
 
@@ -1479,7 +1479,7 @@ Package pdftex.def Info: ../figures/ghf.jpg used on input line 19.
 File: ../figures/H2_curves.png Graphic file (type png)
 
 <use ../figures/H2_curves.png>
-Package pdftex.def Info: ../figures/H2_curves.png used on input line 154.
+Package pdftex.def Info: ../figures/H2_curves.png used on input line 156.
 (pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
  [11
 
@@ -1487,7 +1487,7 @@ Package pdftex.def Info: ../figures/H2_curves.png used on input line 154.
 File: ../figures/H2_curves.png Graphic file (type png)
 
 <use ../figures/H2_curves.png>
-Package pdftex.def Info: ../figures/H2_curves.png used on input line 154.
+Package pdftex.def Info: ../figures/H2_curves.png used on input line 156.
 (pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
  [12
 
@@ -1505,7 +1505,11 @@ Package pdftex.def Info: ../figures/H2_curves.png used on input line 154.
 
 ] [19
 
-] [20
+]
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [20
 
 ]
 [21
@@ -1530,7 +1534,7 @@ File: ../figures/Ceperley_PhaseDiag.png Graphic file (type png)
 
 <use ../figures/Ceperley_PhaseDiag.png>
 Package pdftex.def Info: ../figures/Ceperley_PhaseDiag.png used on input line 2
-72.
+94.
 (pdftex.def)             Requested size: 261.19826pt x 175.26843pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
@@ -1566,7 +1570,7 @@ Package epstopdf Info: Source file: <../figures/exchist.eps>
 (epstopdf)                    size: 54131 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/exchist-eps-conv
 erted-to.pdf ../figures/exchist.eps>
-(epstopdf)             \includegraphics on input line 309.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
 
 <../figures/exchist-eps-converted-to.pdf, id=300, 216.81pt x 216.81pt>
@@ -1574,7 +1578,7 @@ File: ../figures/exchist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/exchist-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/exchist-eps-converted-to.pdf used on input 
-line 309.
+line 331.
 (pdftex.def)             Requested size: 184.3758pt x 184.3853pt.
  [34
 
@@ -1588,7 +1592,7 @@ ted-to.pdf>
 (epstopdf)                    size: 44489 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/dav_vs_exact_sca
 ling-eps-converted-to.pdf ../figures/dav_vs_exact_scaling.eps>
-(epstopdf)             \includegraphics on input line 331.
+(epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
 <../figures/dav_vs_exact_scaling-eps-converted-to.pdf, id=341, 433.62pt x 289.0
@@ -1597,7 +1601,7 @@ File: ../figures/dav_vs_exact_scaling-eps-converted-to.pdf Graphic file (type p
 df)
  <use ../figures/dav_vs_exact_scaling-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/dav_vs_exact_scaling-eps-converted-to.pdf u
-sed on input line 331.
+sed on input line 353.
 (pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
  [35
 
@@ -1611,7 +1615,7 @@ to.pdf>
 (epstopdf)                    size: 25556 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/parallel-scaling
 -eps-converted-to.pdf ../figures/parallel-scaling.eps>
-(epstopdf)             \includegraphics on input line 350.
+(epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
 
 <../figures/parallel-scaling-eps-converted-to.pdf, id=400, 227.85126pt x 173.64
@@ -1619,39 +1623,179 @@ Package epstopdf Info: Output file is already uptodate.
 File: ../figures/parallel-scaling-eps-converted-to.pdf Graphic file (type pdf)
  <use ../figures/parallel-scaling-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/parallel-scaling-eps-converted-to.pdf used 
-on input line 350.
+on input line 372.
 (pdftex.def)             Requested size: 193.59044pt x 147.54118pt.
  [36
 
  <../figures/parallel-scaling-eps-converted-to.pdf>] [37
 
 ]
-Package epstopdf Info: Source file: <../figures/stability.eps>
-(epstopdf)                    date: 2017-11-06 13:10:02
-(epstopdf)                    size: 45607 bytes
-(epstopdf)             Output file: <../figures/stability-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2017-11-06 13:11:07
-(epstopdf)                    size: 34150 bytes
-(epstopdf)             Command: <epstopdf --outfile=../figures/stability-eps-co
-nverted-to.pdf ../figures/stability.eps>
-(epstopdf)             \includegraphics on input line 359.
+Package epstopdf Info: Source file: <../figures/stability1d.eps>
+(epstopdf)                    date: 2017-11-07 10:19:46
+(epstopdf)                    size: 33546 bytes
+(epstopdf)             Output file: <../figures/stability1d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:19:50
+(epstopdf)                    size: 27517 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability1d-eps-
+converted-to.pdf ../figures/stability1d.eps>
+(epstopdf)             \includegraphics on input line 384.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/stability-eps-converted-to.pdf, id=447, 428.60126pt x 426.59375pt>
-File: ../figures/stability-eps-converted-to.pdf Graphic file (type pdf)
+<../figures/stability1d-eps-converted-to.pdf, id=447, 350.30875pt x 205.76875pt
+>
+File: ../figures/stability1d-eps-converted-to.pdf Graphic file (type pdf)
+ <use ../figures/stability1d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability1d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 180.51189pt.
+Package epstopdf Info: Source file: <../figures/stability2d.eps>
+(epstopdf)                    date: 2017-11-07 10:20:43
+(epstopdf)                    size: 31399 bytes
+(epstopdf)             Output file: <../figures/stability2d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:20:56
+(epstopdf)                    size: 26949 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability2d-eps-
+converted-to.pdf ../figures/stability2d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
 
-<use ../figures/stability-eps-converted-to.pdf>
-Package pdftex.def Info: ../figures/stability-eps-converted-to.pdf used on inpu
-t line 359.
-(pdftex.def)             Requested size: 230.46739pt x 229.3873pt.
+<../figures/stability2d-eps-converted-to.pdf, id=448, 352.31625pt x 205.76875pt
+>
+File: ../figures/stability2d-eps-converted-to.pdf Graphic file (type pdf)
+ <use ../figures/stability2d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability2d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 179.47263pt.
+Package epstopdf Info: Source file: <../figures/stability3d.eps>
+(epstopdf)                    date: 2017-11-07 10:20:52
+(epstopdf)                    size: 32692 bytes
+(epstopdf)             Output file: <../figures/stability3d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:20:56
+(epstopdf)                    size: 27428 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability3d-eps-
+converted-to.pdf ../figures/stability3d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
 
-Overfull \vbox (26.02313pt too high) detected at line 359
- []
+<../figures/stability3d-eps-converted-to.pdf, id=449, 352.31625pt x 205.76875pt
+>
+File: ../figures/stability3d-eps-converted-to.pdf Graphic file (type pdf)
+ <use ../figures/stability3d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability3d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 179.47263pt.
+ [38
 
-[38
+ <../figures/stability1d-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../figures/stability1d.eps>
+(epstopdf)                    date: 2017-11-07 10:19:46
+(epstopdf)                    size: 33546 bytes
+(epstopdf)             Output file: <../figures/stability1d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:19:50
+(epstopdf)                    size: 27517 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability1d-eps-
+converted-to.pdf ../figures/stability1d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+File: ../figures/stability1d-eps-converted-to.pdf Graphic file (type pdf)
+ <use ../figures/stability1d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability1d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 180.51189pt.
+Package epstopdf Info: Source file: <../figures/stability2d.eps>
+(epstopdf)                    date: 2017-11-07 10:20:43
+(epstopdf)                    size: 31399 bytes
+(epstopdf)             Output file: <../figures/stability2d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:20:56
+(epstopdf)                    size: 26949 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability2d-eps-
+converted-to.pdf ../figures/stability2d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+File: ../figures/stability2d-eps-converted-to.pdf Graphic file (type pdf)
 
- <../figures/stability-eps-converted-to.pdf>]
+<use ../figures/stability2d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability2d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 179.47263pt.
+Package epstopdf Info: Source file: <../figures/stability3d.eps>
+(epstopdf)                    date: 2017-11-07 10:20:52
+(epstopdf)                    size: 32692 bytes
+(epstopdf)             Output file: <../figures/stability3d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:20:56
+(epstopdf)                    size: 27428 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability3d-eps-
+converted-to.pdf ../figures/stability3d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+File: ../figures/stability3d-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../figures/stability3d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability3d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 179.47263pt.
+ [39
+
+ <../figures/stability2d-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../figures/stability1d.eps>
+(epstopdf)                    date: 2017-11-07 10:19:46
+(epstopdf)                    size: 33546 bytes
+(epstopdf)             Output file: <../figures/stability1d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:19:50
+(epstopdf)                    size: 27517 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability1d-eps-
+converted-to.pdf ../figures/stability1d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+File: ../figures/stability1d-eps-converted-to.pdf Graphic file (type pdf)
+ <use ../figures/stability1d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability1d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 180.51189pt.
+Package epstopdf Info: Source file: <../figures/stability2d.eps>
+(epstopdf)                    date: 2017-11-07 10:20:43
+(epstopdf)                    size: 31399 bytes
+(epstopdf)             Output file: <../figures/stability2d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:20:56
+(epstopdf)                    size: 26949 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability2d-eps-
+converted-to.pdf ../figures/stability2d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+File: ../figures/stability2d-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../figures/stability2d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability2d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 179.47263pt.
+Package epstopdf Info: Source file: <../figures/stability3d.eps>
+(epstopdf)                    date: 2017-11-07 10:20:52
+(epstopdf)                    size: 32692 bytes
+(epstopdf)             Output file: <../figures/stability3d-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-11-07 10:20:56
+(epstopdf)                    size: 27428 bytes
+(epstopdf)             Command: <epstopdf --outfile=../figures/stability3d-eps-
+converted-to.pdf ../figures/stability3d.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+File: ../figures/stability3d-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../figures/stability3d-eps-converted-to.pdf>
+Package pdftex.def Info: ../figures/stability3d-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 307.28987pt x 179.47263pt.
+ [40
+
+ <../figures/stability3d-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/singlet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
 (epstopdf)                    size: 34543 bytes
@@ -1661,15 +1805,15 @@ pdf>
 (epstopdf)                    size: 24339 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/singlet_onset-ep
 s-converted-to.pdf ../figures/singlet_onset.eps>
-(epstopdf)             \includegraphics on input line 370.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/singlet_onset-eps-converted-to.pdf, id=501, 642.4pt x 209.78375pt>
+<../figures/singlet_onset-eps-converted-to.pdf, id=588, 642.4pt x 209.78375pt>
 File: ../figures/singlet_onset-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/singlet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/singlet_onset-eps-converted-to.pdf used on 
-input line 370.
+input line 395.
 (pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
 Package epstopdf Info: Source file: <../figures/triplet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
@@ -1680,17 +1824,17 @@ pdf>
 (epstopdf)                    size: 26566 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/triplet_onset-ep
 s-converted-to.pdf ../figures/triplet_onset.eps>
-(epstopdf)             \includegraphics on input line 370.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/triplet_onset-eps-converted-to.pdf, id=502, 642.4pt x 209.78375pt>
+<../figures/triplet_onset-eps-converted-to.pdf, id=589, 642.4pt x 209.78375pt>
 File: ../figures/triplet_onset-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/triplet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/triplet_onset-eps-converted-to.pdf used on 
-input line 370.
+input line 395.
 (pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
- [39
+ [41
 
  <../figures/singlet_onset-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../figures/singlet_onset.eps>
@@ -1702,12 +1846,12 @@ pdf>
 (epstopdf)                    size: 24339 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/singlet_onset-ep
 s-converted-to.pdf ../figures/singlet_onset.eps>
-(epstopdf)             \includegraphics on input line 370.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 File: ../figures/singlet_onset-eps-converted-to.pdf Graphic file (type pdf)
  <use ../figures/singlet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/singlet_onset-eps-converted-to.pdf used on 
-input line 370.
+input line 395.
 (pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
 Package epstopdf Info: Source file: <../figures/triplet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
@@ -1718,43 +1862,25 @@ pdf>
 (epstopdf)                    size: 26566 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/triplet_onset-ep
 s-converted-to.pdf ../figures/triplet_onset.eps>
-(epstopdf)             \includegraphics on input line 370.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 File: ../figures/triplet_onset-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/triplet_onset-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/triplet_onset-eps-converted-to.pdf used on 
-input line 370.
+input line 395.
 (pdftex.def)             Requested size: 307.28987pt x 100.35252pt.
- [40
+ [42
 
  <../figures/triplet_onset-eps-converted-to.pdf>]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [41
+ [43
 
-] [42
+] [44
 
-] [43
-
-]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [44
-
-]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no “ in font cmss8!
- [45
+] [45
 
 ]
 Missing character: There is no â in font cmss8!
@@ -1775,122 +1901,136 @@ Missing character: There is no “ in font cmss8!
  [47
 
 ]
-<../figures/ADD.png, id=621, 433.62pt x 398.48875pt>
-File: ../figures/ADD.png Graphic file (type png)
- <use ../figures/ADD.png>
-Package pdftex.def Info: ../figures/ADD.png used on input line 424.
-(pdftex.def)             Requested size: 184.3758pt x 169.43756pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [48
 
-[48
-
- <../figures/ADD.png>]
-<../figures/GA_supady.png, id=627, 572.1375pt x 563.10374pt>
-File: ../figures/GA_supady.png Graphic file (type png)
-
-<use ../figures/GA_supady.png>
-Package pdftex.def Info: ../figures/GA_supady.png used on input line 434.
-(pdftex.def)             Requested size: 184.3758pt x 181.45993pt.
+]
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
  [49
 
- <../figures/GA_supady.png>] [50
+]
+<../figures/ADD.png, id=709, 433.62pt x 398.48875pt>
+File: ../figures/ADD.png Graphic file (type png)
+ <use ../figures/ADD.png>
+Package pdftex.def Info: ../figures/ADD.png used on input line 449.
+(pdftex.def)             Requested size: 184.3758pt x 169.43756pt.
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
 
-] [51
+[50
+
+ <../figures/ADD.png>]
+<../figures/GA_supady.png, id=715, 572.1375pt x 563.10374pt>
+File: ../figures/GA_supady.png Graphic file (type png)
+
+<use ../figures/GA_supady.png>
+Package pdftex.def Info: ../figures/GA_supady.png used on input line 459.
+(pdftex.def)             Requested size: 184.3758pt x 181.45993pt.
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no “ in font cmss8!
+ [51
+
+ <../figures/GA_supady.png>] [52
+
+] [53
 
 ]
-[52
+[54
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 480.
+(hyperref)                removing `\translate ' on input line 505.
 
-[53
-
-] [54
-
-] [55
+[55
 
 ] [56
 
-]
-Overfull \vbox (3.47342pt too high) detected at line 544
- []
+] [57
 
-[57
+] [58
 
 ]
-Overfull \vbox (3.47342pt too high) detected at line 544
- []
-
-[58
-
-]
-Overfull \vbox (3.47342pt too high) detected at line 544
+Overfull \vbox (3.47342pt too high) detected at line 569
  []
 
 [59
 
 ]
-Overfull \vbox (3.47342pt too high) detected at line 544
+Overfull \vbox (3.47342pt too high) detected at line 569
  []
 
 [60
 
 ]
-Overfull \hbox (24.55103pt too wide) in alignment at lines 614--614
- [][][] []
- []
-
-
-Overfull \vbox (21.8293pt too high) detected at line 614
+Overfull \vbox (3.47342pt too high) detected at line 569
  []
 
 [61
 
-] <../figures/gap_vs_corr_Marques.png, id=698, 466.74374pt x 826.08624pt>
+]
+Overfull \vbox (3.47342pt too high) detected at line 569
+ []
+
+[62
+
+]
+Overfull \hbox (24.55103pt too wide) in alignment at lines 639--639
+ [][][] []
+ []
+
+
+Overfull \vbox (21.8293pt too high) detected at line 639
+ []
+
+[63
+
+] <../figures/gap_vs_corr_Marques.png, id=785, 466.74374pt x 826.08624pt>
 File: ../figures/gap_vs_corr_Marques.png Graphic file (type png)
 
 <use ../figures/gap_vs_corr_Marques.png>
 Package pdftex.def Info: ../figures/gap_vs_corr_Marques.png used on input line 
-623.
+648.
 (pdftex.def)             Requested size: 122.91406pt x 217.53786pt.
 
-Overfull \vbox (0.37376pt too high) detected at line 623
+Overfull \vbox (0.37376pt too high) detected at line 648
  []
 
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
-[62
+[64
 
- <../figures/gap_vs_corr_Marques.png>] [63
+ <../figures/gap_vs_corr_Marques.png>] [65
 
-] [64
+] [66
 
 ]
 Missing character: There is no â in font cmss8!
 Missing character: There is no € in font cmss8!
 Missing character: There is no “ in font cmss8!
- [65
-
-] [66
-
-] [67
+ [67
 
 ] [68
 
-]
-[69
+] [69
 
 ] [70
 
-] [71
+]
+[71
 
 ] [72
 
@@ -1902,6 +2042,10 @@ Missing character: There is no “ in font cmss8!
 
 ] [76
 
+] [77
+
+] [78
+
 ]
 \tf@nav=\write6
 \openout6 = `PrelimTalk.nav'.
@@ -1912,11 +2056,11 @@ Missing character: There is no “ in font cmss8!
 \tf@snm=\write8
 \openout8 = `PrelimTalk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 746.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 746.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 771.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 771.
  (./PrelimTalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 746.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 746.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 771.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 771.
 Package rerunfilecheck Info: File `PrelimTalk.out' has not changed.
 (rerunfilecheck)             Checksum: D33E8692C3C183DC2B46998E9FFCC775;437.
 
@@ -1927,39 +2071,40 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 746.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 771.
  )
-(\end occurred inside a group at level 20)
+(\end occurred inside a group at level 21)
 
-### simple group (level 20) entered at line 698 ({)
-### simple group (level 19) entered at line 668 ({)
-### simple group (level 18) entered at line 645 ({)
-### simple group (level 17) entered at line 547 ({)
-### simple group (level 16) entered at line 512 ({)
-### simple group (level 15) entered at line 484 ({)
-### simple group (level 14) entered at line 473 ({)
-### simple group (level 13) entered at line 374 ({)
-### simple group (level 12) entered at line 353 ({)
-### simple group (level 11) entered at line 311 ({)
-### simple group (level 10) entered at line 291 ({)
-### simple group (level 9) entered at line 275 ({)
-### simple group (level 8) entered at line 263 ({)
+### simple group (level 21) entered at line 723 ({)
+### simple group (level 20) entered at line 693 ({)
+### simple group (level 19) entered at line 670 ({)
+### simple group (level 18) entered at line 572 ({)
+### simple group (level 17) entered at line 537 ({)
+### simple group (level 16) entered at line 509 ({)
+### simple group (level 15) entered at line 498 ({)
+### simple group (level 14) entered at line 399 ({)
+### simple group (level 13) entered at line 375 ({)
+### simple group (level 12) entered at line 333 ({)
+### simple group (level 11) entered at line 313 ({)
+### simple group (level 10) entered at line 297 ({)
+### simple group (level 9) entered at line 285 ({)
+### simple group (level 8) entered at line 248 ({)
 ### simple group (level 7) entered at line 226 ({)
-### simple group (level 6) entered at line 204 ({)
-### simple group (level 5) entered at line 188 ({)
-### simple group (level 4) entered at line 159 ({)
-### simple group (level 3) entered at line 143 ({)
-### simple group (level 2) entered at line 115 ({)
-### simple group (level 1) entered at line 106 ({)
+### simple group (level 6) entered at line 212 ({)
+### simple group (level 5) entered at line 190 ({)
+### simple group (level 4) entered at line 161 ({)
+### simple group (level 3) entered at line 145 ({)
+### simple group (level 2) entered at line 117 ({)
+### simple group (level 1) entered at line 108 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30743 strings out of 493029
- 619024 string characters out of 6136235
- 682233 words of memory out of 5000000
- 33535 multiletter control sequences out of 15000+600000
+ 30757 strings out of 493029
+ 619484 string characters out of 6136235
+ 682781 words of memory out of 5000000
+ 33543 multiletter control sequences out of 15000+600000
  15975 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,96p,10393b,3243s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,96p,10393b,3343s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -1975,10 +2120,10 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PrelimTalk.pdf (76 pages, 771579 bytes).
+Output written on PrelimTalk.pdf (78 pages, 814072 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
- 509 compressed objects within 6 object streams
- 162 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 959 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

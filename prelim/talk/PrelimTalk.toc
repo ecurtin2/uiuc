@@ -4,5 +4,5 @@
 \beamer@sectionintoc {3}{Homogeneous Electron Gas}{19}{0}{3}
 \beamer@sectionintoc {4}{Implementation}{33}{0}{4}
 \beamer@sectionintoc {5}{Results}{37}{0}{5}
-\beamer@sectionintoc {6}{Future Directions}{43}{0}{6}
-\beamer@sectionintoc {7}{Iterative Subspace Eigenvalue Methods}{64}{1}{7}
+\beamer@sectionintoc {6}{Future Directions}{45}{0}{6}
+\beamer@sectionintoc {7}{Iterative Subspace Eigenvalue Methods}{66}{1}{7}
