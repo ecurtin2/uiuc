@@ -39,14 +39,29 @@
 
 \section{Background Information}
 
-\begin{frame}{Motivation}
-superconductivity
 
-correlation energy
+\setbeamertemplate{frame footer}{
+(Diradicals): Manabu Abe Chemical Reviews 2013 113 (9), 7011-7088 \newline
+(Periodic): K.C. Rahnejat et al, Nature Comm. 2, 2011, 558
+}
+\begin{frame}{We Have Trouble Calculating...}
+	\begin{columns}[c] % align columns
+		\begin{column}{.5\textwidth}
 
+	      \centering
+		    	Polyradicals with degenerate triplet HOMO \\ \centering \vspace{5mm}
+		    	\centering 
+		    	\includegraphics[width=0.8\linewidth]{../figures/diradicals.png}
+
+		\end{column}
+		\begin{column}{0.5\textwidth}		  
+	      \centering
+		    	Broken Symmetry Periodic Systems \\ \centering \vspace{5mm}
+		    	\centering 
+		    	\includegraphics[width=0.8\linewidth]{../figures/CDW_Rahnejat.jpg}
+		\end{column}
+	\end{columns}
 \end{frame}
-
-
 
 \begin{frame}{The Electronic Structure Approach}
 	\begin{itemize}[<+->]
@@ -92,8 +107,8 @@ correlation energy
 \setbeamertemplate{frame footer}{}
 \begin{frame}{Case Study: H$_2$ Dissociation}
   \centering
-	Is this strong correlation or a bad reference?
-	\includegraphics[width=\linewidth]{../figures/H2_curves.png}
+	Is this a lot of correlation or a bad reference?
+	\includegraphics[width=\linewidth]{../figures/H2_curves.eps}
 \end{frame}
 
 
@@ -106,38 +121,20 @@ correlation energy
 			\hline
 			 \textbf{Method} & \textbf{Spinorbital} & \textbf{DoF} & \textbf{Eigenfunction of}\\
 			\hline
-
-			Restricted \rule{0pt}{7ex} &
-			\begin{tabular}{c@{}c@{}}
-				$\chi_j^\alpha(\vec{r},\sigma) =
-				\sum\limits_{i=1}^{N} c_{ij}\phi_i\left(\vec{r \,}\right)\alpha(\sigma)$
-				\\ \rule{0pt}{4ex}
-				$\chi_j^\beta(\vec{r},\sigma) =
-				\sum\limits_{i=1}^{N} c_{ij}\phi_i\left(\vec{r \,}\right)\beta(\sigma)$
-			\end{tabular}
+			Restricted \rule{0pt}{8ex} &
+        \includegraphics[width=0.2\linewidth]{../figures/rhf.jpg}
 			& N/2
 			& $\hat{S}^2$, $\hat{S}_z$
-			\\ [5ex] \hline
+			\\ [4ex] \hline
 
-			Unrestricted \rule{0pt}{7ex} &
-			\begin{tabular}{c@{}c@{}}
-			$\chi_j^\alpha(\vec{r},\sigma) = \sum\limits_{i=1}^{N}
-			c_{ij}^\alpha\phi_i(\vec{r \,}) \alpha(\sigma)$
-			\\ \rule{0pt}{4ex}
-			$\chi_j^\beta(\vec{r},\sigma) = \sum\limits_{i=1}^{N}
-			c_{ij}^\beta\phi_i(\vec{r \,}) \beta(\sigma)$
-			\end{tabular}
-			& N & $\hat{S}_z$ \\ [5ex]
+			Unrestricted \rule{0pt}{8ex} &
+			\includegraphics[width=0.2\linewidth]{../figures/uhf.jpg}
+			& N & $\hat{S}_z$ \\ [4ex]
 			\hline
 
-			General \rule{0pt}{7ex}&
-			\begin{tabular}{r@{}r@{}}
-				$\chi_j(\vec{r},\sigma) = \sum\limits_{i=1}^{N} [
-				c_{ij}^\alpha\phi_i\left(\vec{r \,}\right) \alpha(\sigma) $
-				\\ \rule{0pt}{4ex}
-				$+c_{ij}^\beta \phi_i(\vec{r \,}) \beta(\sigma)]  $
-			\end{tabular}
-			& 2N & Neither \\ [5ex]
+			General \rule{0pt}{8ex} &
+						\includegraphics[width=0.2\linewidth]{../figures/ghf.jpg}
+			& 2N & Neither \\ [4ex]
 			\hline
 		\end{tabular}
 	\end{center}
@@ -208,7 +205,7 @@ why
 	\setbeamertemplate{frame footer}{Phillips, P. Advanced Solid State Physics, 2nd ed.; Cambridge University Press: Cambridge, 2012.}
 
 \begin{frame}{Brief Overview of HEG}
-	\begin{itemize}
+	\begin{itemize}[<+->]
 		\item{Homogeneous Electron Gas (HEG) model, also known as Uniform Electron Gas or Jellium 
 		Model.}
 		\item{Characterized by \alert{$r_s$}, inversely proportional to density}
@@ -230,8 +227,8 @@ why
 	\setbeamertemplate{frame footer}{Giuliani, G.; Vignale, G. Quantum Theory of the Electron Liquid; 2005.}
 
 \begin{frame}{Brief Overview of HEG}
-	\begin{itemize}
-		\item{The discretized solutions are given by, ONE AT A TIME
+	\begin{itemize}[<+->]
+		\item{The discretized solutions are given by,
 		\begin{eqnarray}\label{eq:hf_orb_energy}
 			\epsilon_{\vec{k}}=
 				\frac{\hbar^2 k^2}{2m} - \sum\limits_{\vec{k}'}^{|\vec{k}'|< k_f}
@@ -450,8 +447,25 @@ Figure reproduced from: Supady, A.; Blum, V.; Baldauf, C. J. Chem. Inf. Model. 2
 \setbeamertemplate{frame footer}{}
 \begin{frame}{Acknowledgements}
   \begin{itemize}
-    \item{ Nobody i did this shit myself }
- 
+    \item{ Advisor: So Hirata }
+    \item{ Group Members: 
+      \begin{itemize}
+        \item{ Misha Salim }
+        \item{ Jacob Faucheaux }
+        \item{ Alex Doran }
+        \item{ Cole Johnson }
+        \item{ Punit Jha }
+        \item{ Alexander Kunitsa } 
+        \item{ Jun Zhang } 
+      \end{itemize}
+    }
+    \item{ Libraries: 
+      \begin{itemize}
+        \item{ PETSc }
+        \item{ SLEPc }
+      \end{itemize}
+    }
+    \item{ And the Blue Waters / NCSA Support Staff }
   \end{itemize}
 \end{frame}
 

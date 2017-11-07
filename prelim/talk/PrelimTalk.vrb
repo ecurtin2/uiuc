@@ -4,38 +4,20 @@
 			\hline
 			 \textbf{Method} & \textbf{Spinorbital} & \textbf{DoF} & \textbf{Eigenfunction of}\\
 			\hline
-
-			Restricted \rule{0pt}{7ex} &
-			\begin{tabular}{c@{}c@{}}
-				$\chi_j^\alpha(\vec{r},\sigma) =
-				\sum\limits_{i=1}^{N} c_{ij}\phi_i\left(\vec{r \,}\right)\alpha(\sigma)$
-				\\ \rule{0pt}{4ex}
-				$\chi_j^\beta(\vec{r},\sigma) =
-				\sum\limits_{i=1}^{N} c_{ij}\phi_i\left(\vec{r \,}\right)\beta(\sigma)$
-			\end{tabular}
+			Restricted \rule{0pt}{8ex} &
+        \includegraphics[width=0.2\linewidth]{../figures/rhf.jpg}
 			& N/2
 			& $\hat{S}^2$, $\hat{S}_z$
-			\\ [5ex] \hline
+			\\ [4ex] \hline
 
-			Unrestricted \rule{0pt}{7ex} &
-			\begin{tabular}{c@{}c@{}}
-			$\chi_j^\alpha(\vec{r},\sigma) = \sum\limits_{i=1}^{N}
-			c_{ij}^\alpha\phi_i(\vec{r \,}) \alpha(\sigma)$
-			\\ \rule{0pt}{4ex}
-			$\chi_j^\beta(\vec{r},\sigma) = \sum\limits_{i=1}^{N}
-			c_{ij}^\beta\phi_i(\vec{r \,}) \beta(\sigma)$
-			\end{tabular}
-			& N & $\hat{S}_z$ \\ [5ex]
+			Unrestricted \rule{0pt}{8ex} &
+			\includegraphics[width=0.2\linewidth]{../figures/uhf.jpg}
+			& N & $\hat{S}_z$ \\ [4ex]
 			\hline
 
-			General \rule{0pt}{7ex}&
-			\begin{tabular}{r@{}r@{}}
-				$\chi_j(\vec{r},\sigma) = \sum\limits_{i=1}^{N} [
-				c_{ij}^\alpha\phi_i\left(\vec{r \,}\right) \alpha(\sigma) $
-				\\ \rule{0pt}{4ex}
-				$+c_{ij}^\beta \phi_i(\vec{r \,}) \beta(\sigma)]  $
-			\end{tabular}
-			& 2N & Neither \\ [5ex]
+			General \rule{0pt}{8ex} &
+						\includegraphics[width=0.2\linewidth]{../figures/ghf.jpg}
+			& 2N & Neither \\ [4ex]
 			\hline
 		\end{tabular}
 	\end{center}
