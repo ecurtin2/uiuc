@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  31 OCT 2017 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  8 JAN 2018 10:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -473,6 +473,10 @@ Package caption Info: End \AtBeginDocument code.
 
 Class revtex4 Warning: Assuming \noaffiliation for Evan Curtin.
 
+
+Package natbib Warning: Citation `Shavitt2009' on page 1 undefined on input lin
+e 34.
+
 LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -482,41 +486,156 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/H2_curves.png, id=14, 578.16pt x 289.08pt>
+<../figures/H2_curves.png, id=15, 578.16pt x 289.08pt>
 File: ../figures/H2_curves.png Graphic file (type png)
 
 <use ../figures/H2_curves.png>
 Package pdftex.def Info: ../figures/H2_curves.png used on input line 66.
 (pdftex.def)             Requested size: 382.5pt x 191.24771pt.
- [2 <../figures/H2_curves.png>]
-<../figures/ADD.png, id=20, 433.62pt x 398.48875pt>
+
+
+Package natbib Warning: Citation `Gomez2016' on page 2 undefined on input line 
+83.
+
+
+Package natbib Warning: Citation `Seeger1977' on page 2 undefined on input line
+ 100.
+
+
+Package natbib Warning: Citation `Ohno2006' on page 2 undefined on input line 1
+11.
+
+
+Package natbib Warning: Citation `Ohno2016' on page 2 undefined on input line 1
+11.
+
+[2 <../figures/H2_curves.png>]
+<../figures/ADD.png, id=21, 433.62pt x 398.48875pt>
 File: ../figures/ADD.png Graphic file (type png)
  <use ../figures/ADD.png>
 Package pdftex.def Info: ../figures/ADD.png used on input line 115.
 (pdftex.def)             Requested size: 255.0pt x 234.34018pt.
 
+
+Package natbib Warning: Citation `Ohno2016' on page 3 undefined on input line 1
+20.
+
+
+Package natbib Warning: Citation `Ohno2016' on page 3 undefined on input line 1
+20.
+
 [3 <../figures/ADD.png>]
-<../figures/GA_supady.png, id=24, 572.1375pt x 563.10374pt>
+<../figures/GA_supady.png, id=25, 572.1375pt x 563.10374pt>
 File: ../figures/GA_supady.png Graphic file (type png)
 
 <use ../figures/GA_supady.png>
 Package pdftex.def Info: ../figures/GA_supady.png used on input line 147.
 (pdftex.def)             Requested size: 203.99689pt x 200.77534pt.
- [4 <../figures/GA_supady.png>]
-<../figures/NSFdiagram.png, id=28, 274.77657pt x 281.55188pt>
+
+
+Package natbib Warning: Citation `Supady2015' on page 4 undefined on input line
+ 150.
+
+
+Package natbib Warning: Citation `Supady2015' on page 4 undefined on input line
+ 150.
+
+
+Package natbib Warning: Citation `Supady2015' on page 4 undefined on input line
+ 157.
+
+
+Package natbib Warning: Citation `Supady2015' on page 4 undefined on input line
+ 163.
+
+[4 <../figures/GA_supady.png>]
+<../figures/NSFdiagram.png, id=29, 274.77657pt x 281.55188pt>
 File: ../figures/NSFdiagram.png Graphic file (type png)
 
 <use ../figures/NSFdiagram.png>
 Package pdftex.def Info: ../figures/NSFdiagram.png used on input line 198.
 (pdftex.def)             Requested size: 153.00156pt x 156.77867pt.
  [5 <../figures/NSFdiagram.png>]
+
+Package natbib Warning: Citation `Thouless1960' on page 6 undefined on input li
+ne 220.
+
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no å in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no å in font cmr10!
- [6] [7]
+
+Package natbib Warning: Citation `Cizek1967' on page 6 undefined on input line 
+221.
+
+
+Package natbib Warning: Citation `Seeger1977' on page 6 undefined on input line
+ 225.
+
+
+Package natbib Warning: Citation `Pulay2016' on page 6 undefined on input line 
+228.
+
+
+Package natbib Warning: Citation `Goings2015' on page 6 undefined on input line
+ 228.
+
+
+Package natbib Warning: Citation `Dunning1967' on page 6 undefined on input lin
+e 254.
+
+
+Package natbib Warning: Citation `Seeger1977' on page 6 undefined on input line
+ 254.
+
+[6]
+
+Package natbib Warning: Citation `Cui2013' on page 7 undefined on input line 27
+5.
+
+
+Package natbib Warning: Citation `Yamada2015' on page 7 undefined on input line
+ 280.
+
+
+Package natbib Warning: Citation `Overhauser1962' on page 7 undefined on input 
+line 290.
+
+
+Package natbib Warning: Citation `Ceperley1980' on page 7 undefined on input li
+ne 296.
+
+
+Package natbib Warning: Citation `Delyon2008' on page 7 undefined on input line
+ 298.
+
+
+Package natbib Warning: Citation `Bernu2011' on page 7 undefined on input line 
+298.
+
+
+Package natbib Warning: Citation `Baguet2013' on page 7 undefined on input line
+ 298.
+
+[7]
+
+Package natbib Warning: Citation `Delyon2008' on page 8 undefined on input line
+ 329.
+
+
+Package natbib Warning: Citation `Guiliani2005' on page 8 undefined on input li
+ne 329.
+
+
+Package natbib Warning: Citation `Guiliani2005' on page 8 undefined on input li
+ne 350.
+
+
+Package natbib Warning: Citation `Hernandez2005' on page 8 undefined on input l
+ine 377.
+
 [8]
 Package epstopdf Info: Source file: <../figures/dav_vs_exact_scaling.eps>
 (epstopdf)                    date: 2017-02-23 10:15:24
@@ -563,26 +682,38 @@ Package pdftex.def Info: ../figures/parallel-scaling-eps-converted-to.pdf used
 on input line 394.
 (pdftex.def)             Requested size: 210.80083pt x 160.64821pt.
 Package epstopdf Info: Source file: <../figures/stability.eps>
-(epstopdf)                    date: 2017-10-31 15:52:29
-(epstopdf)                    size: 43393 bytes
+(epstopdf)                    date: 2017-11-06 13:10:02
+(epstopdf)                    size: 45607 bytes
 (epstopdf)             Output file: <../figures/stability-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-10-31 15:52:54
-(epstopdf)                    size: 33700 bytes
+(epstopdf)                    date: 2017-11-06 13:11:07
+(epstopdf)                    size: 34150 bytes
 (epstopdf)             Command: <epstopdf --outfile=../figures/stability-eps-co
 nverted-to.pdf ../figures/stability.eps>
 (epstopdf)             \includegraphics on input line 408.
 Package epstopdf Info: Output file is already uptodate.
 
-<../figures/stability-eps-converted-to.pdf, id=53, 638.385pt x 189.70876pt>
+<../figures/stability-eps-converted-to.pdf, id=53, 428.60126pt x 426.59375pt>
 File: ../figures/stability-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../figures/stability-eps-converted-to.pdf>
 Package pdftex.def Info: ../figures/stability-eps-converted-to.pdf used on inpu
 t line 408.
-(pdftex.def)             Requested size: 510.0pt x 151.55588pt.
+(pdftex.def)             Requested size: 510.0pt x 507.6138pt.
  [9 <../figures/dav_vs_exact_scaling-eps-converted-to.pdf> <../figures/parallel
 -scaling-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Baguet2014' on page 10 undefined on input lin
+e 416.
+
+
+Package natbib Warning: Citation `Bernu2011' on page 10 undefined on input line
+ 416.
+
+
+Package natbib Warning: Citation `Overhauser1962' on page 10 undefined on input
+ line 423.
+
 Package epstopdf Info: Source file: <../figures/triplet_onset.eps>
 (epstopdf)                    date: 2017-10-31 15:52:31
 (epstopdf)                    size: 35118 bytes
@@ -602,48 +733,45 @@ File: ../figures/triplet_onset-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/triplet_onset-eps-converted-to.pdf used on 
 input line 428.
 (pdftex.def)             Requested size: 510.0pt x 166.54999pt.
- [10 <../figures/stability-eps-converted-to.pdf> <../figures/triplet_onset-eps-
-converted-to.pdf>]
+ [10 <../figures/stability-eps-converted-to.pdf>] [11 <../figures/triplet_onset
+-eps-converted-to.pdf>]
 (./EvanCurtinPrelim.bbl
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
- [11]) [12] (./EvanCurtinPrelim.aux) ) 
+
+Package natbib Warning: Empty `thebibliography' environment on input line 15.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[12] (./EvanCurtinPrelim.aux) ) 
 Here is how much of TeX's memory you used:
- 6387 strings out of 493029
- 92888 string characters out of 6136235
- 170775 words of memory out of 5000000
- 9813 multiletter control sequences out of 15000+600000
- 11451 words of font info for 44 fonts, out of 8000000 for 9000
+ 6332 strings out of 493029
+ 91821 string characters out of 6136235
+ 169770 words of memory out of 5000000
+ 9759 multiletter control sequences out of 15000+600000
+ 11284 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,16n,42p,455b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on EvanCurtinPrelim.pdf (12 pages, 476656 bytes).
+ 38i,16n,40p,455b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on EvanCurtinPrelim.pdf (12 pages, 426118 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 290 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
